@@ -31,7 +31,7 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
   const [people,setPeople]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,1])));
   const [durations,setDurations]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,2])));
   const [dates,setDates]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,''])));
-  const [format,setFormat]=useState('online');
+  const [formats,setFormats]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,'online'])));
   const [level,setLevel]=useState(1);
   const [books,setBooks]=useState(false);
   const [bookQuantity,setBookQuantity]=useState(1);
@@ -40,11 +40,12 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
   const [message,setMessage]=useState('');
   const dialog=useRef(null),opener=useRef(null);
   const selection=levels.filter(item=>selected.includes(item.id));
-  const summary=summarize(selection.map(item=>({...item,selected:true,format,days:durations[item.id],participants:people[item.id],startDate:dates[item.id]})),books?bookQuantity:0);
+  const summary=summarize(selection.map(item=>({...item,selected:true,format:formats[item.id],days:durations[item.id],participants:people[item.id],startDate:dates[item.id]})),books?bookQuantity:0);
   const priceText=money(summary.totalCents);
   const hasItems=selection.length>0||books;
   const invalidDates=selection.some(item=>dates[item.id]&&!endDate(dates[item.id],durations[item.id]));
-  const lineQuote=id=>quoteCourse({format,days:durations[id],participants:people[id]});
+  const hasOnsiteCourse=summary.courses.some(item=>item.format==='onsite');
+  const lineQuote=id=>quoteCourse({format:formats[id],days:durations[id],participants:people[id]});
   const toggle=id=>{
     if(!selected.includes(id)){setDurations(current=>({...current,[id]:2}));setPeople(current=>({...current,[id]:1}));}
     setSelected(current=>current.includes(id)?current.filter(n=>n!==id):[...current,id].sort());
@@ -66,11 +67,10 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
   },[panel]);
   const email=[
     selection.length?'Здравствуйте! Хочу обсудить обучение Tekla Structures.':'Здравствуйте! Хочу приобрести электронный комплект книг Tekla Structures.',
-    selection.length?'Формат: '+formatNames[format]:'',
-    ...summary.courses.map(item=>`${item.full}: ${item.participants} участн., ${item.days} ${word(item.days,['день','дня','дней'])} / ${item.hours} часов, ${money(item.totalCents)} за группу.${item.billedParticipants>item.participants?' Единая стоимость для группы от 1 до '+item.billedParticipants+' человек.':''} Желаемое начало: ${formatDate(item.startDate)||'по согласованию'}. Окончание: ${formatDate(endDate(item.startDate,item.days))||'по согласованию'}.`),
+    ...summary.courses.map(item=>`${item.full}: ${formatNames[item.format]}, ${item.participants} участн., ${item.days} ${word(item.days,['день','дня','дней'])} / ${item.hours} часов, ${money(item.totalCents)} за группу.${item.billedParticipants>item.participants?' Единая стоимость для группы от 1 до '+item.billedParticipants+' человек.':''} Желаемое начало: ${formatDate(item.startDate)||'по согласованию'}. Окончание: ${formatDate(endDate(item.startDate,item.days))||'по согласованию'}.`),
     books?`Электронный комплект из трёх томов на английском языке: ${bookQuantity} ${word(bookQuantity,['комплект','комплекта','комплектов'])} × ${money(bookProduct.unitPriceCents)} = ${money(summary.bookTotalCents)}.`:'',
     'Итого за выбранные позиции: '+priceText,
-    selection.length&&format==='onsite'?'Проезд и проживание преподавателя согласуются и оплачиваются отдельно.':'',
+    hasOnsiteCourse?'Для выездных курсов проезд и проживание преподавателя согласуются и оплачиваются отдельно.':'',
     selection.length?'Город: '+(city||'уточню'):'',
     'Задачи и вопросы: '+message,
   ].filter(Boolean).join('\n');
@@ -104,30 +104,30 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
       </section>
 
       <section id="training-calculator" className="ref-section ref-calculator" aria-labelledby="ref-calc-title">
-        <Heading eyebrow="Стоимость без догадок" title={<span id="ref-calc-title">Рассчитайте своё обучение</span>}>Выберите курсы, длительность и число участников. Стоимость — за всю группу, в рублях.</Heading>
+        <Heading eyebrow="Стоимость без догадок" title={<span id="ref-calc-title">Рассчитайте своё обучение</span>}>Для каждого курса выберите место, длительность и число участников. Стоимость — за всю группу, в рублях.</Heading>
         <div className="ref-calc-toolbar">
-          <label className="ref-field"><span>Где будете заниматься</span><select value={format} onChange={event=>setFormat(event.target.value)}>{Object.entries(formatNames).map(([key,value])=><option key={key} value={key}>{value}</option>)}</select></label>
           <div><button className="ref-text-button" type="button" disabled={!hasItems} onClick={()=>{setSelected([]);setBooks(false);}}>Очистить выбор</button><button className="ref-text-button" type="button" onClick={event=>open('prices',event)}><Icon name="table"/>Прайс на 1–20 участников</button></div>
         </div>
         <div className="ref-table-wrap"><table className="ref-calc-table">
           <caption className="ref-sr-only">Выбор программ, длительности и расчёт стоимости для группы в рублях</caption>
-          <thead><tr><th scope="col">Выбрать</th><th scope="col">Программа</th><th scope="col">Длительность</th><th scope="col">Участники</th><th scope="col">Желаемое начало</th><th scope="col">За группу</th></tr></thead>
+          <thead><tr><th scope="col">Выбрать</th><th scope="col">Программа</th><th scope="col">Где будете заниматься</th><th scope="col">Длительность</th><th scope="col">Участники</th><th scope="col">Желаемое начало</th><th scope="col">За группу</th></tr></thead>
           <tbody>{levels.map(item=>{
             const active=selected.includes(item.id),quote=lineQuote(item.id),finish=endDate(dates[item.id],durations[item.id]),badDate=!!dates[item.id]&&!finish;
             return <tr key={item.id} className={active?'is-selected':''}>
               <td data-label="Выбрать"><label className="ref-row-choice"><input type="checkbox" checked={active} onChange={()=>toggle(item.id)} aria-label={'Выбрать: '+item.full}/><span>Курс {item.id}</span></label></td>
               <th scope="row" data-label="Программа"><strong>{item.full}</strong><button type="button" className="ref-text-button" onClick={()=>openProgram(item.id)}>Программа <Icon name="file-text-o"/></button></th>
               {active?<>
+                <td className="ref-course-format" data-label="Где будете заниматься"><label className="ref-sr-only" htmlFor={'ref-format-'+item.id}>Где будете заниматься: {item.full}</label><select id={'ref-format-'+item.id} value={formats[item.id]} onChange={event=>setFormats(current=>({...current,[item.id]:event.target.value}))}>{Object.entries(formatNames).map(([key,value])=><option key={key} value={key}>{value}</option>)}</select></td>
                 <td data-label="Длительность"><label className="ref-sr-only" htmlFor={'ref-days-'+item.id}>Длительность: {item.full}</label><select id={'ref-days-'+item.id} value={durations[item.id]} onChange={event=>setDurations({...durations,[item.id]:Number(event.target.value)})}>{rates.days.map(value=><option key={value} value={value}>{value} {word(value,['день','дня','дней'])}</option>)}</select><div className="ref-duration-meta"><span>{quote.hours} часов</span><a className="ref-text-link" href="#training-duration">О форматах</a></div></td>
                 <td data-label="Участники"><label className="ref-sr-only" htmlFor={'ref-people-'+item.id}>Участники: {item.full}</label><select id={'ref-people-'+item.id} value={people[item.id]} onChange={event=>setPeople({...people,[item.id]:Number(event.target.value)})}>{participantOptions.map(value=><option key={value} value={value}>{value}</option>)}</select></td>
-                <td data-label="Желаемое начало"><label className="ref-sr-only" htmlFor={'ref-start-'+item.id}>Дата начала: {item.full}</label><input id={'ref-start-'+item.id} type="date" min="0001-01-01" max="9999-12-31" value={dates[item.id]} aria-invalid={badDate||undefined} onInput={event=>setDates({...dates,[item.id]:event.currentTarget.value})} onChange={event=>setDates({...dates,[item.id]:event.target.value})}/><span className="ref-cell-note">{finish?'До '+formatDate(finish)+'*':badDate?'Проверьте дату':'Дата по согласованию'}</span></td>
-                <td data-label="За группу"><strong className="ref-row-price">{money(quote.totalCents)}</strong>{quote.totalCents!==null?<span className="ref-cell-note">{money(quote.totalCents/quote.participants)} на человека</span>:<span className="ref-cell-note">Тариф согласуем отдельно.</span>}{quote.billedParticipants>quote.participants&&<span className="ref-cell-note ref-minimum-fee">Единый тариф для 1–{quote.billedParticipants} человек.</span>}</td>
-              </>:<td className="ref-inactive-row" colSpan={4}>Не выбран</td>}
+                <td className="ref-course-date" data-label="Желаемое начало"><label className="ref-sr-only" htmlFor={'ref-start-'+item.id}>Дата начала: {item.full}</label><input id={'ref-start-'+item.id} type="date" min="0001-01-01" max="9999-12-31" value={dates[item.id]} aria-invalid={badDate||undefined} onInput={event=>setDates({...dates,[item.id]:event.currentTarget.value})} onChange={event=>setDates({...dates,[item.id]:event.target.value})}/><span className="ref-cell-note">{finish?'До '+formatDate(finish)+'*':badDate?'Проверьте дату':'Дата по согласованию'}</span></td>
+                <td className="ref-course-price" data-label="За группу"><strong className="ref-row-price">{money(quote.totalCents)}</strong>{quote.totalCents!==null?<span className="ref-cell-note">{money(quote.totalCents/quote.participants)} на человека</span>:<span className="ref-cell-note">Тариф согласуем отдельно.</span>}{quote.billedParticipants>quote.participants&&<span className="ref-cell-note ref-minimum-fee">Единый тариф для 1–{quote.billedParticipants} человек.</span>}</td>
+              </>:<td className="ref-inactive-row" colSpan={5}>Не выбран</td>}
             </tr>;
           })}
           <tr className={'ref-book-row '+(books?'is-selected':'')}>
             <td><label className="ref-row-choice"><input type="checkbox" checked={books} onChange={event=>setBooks(event.target.checked)} aria-label="Добавить руководство в запрос"/><span>Книги</span></label></td>
-            <td colSpan={5}><div className="ref-book-line"><div className="ref-book-info"><strong>Tekla Structures — руководство в трёх томах</strong><span>Электронный комплект на английском · {money(bookProduct.unitPriceCents)} за комплект</span>{' '}<a href="#training-books">Подробнее <Icon name="angle-right"/></a></div>
+            <td colSpan={6}><div className="ref-book-line"><div className="ref-book-info"><strong>Tekla Structures — руководство в трёх томах</strong><span>Электронный комплект на английском · {money(bookProduct.unitPriceCents)} за комплект</span>{' '}<a href="#training-books">Подробнее <Icon name="angle-right"/></a></div>
               {books&&<div className="ref-book-controls"><label className="ref-field"><span>Комплектов</span><select aria-label="Количество комплектов книг" value={bookQuantity} onChange={event=>setBookQuantity(Number(event.target.value))}>{Array.from({length:bookProduct.maxQuantity},(_,index)=>index+1).map(value=><option key={value} value={value}>{value}</option>)}</select></label><strong>{money(summary.bookTotalCents)}</strong></div>}</div>
             </td>
           </tr></tbody>
@@ -180,12 +180,12 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
       </section>
 
       <section className="ref-section ref-formats" id="training-formats">
-        <Heading eyebrow="Выберите удобный способ" title="Где будем заниматься">Программа зависит от вашей подготовки, формат — от организации работы.</Heading>
+        <Heading eyebrow="Выберите удобный способ" title="Где будем заниматься">Программа зависит от вашей подготовки, формат — от организации работы. Место занятий выбирается для каждого курса в калькуляторе.</Heading>
         <div className="ref-format-grid">{[
           ['online','laptop','Онлайн','Из вашего города','Занятия через интернет. Преподаватель демонстрирует инструменты, вы повторяете действия на своём компьютере.','По исходному прайсу на 1–20 участников'],
           ['office','building-o','В Москве','В учебном классе','На базе Topengineer каждому слушателю предоставляется отдельное рабочее место.','Варшавское ш., 1с1-2, W-Plaza, офис В-410'],
           ['onsite','users','На вашей базе','Для вашей команды','Преподаватель проводит обучение по месту расположения группы. Условия выезда обсуждаем заранее.','Курс — по прайсу · проезд и проживание отдельно'],
-        ].map(([value,icon,title,sub,text,note])=><article className={format===value?'is-selected':''} key={value}><Icon name={icon}/><h3>{title}</h3><p className="ref-format-subtitle">{sub}</p><p>{text}</p><small>{note}</small><button type="button" className="ref-text-button" aria-pressed={format===value} onClick={()=>setFormat(value)}>{format===value?<><Icon name="check-circle"/>Формат выбран</>:<>Выбрать формат<Icon name="angle-right"/></>}</button></article>)}</div><a href="#training-calculator" className="ref-text-link">Вернуться к расчёту <Icon name="arrow-up"/></a>
+        ].map(([value,icon,title,sub,text,note])=><article key={value}><Icon name={icon}/><h3>{title}</h3><p className="ref-format-subtitle">{sub}</p><p>{text}</p><small>{note}</small><a className="ref-text-button" href="#training-calculator">Выбрать для курса<Icon name="angle-right"/></a></article>)}</div><a href="#training-calculator" className="ref-text-link">Вернуться к расчёту <Icon name="arrow-up"/></a>
       </section>
 
       <section className="ref-section ref-preparation" id="before-training">
@@ -214,16 +214,16 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
     <nav className="ref-variant-nav" aria-label="Другие варианты дизайна"><a href={route(allVariants[(position+allVariants.length-1)%allVariants.length])}>Предыдущий вариант</a><a href={home+'#designs'}>Все {allVariants.length} варианта</a><a href={route(allVariants[(position+1)%allVariants.length])}>Следующий вариант</a></nav>
     {panel&&<dialog ref={dialog} className="ref-dialog" aria-labelledby="ref-dialog-title" onCancel={event=>{event.preventDefault();setPanel(null);}} onClick={event=>{if(event.target===event.currentTarget)setPanel(null);}}>
       <header><div><p className="ref-eyebrow">Учебный центр Topengineer</p><h2 id="ref-dialog-title">{panel==='prices'?'Прайс на обучение':'Обсудим ваш выбор'}</h2></div><button type="button" className="ref-close" onClick={()=>setPanel(null)} aria-label="Закрыть окно"><Icon name="times"/></button></header>
-      <div className="ref-dialog-body">{panel==='prices'?<PriceTable format={format}/>:<>
+      <div className="ref-dialog-body">{panel==='prices'?<PriceTable format={summary.courses[0]?.format}/>:<>
         <p>Проверьте выбранные позиции и оставьте вопросы. Кнопка ниже подготовит письмо — отправку вы подтвердите в своём почтовом приложении.</p>
         {selection.length>0&&<ul className="ref-request-list">{summary.courses.map(item=><li key={item.id}>
-          <strong>{item.full}</strong><span>{item.days} {word(item.days,['день','дня','дней'])} · {item.hours} часов · {item.participants} {word(item.participants,['участник','участника','участников'])} · {money(item.totalCents)} за группу</span>
+          <strong>{item.full}</strong><span>{formatNames[item.format]} · {item.days} {word(item.days,['день','дня','дней'])} · {item.hours} часов · {item.participants} {word(item.participants,['участник','участника','участников'])} · {money(item.totalCents)} за группу</span>
           <span>Начало: {formatDate(item.startDate)||'по согласованию'}. Окончание: {formatDate(endDate(item.startDate,item.days))||'по согласованию'}.</span>
           {item.billedParticipants>item.participants&&<small>Единая стоимость для группы от 1 до {item.billedParticipants} человек.</small>}
         </li>)}</ul>}
         {books&&<p className="ref-request-books"><Icon name="book"/>Электронный комплект из трёх томов на английском языке: {bookQuantity} {word(bookQuantity,['комплект','комплекта','комплектов'])} × {money(bookProduct.unitPriceCents)} = <strong>{money(summary.bookTotalCents)}</strong>.</p>}
-        <div className="ref-request-total"><span>{selection.length?formatNames[format]:'Электронные книги'}</span><strong>{priceText}</strong></div>
-        {selection.length>0&&format==='onsite'&&<p className="ref-price-note">Проезд и проживание преподавателя согласуются и оплачиваются отдельно.</p>}
+        <div className="ref-request-total"><span>Итого за выбранные позиции</span><strong>{priceText}</strong></div>
+        {hasOnsiteCourse&&<p className="ref-price-note">Для выездных курсов проезд и проживание преподавателя согласуются и оплачиваются отдельно.</p>}
         {selection.length>0&&<label className="ref-field"><span>Ваш город</span><input value={city} onChange={event=>setCity(event.target.value)} placeholder="Например, Москва"/></label>}
         <label className="ref-field"><span>Задачи и вопросы</span><textarea rows={4} value={message} onChange={event=>setMessage(event.target.value)} placeholder="Что хотите изучить или уточнить?"/></label>
         {invalidDates?<p className="ref-calculator-error">Проверьте даты начала в калькуляторе.</p>:hasItems?<Button href={mailto}>Подготовить письмо</Button>:<p>Сначала выберите курс или комплект книг в калькуляторе.</p>}

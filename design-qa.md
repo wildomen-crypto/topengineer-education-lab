@@ -1,30 +1,18 @@
-# Compact calculator — variant 23
+# Course-specific location column — variant 23
 
-The calculator uses shorter rows, a smaller heading and total, inline duration metadata and less repeated copy. Book quantity and its subtotal appear only when books are selected. The 1–5-person pricing rule remains visible; full pricing/calendar conditions are in a native keyboard-accessible disclosure. Date errors remain outside that disclosure. The approved page width, shared shell, other sections and other variants are unchanged.
+“Где будете заниматься” is now a column inside the calculator, independently selectable for each active course. The global selector was removed. Each course's chosen format determines its own rate and is retained in the enquiry and prepared email. The onsite travel note appears when any selected course uses onsite training. Informational location cards link to the calculator without changing every course. All current ruble rates remain unchanged.
 
-## Comparable measurements
+The seven-column desktop table retains the compact layout. Below 1200 px, location becomes a labelled field within each course card; on phones it spans that card's width. Date and price layout uses named cell classes instead of old column positions. Inactive rows and books span the correct number of columns.
 
-Baseline and result both use the basic course, two days, one participant, no books and closed conditions. Heights include the whole calculator section.
+Validation:
 
-| Viewport width | Before | After | Reduction |
-|---|---:|---:|---:|
-| 2560 px | 1523 px | 846 px | 44% |
-| 1440 px | 1517 px | 882 px | 42% |
-| 1024 px | 1831 px | 1061 px | 42% |
-| 390 px | 2722 px | 1451 px | 47% |
-| 320 px | 2834 px | 1509 px | 47% |
+- `npm run check` passed: production build, nine pricing tests and four hosting tests.
+- Mixed order: online two days/one person = 40,000 ₽; onsite five days/three people = 280,000 ₽; office ten days/six people = 480,000 ₽; two book sets = 16,000 ₽. Total = 816,000 ₽. The enquiry and prepared email keep each course's exact location, duration, participants and price. No email was sent.
+- Changing only the onsite course to online changes the total to 756,000 ₽ and leaves other formats intact. Two-day onsite remains “По согласованию”, with a known subtotal of 536,000 ₽ for the other positions.
+- Clear removes active course fields and disables the empty enquiry. A books-only order has no stale course location or travel note. An onsite first course opens the price dialog at onsite/five-day rates.
+- All four courses and books selected at widths 2560, 1440, 1280, 1200, 1199, 1024, 701, 700, 600, 390 and 320 px: no horizontal overflow and no fields outside their cells. Controls are at least 40 px high, or 44 px on phones.
+- Desktop and phone screenshots visually inspected. Viewport override reset; basic two-day online default restored. The calculator remains available at its anchor.
 
-Selecting more courses or opening conditions naturally adds content. Four five-day courses and books occupy about 952 px at 1440 px; mobile selected courses use labelled cards.
-
-## Validation
-
-- `npm run check` passed: production build (60 modules), nine pricing tests and four hosting tests. The final CSS refinements were rebuilt. No pricing data or calculation algorithms changed.
-- All courses selected plus three books: 904,000 ₽, 20 days and 160 hours. The enquiry retains all four names, one actual participant per course, 220,000 ₽ per course and the book subtotal of 24,000 ₽. No message was sent.
-- Books alone, two sets: 16,000 ₽. Empty selection disables the enquiry. Book quantity is hidden when unchecked; checking again preserves the chosen quantity.
-- Conditions open and close with Enter. An invalid end date still shows its alert outside closed conditions and disables the enquiry. Starting 7 November 2026 on a five-day course ends 11 November, inclusively.
-- All four courses and books checked at widths 2560, 1440, 1200, 1199, 1024, 768, 701, 700, 600, 390 and 320 px: no horizontal overflow; fields remain inside their cells. Controls are at least 40 px high, or 44 px on phones.
-- Desktop, phone cards and phone book/total layout were visually inspected. Temporary viewport overrides were reset; default basic-course selection restored and calculator anchor left available.
-
-Evidence is in `qa/2026-10-28-compact-calculator/`: before/after measurements and screenshots, interaction checks, responsive measurements and a phone screenshot. Full-page captures can vary by a scrollbar width; height comparisons use the independent viewport measurements.
+Evidence: `qa/2026-10-28-course-location/` contains interaction results, responsive measurements and screenshots. Earlier compact-calculator measurements describe the layout before the additional location column.
 
 Result: **passed**.

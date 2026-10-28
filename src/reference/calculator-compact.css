@@ -4,13 +4,19 @@
 #training-calculator .ref-heading .ref-eyebrow { margin-bottom: 6px; }
 #training-calculator .ref-heading h2 { font-size: clamp(28px, 2.2vw, 36px); margin-bottom: 8px; }
 #training-calculator .ref-heading > p:last-child { max-width: 95ch; font-size: 15px; line-height: 1.5; margin: 0; }
-#training-calculator .ref-calc-toolbar { gap: 12px; margin-bottom: 14px; align-items: center; }
+#training-calculator .ref-calc-toolbar { gap: 12px; margin-bottom: 10px; align-items: center; justify-content: flex-end; }
 #training-calculator .ref-calc-toolbar > div { padding-bottom: 0; gap: 18px; }
 #training-calculator .ref-calc-toolbar .ref-text-button { min-height: 32px; }
 #training-calculator .ref-field { gap: 4px; font-size: 12px; }
 #training-calculator :is(select, input:not([type=checkbox])) { min-height: 40px; padding: 7px 10px; }
-#training-calculator .ref-calc-toolbar select { min-width: 240px; }
 #training-calculator .ref-calc-table thead th { padding: 10px 12px; font-size: 12px; }
+#training-calculator .ref-calc-table thead th:nth-child(1) { width: 8%; }
+#training-calculator .ref-calc-table thead th:nth-child(2) { width: 22%; }
+#training-calculator .ref-calc-table thead th:nth-child(3) { width: 18%; }
+#training-calculator .ref-calc-table thead th:nth-child(4) { width: 11%; }
+#training-calculator .ref-calc-table thead th:nth-child(5) { width: 8%; }
+#training-calculator .ref-calc-table thead th:nth-child(6) { width: 17%; }
+#training-calculator .ref-calc-table thead th:nth-child(7) { width: 16%; }
 #training-calculator .ref-calc-table :is(td, tbody th) { padding: 10px 12px; font-size: 14px; line-height: 1.4; }
 #training-calculator .ref-calc-table tbody th strong { margin-bottom: 4px; font-size: 15px; line-height: 1.35; }
 #training-calculator .ref-calc-table tbody th > .ref-text-button { min-height: 24px; }
@@ -48,13 +54,15 @@
   #training-calculator .ref-calc-table tr { grid-template-columns: minmax(0, 1fr) minmax(0, .7fr) minmax(0, 1.3fr) minmax(0, 1.2fr); }
   #training-calculator .ref-calc-table tr > th { grid-column: 2 / -1; }
   #training-calculator .ref-calc-table td[data-label]:not(:first-child)::before { margin-bottom: 4px; font-size: 11px; }
+  #training-calculator .ref-calc-table .ref-course-format { grid-column: 1 / -1; display: flex; align-items: center; gap: 12px; }
+  #training-calculator .ref-calc-table .ref-course-format::before { margin-bottom: 0; }
+  #training-calculator .ref-course-format select { width: min(100%, 280px); }
   #training-calculator .ref-calc-table .ref-book-row { grid-template-columns: 1fr 3fr; }
   #training-calculator .ref-calc-table .ref-book-row td:last-child { grid-column: 2 / -1; padding-top: 10px; }
 }
 @media (max-width: 700px) {
   #training-calculator .ref-calc-toolbar { align-items: stretch; flex-direction: column; }
-  #training-calculator .ref-calc-toolbar .ref-field { width: 100%; }
-  #training-calculator .ref-calc-toolbar > div { flex-direction: row; justify-content: space-between; align-items: center; gap: 10px; }
+  #training-calculator .ref-calc-toolbar > div { width: 100%; flex-direction: row; justify-content: space-between; align-items: center; gap: 10px; }
   #training-calculator .ref-calc-table tr { position: relative; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   #training-calculator .ref-calc-table tr > td:first-child { position: absolute; top: 0; left: 0; width: 46px; padding: 9px; }
   #training-calculator .ref-calc-table tr > td:first-child .ref-row-choice { min-width: 28px; min-height: 32px; }
@@ -62,6 +70,9 @@
   #training-calculator .ref-calc-table tr > th { grid-column: 1 / -1; padding: 10px 10px 8px 48px; }
   #training-calculator .ref-calc-table tbody th strong { font-size: 15px; }
   #training-calculator :is(select, input:not([type=checkbox])) { min-height: 44px; }
+  #training-calculator .ref-calc-table .ref-course-format { display: block; }
+  #training-calculator .ref-calc-table .ref-course-format::before { margin-bottom: 4px; }
+  #training-calculator .ref-course-format select { width: 100%; }
   #training-calculator .ref-calc-table .ref-book-row { grid-template-columns: minmax(0, 1fr); }
   #training-calculator .ref-calc-table .ref-book-row td:last-child { grid-column: 1 / -1; padding: 10px 10px 10px 48px; }
   #training-calculator .ref-book-line { flex-wrap: wrap; gap: 8px; }
@@ -73,9 +84,9 @@
 }
 @media (max-width: 600px) {
   .reference-course #training-calculator { padding-block: 28px; }
-  #training-calculator .ref-calc-table tr > td:nth-child(5), #training-calculator .ref-calc-table tr > td:nth-child(6) { grid-column: 1 / -1; }
-  #training-calculator .ref-calc-table tr > td:nth-child(6) { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
-  #training-calculator .ref-calc-table tr > td:nth-child(6)::before { display: none; }
-  #training-calculator .ref-calc-table tr > td:nth-child(6) .ref-cell-note { margin-top: 0; }
+  #training-calculator .ref-calc-table tr > .ref-course-date, #training-calculator .ref-calc-table tr > .ref-course-price { grid-column: 1 / -1; }
+  #training-calculator .ref-calc-table tr > .ref-course-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  #training-calculator .ref-calc-table tr > .ref-course-price::before { display: none; }
+  #training-calculator .ref-calc-table tr > .ref-course-price .ref-cell-note { margin-top: 0; }
   #training-calculator .ref-calc-table .ref-inactive-row { padding-top: 0; }
 }

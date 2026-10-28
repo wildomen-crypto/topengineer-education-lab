@@ -10,6 +10,7 @@ import {rates,bookProduct,participantOptions,quoteCourse,summarize,money,endDate
 import PriceTable from './PriceTable.jsx';
 import './pricing.css';
 import './site-width.css';
+import './calculator-compact.css';
 
 const formatNames={online:'Онлайн',office:'В офисе в Москве',onsite:'На базе заказчика'};
 const steps=[
@@ -103,7 +104,7 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
       </section>
 
       <section id="training-calculator" className="ref-section ref-calculator" aria-labelledby="ref-calc-title">
-        <Heading eyebrow="Стоимость без догадок" title={<span id="ref-calc-title">Рассчитайте своё обучение</span>}>Для каждой программы выберите длительность и число участников. Цены — за группу, в рублях. Для онлайн-занятий и нашего офиса действует один прайс; для выезда — отдельный. Занятия — по {rates.hoursPerDay} часов в день.</Heading>
+        <Heading eyebrow="Стоимость без догадок" title={<span id="ref-calc-title">Рассчитайте своё обучение</span>}>Выберите курсы, длительность и число участников. Стоимость — за всю группу, в рублях.</Heading>
         <div className="ref-calc-toolbar">
           <label className="ref-field"><span>Где будете заниматься</span><select value={format} onChange={event=>setFormat(event.target.value)}>{Object.entries(formatNames).map(([key,value])=><option key={key} value={key}>{value}</option>)}</select></label>
           <div><button className="ref-text-button" type="button" disabled={!hasItems} onClick={()=>{setSelected([]);setBooks(false);}}>Очистить выбор</button><button className="ref-text-button" type="button" onClick={event=>open('prices',event)}><Icon name="table"/>Прайс на 1–20 участников</button></div>
@@ -117,17 +118,17 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
               <td data-label="Выбрать"><label className="ref-row-choice"><input type="checkbox" checked={active} onChange={()=>toggle(item.id)} aria-label={'Выбрать: '+item.full}/><span>Курс {item.id}</span></label></td>
               <th scope="row" data-label="Программа"><strong>{item.full}</strong><button type="button" className="ref-text-button" onClick={()=>openProgram(item.id)}>Программа <Icon name="file-text-o"/></button></th>
               {active?<>
-                <td data-label="Длительность"><label className="ref-sr-only" htmlFor={'ref-days-'+item.id}>Длительность: {item.full}</label><select id={'ref-days-'+item.id} value={durations[item.id]} onChange={event=>setDurations({...durations,[item.id]:Number(event.target.value)})}>{rates.days.map(value=><option key={value} value={value}>{value} {word(value,['день','дня','дней'])}</option>)}</select><span className="ref-cell-note">{quote.hours} часов</span><a className="ref-text-link ref-cell-note" href="#training-duration">О форматах</a></td>
+                <td data-label="Длительность"><label className="ref-sr-only" htmlFor={'ref-days-'+item.id}>Длительность: {item.full}</label><select id={'ref-days-'+item.id} value={durations[item.id]} onChange={event=>setDurations({...durations,[item.id]:Number(event.target.value)})}>{rates.days.map(value=><option key={value} value={value}>{value} {word(value,['день','дня','дней'])}</option>)}</select><div className="ref-duration-meta"><span>{quote.hours} часов</span><a className="ref-text-link" href="#training-duration">О форматах</a></div></td>
                 <td data-label="Участники"><label className="ref-sr-only" htmlFor={'ref-people-'+item.id}>Участники: {item.full}</label><select id={'ref-people-'+item.id} value={people[item.id]} onChange={event=>setPeople({...people,[item.id]:Number(event.target.value)})}>{participantOptions.map(value=><option key={value} value={value}>{value}</option>)}</select></td>
                 <td data-label="Желаемое начало"><label className="ref-sr-only" htmlFor={'ref-start-'+item.id}>Дата начала: {item.full}</label><input id={'ref-start-'+item.id} type="date" min="0001-01-01" max="9999-12-31" value={dates[item.id]} aria-invalid={badDate||undefined} onInput={event=>setDates({...dates,[item.id]:event.currentTarget.value})} onChange={event=>setDates({...dates,[item.id]:event.target.value})}/><span className="ref-cell-note">{finish?'До '+formatDate(finish)+'*':badDate?'Проверьте дату':'Дата по согласованию'}</span></td>
-                <td data-label="За группу"><strong className="ref-row-price">{money(quote.totalCents)}</strong>{quote.totalCents!==null?<span className="ref-cell-note">{money(quote.totalCents/quote.participants)} на человека</span>:<span className="ref-cell-note">Для этого выездного формата и размера группы тарифа в таблице нет.</span>}{quote.billedParticipants>quote.participants&&<span className="ref-cell-note ref-minimum-fee">Единая стоимость для группы от 1 до {quote.billedParticipants} человек. Фактически обучаются: {quote.participants}.</span>}</td>
-              </>:<td className="ref-inactive-row" colSpan={4}>Отметьте программу, чтобы добавить её в расчёт</td>}
+                <td data-label="За группу"><strong className="ref-row-price">{money(quote.totalCents)}</strong>{quote.totalCents!==null?<span className="ref-cell-note">{money(quote.totalCents/quote.participants)} на человека</span>:<span className="ref-cell-note">Тариф согласуем отдельно.</span>}{quote.billedParticipants>quote.participants&&<span className="ref-cell-note ref-minimum-fee">Единый тариф для 1–{quote.billedParticipants} человек.</span>}</td>
+              </>:<td className="ref-inactive-row" colSpan={4}>Не выбран</td>}
             </tr>;
           })}
           <tr className={'ref-book-row '+(books?'is-selected':'')}>
             <td><label className="ref-row-choice"><input type="checkbox" checked={books} onChange={event=>setBooks(event.target.checked)} aria-label="Добавить руководство в запрос"/><span>Книги</span></label></td>
-            <td colSpan={5}><div><strong>Tekla Structures — руководство в трёх томах</strong><span>Электронный комплект на английском языке · {money(bookProduct.unitPriceCents)} за комплект</span><a href="#training-books">Подробнее о руководстве <Icon name="angle-right"/></a></div>
-              <div className="ref-book-controls"><label className="ref-field"><span>Количество комплектов книг</span><select aria-label="Количество комплектов книг" value={bookQuantity} disabled={!books} onChange={event=>setBookQuantity(Number(event.target.value))}>{Array.from({length:bookProduct.maxQuantity},(_,index)=>index+1).map(value=><option key={value} value={value}>{value}</option>)}</select></label><strong>{books?money(summary.bookTotalCents):'Не добавлено'}</strong></div>
+            <td colSpan={5}><div className="ref-book-line"><div className="ref-book-info"><strong>Tekla Structures — руководство в трёх томах</strong><span>Электронный комплект на английском · {money(bookProduct.unitPriceCents)} за комплект</span>{' '}<a href="#training-books">Подробнее <Icon name="angle-right"/></a></div>
+              {books&&<div className="ref-book-controls"><label className="ref-field"><span>Комплектов</span><select aria-label="Количество комплектов книг" value={bookQuantity} onChange={event=>setBookQuantity(Number(event.target.value))}>{Array.from({length:bookProduct.maxQuantity},(_,index)=>index+1).map(value=><option key={value} value={value}>{value}</option>)}</select></label><strong>{money(summary.bookTotalCents)}</strong></div>}</div>
             </td>
           </tr></tbody>
         </table></div>
@@ -140,8 +141,8 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
           <Button disabled={!hasItems||invalidDates} onClick={event=>open('quote',event)}>{selection.length?'Обсудить выбранный курс':'Обсудить заказ книг'}</Button>
         </div>
         <div className="ref-calculator-notes">
-          <p>Для курсов на 5 и 10 дней стоимость группы от 1 до 5 человек одинакова во всех форматах. Начиная с 6 участников цена меняется по прайсу. Десятидневный курс стоит вдвое больше пятидневного. Двухдневный выезд — по согласованию. Цены курсов суммируются без скидки за пакет.</p>
-          <p>* Окончание считается по календарным дням, включая выходные и день начала. Фактический график подтверждает преподаватель. При выезде проезд и проживание оплачиваются отдельно.</p>
+          <p className="ref-calc-rule">На 5 и 10 дней стоимость группы от 1 до 5 человек одинакова.</p>
+          <details className="ref-calc-conditions"><summary>Условия расчёта и календарных дат</summary><p>Для онлайн-занятий и нашего офиса действует один прайс; для выезда — отдельный. Занятия — по {rates.hoursPerDay} часов в день. Начиная с 6 участников цена меняется по прайсу. Десятидневный курс стоит вдвое больше пятидневного. Двухдневный выезд — по согласованию. Цены курсов суммируются без скидки за пакет.</p><p>* Окончание считается по календарным дням, включая выходные и день начала. Фактический график подтверждает преподаватель. При выезде проезд и проживание оплачиваются отдельно.</p></details>
           {invalidDates&&<p role="alert" className="ref-calculator-error">Проверьте дату начала: курс должен закончиться не позже 31.12.9999.</p>}
         </div>
       </section>

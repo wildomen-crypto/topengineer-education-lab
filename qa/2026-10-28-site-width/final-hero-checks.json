@@ -1,0 +1,101 @@
+[
+  {
+    "columns": "765.031px 869.344px 521.625px",
+    "headingClient": 690,
+    "headingScroll": 690,
+    "photoFocus": "68% 50%",
+    "rootClient": 2545,
+    "rootScroll": 2545,
+    "width": 2560
+  },
+  {
+    "columns": "405.922px 461.297px 276.781px",
+    "headingClient": 406,
+    "headingScroll": 406,
+    "photoFocus": "45% 50%",
+    "rootClient": 1425,
+    "rootScroll": 1425,
+    "width": 1440
+  },
+  {
+    "columns": "379.672px 431.453px 258.875px",
+    "headingClient": 367,
+    "headingScroll": 367,
+    "photoFocus": "45% 50%",
+    "rootClient": 1186,
+    "rootScroll": 1186,
+    "width": 1201
+  },
+  {
+    "columns": "437.609px 481.391px",
+    "headingClient": 367,
+    "headingScroll": 367,
+    "photoFocus": "45% 50%",
+    "rootClient": 1009,
+    "rootScroll": 1009,
+    "width": 1024
+  },
+  {
+    "columns": "354.75px 390.25px",
+    "headingClient": 355,
+    "headingScroll": 355,
+    "photoFocus": "45% 50%",
+    "rootClient": 835,
+    "rootScroll": 835,
+    "width": 850
+  },
+  {
+    "columns": "316.188px 347.812px",
+    "headingClient": 316,
+    "headingScroll": 316,
+    "photoFocus": "45% 50%",
+    "rootClient": 754,
+    "rootScroll": 754,
+    "width": 769
+  },
+  {
+    "columns": "723px",
+    "headingClient": 367,
+    "headingScroll": 367,
+    "photoFocus": "45% 50%",
+    "rootClient": 753,
+    "rootScroll": 753,
+    "width": 768
+  },
+  {
+    "columns": "556px",
+    "headingClient": 367,
+    "headingScroll": 367,
+    "photoFocus": "45% 50%",
+    "rootClient": 586,
+    "rootScroll": 586,
+    "width": 601
+  },
+  {
+    "columns": "555px",
+    "headingClient": 555,
+    "headingScroll": 555,
+    "photoFocus": "56% 50%",
+    "rootClient": 585,
+    "rootScroll": 585,
+    "width": 600
+  },
+  {
+    "columns": "345px",
+    "headingClient": 345,
+    "headingScroll": 345,
+    "photoFocus": "56% 50%",
+    "rootClient": 375,
+    "rootScroll": 375,
+    "width": 390
+  },
+  {
+    "columns": "275px",
+    "headingClient": 275,
+    "headingScroll": 275,
+    "photoFocus": "56% 50%",
+    "rootClient": 305,
+    "rootScroll": 305,
+    "width": 320
+  }
+]

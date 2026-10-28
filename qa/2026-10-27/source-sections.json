@@ -1,0 +1,52 @@
+{
+  "client": 1440,
+  "docHeight": 11535,
+  "sections": [
+    {
+      "height": 1223,
+      "id": "course-descriptions",
+      "top": 603
+    },
+    {
+      "height": 1100,
+      "id": "training-calculator",
+      "top": 1826
+    },
+    {
+      "height": 664,
+      "id": "how-training-works",
+      "top": 2926
+    },
+    {
+      "height": 607,
+      "id": "training-books",
+      "top": 3591
+    },
+    {
+      "height": 885,
+      "id": "training-formats",
+      "top": 4198
+    },
+    {
+      "height": 732,
+      "id": "before-training",
+      "top": 5083
+    },
+    {
+      "height": 598,
+      "id": "course-certificate",
+      "top": 5815
+    },
+    {
+      "height": 444,
+      "id": "after-training-support",
+      "top": 6413
+    },
+    {
+      "height": 2086,
+      "id": "course-programmes",
+      "top": 6858
+    }
+  ],
+  "width": 1440
+}

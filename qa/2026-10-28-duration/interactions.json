@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "calculatorScope": "Выберите программы и число участников. Расчёт — для короткого формата: 2 дня, 16 часов на программу. Прайс одинаков для всех четырёх курсов.",
+    "courseCount": 4,
+    "overview": "2, 5 или 10 дней",
+    "position": {
+      "afterBooks": true,
+      "beforeLocations": true
+    },
+    "programmeTopics": 88,
+    "total": "40 000 ₽",
+    "url": "http://127.0.0.1:4173/education-centr/tekla-23-site-style/#training-calculator"
+  },
+  "logs": []
+}

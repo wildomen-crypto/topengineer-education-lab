@@ -1,0 +1,162 @@
+[
+  {
+    "people": 1,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 40000,
+    "total": 40000
+  },
+  {
+    "people": 2,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 27500,
+    "total": 55000
+  },
+  {
+    "people": 3,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 23333,
+    "total": 70000
+  },
+  {
+    "people": 4,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 20000,
+    "total": 80000
+  },
+  {
+    "people": 5,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 18000,
+    "total": 90000
+  },
+  {
+    "people": 6,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 16667,
+    "total": 100000
+  },
+  {
+    "people": 7,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 15714,
+    "total": 110000
+  },
+  {
+    "people": 8,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 15000,
+    "total": 120000
+  },
+  {
+    "people": 9,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 14444,
+    "total": 130000
+  },
+  {
+    "people": 10,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 14000,
+    "total": 140000
+  },
+  {
+    "people": 11,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 13636,
+    "total": 150000
+  },
+  {
+    "people": 12,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 13333,
+    "total": 160000
+  },
+  {
+    "people": 13,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 13077,
+    "total": 170000
+  },
+  {
+    "people": 14,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 12857,
+    "total": 180000
+  },
+  {
+    "people": 15,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 12667,
+    "total": 190000
+  },
+  {
+    "people": 16,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 12500,
+    "total": 200000
+  },
+  {
+    "people": 17,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 12353,
+    "total": 210000
+  },
+  {
+    "people": 18,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 12222,
+    "total": 220000
+  },
+  {
+    "people": 19,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 12105,
+    "total": 230000
+  },
+  {
+    "people": 20,
+    "days": 2,
+    "dailyHours": 8,
+    "hours": 16,
+    "perPerson": 12000,
+    "total": 240000
+  }
+]

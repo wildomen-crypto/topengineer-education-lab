@@ -1,0 +1,17 @@
+.reference-course .ref-calc-table thead th:nth-child(1){width:8%}.reference-course .ref-calc-table thead th:nth-child(2){width:24%}.reference-course .ref-calc-table thead th:nth-child(3){width:13%}.reference-course .ref-calc-table thead th:nth-child(4){width:11%}.reference-course .ref-calc-table thead th:nth-child(5){width:22%}.reference-course .ref-calc-table thead th:nth-child(6){width:22%}
+.reference-course .ref-calc-table .ref-minimum-fee{border-left:2px solid var(--ref-yellow);padding-left:9px;color:var(--ref-ink)}
+.reference-course .ref-book-row .ref-book-controls{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-top:14px;width:100%}
+.reference-course .ref-book-controls .ref-field{display:grid;max-width:220px;gap:8px;align-items:stretch}
+.reference-course .ref-book-controls strong{white-space:nowrap;font-size:20px}
+.reference-course .ref-price-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:24px 0 0}
+.reference-course .ref-price-tabs button{min-width:0;min-height:48px;border:1px solid #b7c1c8;background:white;border-radius:6px;padding:10px;font:500 14px/1.4 Archivo,Roboto,sans-serif;color:var(--ref-ink)}
+.reference-course .ref-price-tabs button[aria-selected=true]{background:var(--ref-ink);color:white;border-color:var(--ref-ink)}
+.reference-course .ref-price-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain}
+.reference-course .ref-price-table{min-width:420px;font-variant-numeric:tabular-nums}
+.reference-course .ref-price-table caption{text-align:left;color:var(--ref-muted);font-size:14px;padding-block:15px}
+.reference-course .ref-price-table td{white-space:nowrap}
+.reference-course .ref-price-note{margin-block:20px}
+.reference-course .ref-request-list small{font-size:13px;color:var(--ref-muted)}
+.reference-course .ref-calculator-error{grid-column:1/-1;color:#9a231c}
+@media(max-width:600px){.reference-course .ref-book-row .ref-book-controls{align-items:stretch;flex-direction:column;gap:14px}.reference-course .ref-book-controls .ref-field{max-width:none;width:100%}.reference-course .ref-price-tabs{gap:6px}.reference-course .ref-price-tabs button{font-size:12px;padding:10px 5px}.reference-course .ref-price-table{min-width:0;table-layout:fixed}.reference-course .ref-price-table thead th:nth-child(1){width:23%}.reference-course .ref-price-table thead th:nth-child(2){width:36%}.reference-course .ref-price-table thead th:nth-child(3){width:41%}.reference-course .ref-price-table th,.reference-course .ref-price-table td{white-space:normal}}
+@media(max-width:350px){.reference-course .ref-price-table th,.reference-course .ref-price-table td{padding-inline:4px}}

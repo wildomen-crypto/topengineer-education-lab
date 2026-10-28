@@ -1,0 +1,44 @@
+{
+  "source": {
+    "format": "png",
+    "mediaType": "image/png",
+    "width": 1440,
+    "height": 11535,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "density": 72,
+    "isProgressive": false,
+    "isPalette": false,
+    "bitsPerSample": 8,
+    "hasProfile": false,
+    "hasAlpha": false,
+    "autoOrient": {
+      "width": 1440,
+      "height": 11535
+    }
+  },
+  "target": {
+    "format": "png",
+    "mediaType": "image/png",
+    "width": 1440,
+    "height": 9405,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "density": 72,
+    "isProgressive": false,
+    "isPalette": false,
+    "bitsPerSample": 8,
+    "hasProfile": false,
+    "hasAlpha": false,
+    "autoOrient": {
+      "width": 1440,
+      "height": 9405
+    }
+  },
+  "normalizedDesktopWidth": 1440,
+  "fullComparisonWidthPerColumn": 900,
+  "sourceBodyTop": 130,
+  "targetBodyTop": 230
+}

@@ -1,0 +1,186 @@
+{
+  "before": {
+    "copyHeight": 427.6875,
+    "imageHeight": 433.078125,
+    "objectFit": "fill",
+    "width": 1440
+  },
+  "after": [
+    {
+      "columns": "1208px 1208px",
+      "copyBelowImage": false,
+      "copyHeight": 427.6875,
+      "copyTop": 3843.703125,
+      "desktop": true,
+      "heightMatches": true,
+      "imageHeight": 427.6875,
+      "imageTop": 3843.703125,
+      "imageWidth": 1208,
+      "loaded": true,
+      "naturalRatio": false,
+      "objectFit": "cover",
+      "objectPosition": "100% 25%",
+      "overflow": false,
+      "section": {
+        "height": 727.328125,
+        "y": 3608.0625
+      },
+      "width": 2560,
+      "screenshot": "how-2560-full.png"
+    },
+    {
+      "columns": "657.125px 657.125px",
+      "copyBelowImage": false,
+      "copyHeight": 427.6875,
+      "copyTop": 4248.59375,
+      "desktop": true,
+      "heightMatches": true,
+      "imageHeight": 427.6875,
+      "imageTop": 4248.59375,
+      "imageWidth": 657.125,
+      "loaded": true,
+      "naturalRatio": false,
+      "objectFit": "cover",
+      "objectPosition": "100% 25%",
+      "overflow": false,
+      "section": {
+        "height": 711.203125,
+        "y": 4029.078125
+      },
+      "width": 1440,
+      "screenshot": "how-1440-full.png"
+    },
+    {
+      "columns": "461.859px 461.859px",
+      "copyBelowImage": false,
+      "copyHeight": 506.859375,
+      "copyTop": 5734.734375,
+      "desktop": true,
+      "heightMatches": true,
+      "imageHeight": 506.859375,
+      "imageTop": 5734.734375,
+      "imageWidth": 461.859375,
+      "loaded": true,
+      "naturalRatio": false,
+      "objectFit": "cover",
+      "objectPosition": "100% 25%",
+      "overflow": false,
+      "section": {
+        "height": 784.90625,
+        "y": 5520.6875
+      },
+      "width": 1024,
+      "screenshot": ""
+    },
+    {
+      "columns": "446.719px 446.719px",
+      "copyBelowImage": false,
+      "copyHeight": 559.640625,
+      "copyTop": 5785.28125,
+      "desktop": true,
+      "heightMatches": true,
+      "imageHeight": 559.640625,
+      "imageTop": 5785.28125,
+      "imageWidth": 446.71875,
+      "loaded": true,
+      "naturalRatio": false,
+      "objectFit": "cover",
+      "objectPosition": "100% 25%",
+      "overflow": false,
+      "section": {
+        "height": 837.6875,
+        "y": 5571.234375
+      },
+      "width": 992,
+      "screenshot": ""
+    },
+    {
+      "columns": "937.5px",
+      "copyBelowImage": true,
+      "copyHeight": 427.6875,
+      "copyTop": 6417.78125,
+      "desktop": false,
+      "heightMatches": false,
+      "imageHeight": 625,
+      "imageTop": 5762.78125,
+      "imageWidth": 937.5,
+      "loaded": true,
+      "naturalRatio": true,
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "overflow": false,
+      "section": {
+        "height": 1360.734375,
+        "y": 5548.734375
+      },
+      "width": 991,
+      "screenshot": "how-991-full.png"
+    },
+    {
+      "columns": "711.531px",
+      "copyBelowImage": true,
+      "copyHeight": 427.6875,
+      "copyTop": 7500.71875,
+      "desktop": false,
+      "heightMatches": false,
+      "imageHeight": 474.34375,
+      "imageTop": 6996.375,
+      "imageWidth": 711.53125,
+      "loaded": true,
+      "naturalRatio": true,
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "overflow": false,
+      "section": {
+        "height": 1210.078125,
+        "y": 6782.328125
+      },
+      "width": 768,
+      "screenshot": ""
+    },
+    {
+      "columns": "358px",
+      "copyBelowImage": true,
+      "copyHeight": 631.59375,
+      "copyTop": 9566.1875,
+      "desktop": false,
+      "heightMatches": false,
+      "imageHeight": 238.65625,
+      "imageTop": 9297.53125,
+      "imageWidth": 358,
+      "loaded": true,
+      "naturalRatio": true,
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "overflow": false,
+      "section": {
+        "height": 1146.03125,
+        "y": 9093.75
+      },
+      "width": 390,
+      "screenshot": "how-390-full.png"
+    },
+    {
+      "columns": "273px",
+      "copyBelowImage": true,
+      "copyHeight": 787.53125,
+      "copyTop": 10649.234375,
+      "desktop": false,
+      "heightMatches": false,
+      "imageHeight": 182,
+      "imageTop": 10437.234375,
+      "imageWidth": 273,
+      "loaded": true,
+      "naturalRatio": true,
+      "objectFit": "fill",
+      "objectPosition": "50% 50%",
+      "overflow": false,
+      "section": {
+        "height": 1307.703125,
+        "y": 10171.0625
+      },
+      "width": 320,
+      "screenshot": ""
+    }
+  ]
+}

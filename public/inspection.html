@@ -1,0 +1,3 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><title>Проверка размеров страницы</title></head><body style="margin:0;background:#edf0f3"><iframe title="Проверяемая страница" id="inspection-frame" style="display:block;border:0" src="/education-centr/"></iframe><script>
+const parameters=new URLSearchParams(location.search);const frame=document.querySelector('iframe');frame.style.width=(Number(parameters.get('width'))||1440)+'px';frame.style.height=(Number(parameters.get('height'))||1000)+'px';const target=parameters.get('path');if(target&&target.startsWith('/')&&!target.startsWith('//'))frame.src=target;
+</script></body></html>

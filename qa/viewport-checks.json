@@ -1,0 +1,162 @@
+[
+  {
+    "variant": 1,
+    "width": 1440,
+    "heading": "Tekla Structures.\nС вашим преподавателем.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 2,
+    "width": 1440,
+    "heading": "Обучение начинается\nс вашего уровня.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 3,
+    "width": 1440,
+    "heading": "Два дня.\nПонятный путь в Tekla.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 4,
+    "width": 1440,
+    "heading": "Сначала —\nпонятная стоимость.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 5,
+    "width": 1440,
+    "heading": "Учитесь у тех,\nкто работает в Tekla.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 6,
+    "width": 1440,
+    "heading": "Tekla Structures\nдля вашей команды.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 7,
+    "width": 1440,
+    "heading": "Всё о курсе.\nБез долгого поиска.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 8,
+    "width": 1440,
+    "heading": "Ваш гид по обучению\nTekla Structures.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 9,
+    "width": 1440,
+    "heading": "Есть вопросы?\nРазберём по порядку.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 10,
+    "width": 1440,
+    "heading": "Меньше поиска.\nБольше ясности.",
+    "client": 1425,
+    "scroll": 1425,
+    "broken": []
+  },
+  {
+    "variant": 1,
+    "width": 390,
+    "heading": "Tekla Structures.\nС вашим преподавателем.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  },
+  {
+    "variant": 2,
+    "width": 390,
+    "heading": "Обучение начинается\nс вашего уровня.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  },
+  {
+    "variant": 3,
+    "width": 390,
+    "heading": "Два дня.\nПонятный путь в Tekla.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  },
+  {
+    "variant": 4,
+    "width": 390,
+    "heading": "Сначала —\nпонятная стоимость.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  },
+  {
+    "variant": 5,
+    "width": 390,
+    "heading": "Учитесь у тех,\nкто работает в Tekla.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  },
+  {
+    "variant": 6,
+    "width": 390,
+    "heading": "Tekla Structures\nдля вашей команды.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  },
+  {
+    "variant": 7,
+    "width": 390,
+    "heading": "Всё о курсе.\nБез долгого поиска.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  },
+  {
+    "variant": 8,
+    "width": 390,
+    "heading": "Ваш гид по обучению\nTekla Structures.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  },
+  {
+    "variant": 9,
+    "width": 390,
+    "heading": "Есть вопросы?\nРазберём по порядку.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  },
+  {
+    "variant": 10,
+    "width": 390,
+    "heading": "Меньше поиска.\nБольше ясности.",
+    "client": 375,
+    "scroll": 375,
+    "broken": []
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "test": "18 composer complete/back/edit",
+    "result": "passed",
+    "selection": "professional / onsite / 5",
+    "price": "agreement",
+    "enquiry": "preserved; mail draft checked, not sent"
+  },
+  {
+    "test": "shared program professional",
+    "topics": 37,
+    "exact": true,
+    "escapeFocusRestored": true
+  },
+  {
+    "test": "22 all source topics and print order",
+    "results": [
+      {
+        "level": 1,
+        "screenCount": 65,
+        "printCount": 65,
+        "exactScreen": true,
+        "exactPrint": true,
+        "priceRows": 20,
+        "order": [
+          "День 1",
+          "День 2",
+          "Стоимость и условия"
+        ]
+      },
+      {
+        "level": 2,
+        "screenCount": 43,
+        "printCount": 43,
+        "exactScreen": true,
+        "exactPrint": true,
+        "priceRows": 20,
+        "order": [
+          "День 1",
+          "День 2",
+          "Стоимость и условия"
+        ]
+      },
+      {
+        "level": 3,
+        "screenCount": 37,
+        "printCount": 37,
+        "exactScreen": true,
+        "exactPrint": true,
+        "priceRows": 20,
+        "order": [
+          "День 1",
+          "День 2",
+          "Стоимость и условия"
+        ]
+      }
+    ]
+  },
+  {
+    "test": "20 reading modes",
+    "sectionsChanged": [
+      true,
+      true,
+      true
+    ],
+    "allBasicTopics": 65,
+    "exact": true
+  },
+  {
+    "test": "21 onsite price and enquiry",
+    "agreement": true,
+    "selected": [
+      "Базовый курс",
+      "На базе заказчика",
+      "5",
+      "Безналичный расчёт"
+    ]
+  },
+  {
+    "test": "19 stages",
+    "results": [
+      {
+        "stage": "01 Модель",
+        "caption": "Этап: Модель\nПример инженерной модели",
+        "topics": [
+          "1.3 Выбор сред и шаблонов проектирования.",
+          "1.4 Создание новой модели",
+          "1.5 Структура новой модели",
+          "1.7 Способы вращения модели",
+          "1.8 Переход в плоскость вида",
+          "1.9 Работа с геодезической сеткой",
+          "1.10 Инструмент создания колонн",
+          "1.11 Инструмент создания балки"
+        ]
+      },
+      {
+        "stage": "02 Соединения",
+        "caption": "Этап: Соединения\nПример инженерной модели: элементы и соединения",
+        "topics": [
+          "1.25 Болтовые соединения",
+          "2.2 Инструмент Сварка",
+          "2.7 Понятие компонент",
+          "2.8 Создание собственного простого компонента",
+          "2.9 Редактор компонентов",
+          "2.10 Создание привязок в компоненте",
+          "2.11 Создание формул в редакторе компонентов",
+          "2.14 Изменение свойств через дерево компонента"
+        ]
+      },
+      {
+        "stage": "03 Чертежи и отчёты",
+        "caption": "Этап: Чертежи и отчёты\nМодель как исходная база для документации",
+        "topics": [
+          "4.1 Типы чертежей",
+          "4.2 Создание чертежей общего вида",
+          "4.3 Создание чертежей отдельных деталей",
+          "4.4. Создание чертежей сборок (марок)",
+          "4.5 Создание чертежей отлитого элемента",
+          "4.6 Создание мультичертежей",
+          "4.7 Клонирование чертежей",
+          "4.8 Клонирование чертежей из другой модели"
+        ]
+      }
+    ]
+  },
+  {
+    "test": "17 query/filter/reset/pagination",
+    "searchCsharp": 11,
+    "professionalDay2": 9,
+    "empty": "0/0",
+    "reset": "145/12",
+    "pagination": "Найдено 145 тем, показано 24"
+  },
+  {
+    "test": "13 task/price",
+    "CsharpTopics": 15,
+    "onlySource": true,
+    "twoPeople": true,
+    "onsiteAgreement": true
+  },
+  {
+    "test": "14 professional editorial chapters",
+    "headings": [
+      "Логика Tekla",
+      "Разработка на C#",
+      "Интеграция"
+    ]
+  },
+  {
+    "test": "15 comparison selected professional program",
+    "count": 37,
+    "exact": true
+  },
+  {
+    "test": "16 mobile inline / level reset",
+    "selectedDrawing": true,
+    "professionalReset": true
+  },
+  {
+    "test": "09 wide FAQ two useful columns",
+    "client": 2545,
+    "columns": "1217.83px 1217.83px",
+    "maxWidth": "none",
+    "scroll": 2545,
+    "width": 2465.65625
+  },
+  {
+    "test": "gallery/mobile native menu22",
+    "galleryCards": 22,
+    "url": "http://127.0.0.1:4173/education-centr/tekla-22-print-syllabus/",
+    "menuClosed": true
+  },
+  {
+    "test": "10 image gallery",
+    "cards": 10,
+    "next": true,
+    "escapeClosed": true,
+    "overflow": false
+  },
+  {
+    "test": "20 all four sections change",
+    "sections": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "test": "04 retained two synchronized calculators",
+    "selected": [
+      "2",
+      "2"
+    ],
+    "price55000": 3
+  }
+]

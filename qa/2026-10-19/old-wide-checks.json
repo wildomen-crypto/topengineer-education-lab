@@ -1,0 +1,114 @@
+[
+  {
+    "broken": 0,
+    "container": {
+      "bottom": 229,
+      "height": 53,
+      "left": 0,
+      "right": 2545,
+      "top": 176,
+      "width": 2545,
+      "x": 0,
+      "y": 176
+    },
+    "heading": "Tekla Structures.\nС вашим преподавателем.",
+    "overflow": false,
+    "url": "/education-centr/tekla-01-classic/"
+  },
+  {
+    "broken": 0,
+    "container": {
+      "bottom": 229,
+      "height": 53,
+      "left": 0,
+      "right": 2545,
+      "top": 176,
+      "width": 2545,
+      "x": 0,
+      "y": 176
+    },
+    "heading": "Обучение начинается\nс вашего уровня.",
+    "overflow": false,
+    "url": "/education-centr/tekla-02-levels/"
+  },
+  {
+    "broken": 0,
+    "container": {
+      "bottom": 229,
+      "height": 53,
+      "left": 0,
+      "right": 2545,
+      "top": 176,
+      "width": 2545,
+      "x": 0,
+      "y": 176
+    },
+    "heading": "Два дня.\nПонятный путь в Tekla.",
+    "overflow": false,
+    "url": "/education-centr/tekla-03-roadmap/"
+  },
+  {
+    "broken": 0,
+    "container": {
+      "bottom": 229,
+      "height": 53,
+      "left": 0,
+      "right": 2545,
+      "top": 176,
+      "width": 2545,
+      "x": 0,
+      "y": 176
+    },
+    "heading": "Сначала —\nпонятная стоимость.",
+    "overflow": false,
+    "url": "/education-centr/tekla-04-price/"
+  },
+  {
+    "broken": 0,
+    "heading": "Учитесь у тех,\nкто работает в Tekla.",
+    "overflow": false,
+    "url": "/education-centr/tekla-05-practice/"
+  },
+  {
+    "broken": 0,
+    "heading": "Tekla Structures\nдля вашей команды.",
+    "overflow": false,
+    "url": "/education-centr/tekla-06-team/"
+  },
+  {
+    "broken": 0,
+    "heading": "Всё о курсе.\nБез долгого поиска.",
+    "overflow": false,
+    "url": "/education-centr/tekla-07-tabs/"
+  },
+  {
+    "broken": 0,
+    "heading": "Ваш гид по обучению\nTekla Structures.",
+    "overflow": false,
+    "url": "/education-centr/tekla-08-guide/"
+  },
+  {
+    "broken": 0,
+    "heading": "Есть вопросы?\nРазберём по порядку.",
+    "overflow": false,
+    "url": "/education-centr/tekla-09-questions/"
+  },
+  {
+    "broken": 0,
+    "heading": "Меньше поиска.\nБольше ясности.",
+    "overflow": false,
+    "url": "/education-centr/tekla-10-cards/"
+  },
+  {
+    "broken": 0,
+    "heading": "Индивидуальный\nкурс обучения\nTekla Structures",
+    "overflow": false,
+    "url": "/education-centr/tekla-11-intensive/"
+  },
+  {
+    "broken": 0,
+    "heading": "Обучение\nвашей команды",
+    "overflow": false,
+    "url": "/education-centr/tekla-12-team-class/"
+  }
+]

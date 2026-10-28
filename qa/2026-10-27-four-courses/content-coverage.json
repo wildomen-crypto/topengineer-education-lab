@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Базовый курс",
+    "topics": 88,
+    "parts": [
+      44,
+      44
+    ],
+    "sourceNumbersMatch": true,
+    "groupBoundariesMatch": true
+  },
+  {
+    "id": 2,
+    "title": "Пользовательские компоненты",
+    "topics": 88,
+    "parts": [
+      44,
+      44
+    ],
+    "sourceNumbersMatch": true,
+    "groupBoundariesMatch": true
+  },
+  {
+    "id": 3,
+    "title": "Продвинутая работа в Tekla Structures",
+    "topics": 88,
+    "parts": [
+      44,
+      44
+    ],
+    "sourceNumbersMatch": true,
+    "groupBoundariesMatch": true
+  },
+  {
+    "id": 4,
+    "title": "Настройка системы и создание шаблонов",
+    "topics": 88,
+    "parts": [
+      44,
+      44
+    ],
+    "sourceNumbersMatch": true,
+    "groupBoundariesMatch": true
+  }
+]

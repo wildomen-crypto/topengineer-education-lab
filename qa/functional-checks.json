@@ -1,0 +1,31 @@
+{
+  "programTopics": {
+    "basic": 65,
+    "experienced": 43,
+    "professional": 37
+  },
+  "professionalSearchCSharp": 11,
+  "expandProfessionalGroups": 6,
+  "collapseProfessionalGroups": 0,
+  "price3": {
+    "total": 70000,
+    "perPerson": 23333,
+    "synchronizedCalculators": 2
+  },
+  "price20": {
+    "total": 240000,
+    "perPerson": 12000
+  },
+  "menuDestination": "Обучение начинается\nс вашего уровня.",
+  "galleryCards": 10,
+  "onsite": "Согласуем с менеджером",
+  "over20": "Согласуем с менеджером",
+  "draftIncludes": [
+    "Для профессионалов",
+    "Участников: 3",
+    "70 000 ₽",
+    "Москва",
+    "КМД металлоконструкций"
+  ],
+  "console": "No application errors observed; Chrome extension asynchronous-listener warning recorded."
+}

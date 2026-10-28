@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-19",
+  "review": "All ten image mockups visually approved by independent design critic before implementation",
+  "items": [
+    {
+      "id": 13,
+      "name": "Рабочая задача",
+      "focus": "Найти темы под свою работу",
+      "description": "Три рабочие зоны: инженерная задача, связанные темы исходной программы и бюджет. Без длинного вводного экрана.",
+      "file": "/assets/mockups/13-task-workspace.jpg",
+      "url": "/education-centr/tekla-13-task-workspace/"
+    },
+    {
+      "id": 14,
+      "name": "Инженерный журнал",
+      "focus": "Прочитать курс как журнальный материал",
+      "description": "Крупная типографика, фотография, три содержательные главы и общая ценовая полоса. Короткое чтение с переходом к полным темам.",
+      "file": "/assets/mockups/14-engineering-journal.jpg",
+      "url": "/education-centr/tekla-14-engineering-journal/"
+    },
+    {
+      "id": 15,
+      "name": "Программы рядом",
+      "focus": "Сопоставить три уровня подготовки",
+      "description": "Параллельная матрица подготовки, акцентов и двух дней обучения. Каждая колонка раскрывает свою полную программу; стоимость для уровней одинакова.",
+      "file": "/assets/mockups/15-curriculum-compare.jpg",
+      "url": "/education-centr/tekla-15-curriculum-compare/"
+    },
+    {
+      "id": 16,
+      "name": "Два дня в работе",
+      "focus": "Изучить занятия по дням и разделам",
+      "description": "Две колонки дней и панель выбранного раздела. Темы находятся рядом с выбранным модулем, без выдуманного расписания по часам.",
+      "file": "/assets/mockups/16-two-day-planner.jpg",
+      "url": "/education-centr/tekla-16-two-day-planner/"
+    },
+    {
+      "id": 17,
+      "name": "Каталог тем",
+      "focus": "Найти конкретный инструмент или тему",
+      "description": "Поиск по 145 темам трёх программ, фильтры уровня и дня, понятное число результатов и переход к полной программе.",
+      "file": "/assets/mockups/17-topic-library.jpg",
+      "url": "/education-centr/tekla-17-topic-library/"
+    },
+    {
+      "id": 18,
+      "name": "Соберите свой курс",
+      "focus": "Последовательно выбрать условия",
+      "description": "Уровень, формат, участники и проверка — по одному шагу. Сводка и стоимость видны сразу, любой выбор можно изменить.",
+      "file": "/assets/mockups/18-course-composer.jpg",
+      "url": "/education-centr/tekla-18-course-composer/"
+    },
+    {
+      "id": 19,
+      "name": "От модели к документации",
+      "focus": "Связать инструменты с инженерным результатом",
+      "description": "Крупный пример стальной модели и три этапа работы. Переключение этапа показывает связанные темы исходной программы.",
+      "file": "/assets/mockups/19-project-explorer.jpg",
+      "url": "/education-centr/tekla-19-project-explorer/"
+    },
+    {
+      "id": 20,
+      "name": "Коротко или подробно",
+      "focus": "Выбрать удобную глубину чтения",
+      "description": "Один переключатель меняет подробность всех разделов: подготовка, содержание, организация и стоимость. Полная программа доступна в обоих режимах.",
+      "file": "/assets/mockups/20-reading-modes.jpg",
+      "url": "/education-centr/tekla-20-reading-modes/"
+    },
+    {
+      "id": 21,
+      "name": "Где удобно учиться",
+      "focus": "Выбрать место и формат обучения",
+      "description": "Онлайн, московский класс и база заказчика занимают три большие зоны. Выбор меняет расчёт, условия и подготовленное обращение.",
+      "file": "/assets/mockups/21-format-studio.jpg",
+      "url": "/education-centr/tekla-21-format-studio/"
+    },
+    {
+      "id": 22,
+      "name": "Программа на столе",
+      "focus": "Изучить и распечатать полный учебный план",
+      "description": "Документ с двумя днями и точными темами, выбором уровня и оглавлением. Печать включает всю выбранную программу и цены, без меню и закрытых разделов.",
+      "file": "/assets/mockups/22-print-syllabus.jpg",
+      "url": "/education-centr/tekla-22-print-syllabus/"
+    }
+  ]
+}

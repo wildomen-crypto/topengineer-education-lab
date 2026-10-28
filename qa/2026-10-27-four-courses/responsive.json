@@ -1,0 +1,92 @@
+[
+  {
+    "cards": 4,
+    "columns": "591.25px 591.25px 591.25px 591.25px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 2560
+  },
+  {
+    "cards": 4,
+    "columns": "401.25px 401.25px 401.25px 401.25px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 1800
+  },
+  {
+    "cards": 4,
+    "columns": "830px 830px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 1799
+  },
+  {
+    "cards": 4,
+    "columns": "659.625px 659.625px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 1440
+  },
+  {
+    "cards": 4,
+    "columns": "467.859px 467.859px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 1024
+  },
+  {
+    "cards": 4,
+    "columns": "386.031px 386.031px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 851
+  },
+  {
+    "cards": 4,
+    "columns": "789.125px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 850
+  },
+  {
+    "cards": 4,
+    "columns": "711.531px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 768
+  },
+  {
+    "cards": 4,
+    "columns": "343px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 390
+  },
+  {
+    "cards": 4,
+    "columns": "273px",
+    "overflow": false,
+    "rows": 4,
+    "tabs": 4,
+    "topics": 88,
+    "width": 320
+  }
+]

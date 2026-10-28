@@ -1,0 +1,3946 @@
+[
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "172.5px",
+        "paddingRight": "172.5px",
+        "width": 2985
+      }
+    ],
+    "body": 2985,
+    "controls": [
+      {
+        "id": "",
+        "left": 172.5,
+        "right": 452.5
+      },
+      {
+        "id": "",
+        "left": 197.5,
+        "right": 217.5
+      },
+      {
+        "id": "ref-days-1",
+        "left": 1041.640625,
+        "right": 1336.578125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 1384.578125,
+        "right": 1626.75
+      },
+      {
+        "id": "ref-start-1",
+        "left": 1674.75,
+        "right": 2207.109375
+      },
+      {
+        "id": "",
+        "left": 197.5,
+        "right": 217.5
+      },
+      {
+        "id": "ref-days-2",
+        "left": 1041.640625,
+        "right": 1336.578125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 1384.578125,
+        "right": 1626.75
+      },
+      {
+        "id": "ref-start-2",
+        "left": 1674.75,
+        "right": 2207.109375
+      },
+      {
+        "id": "",
+        "left": 197.5,
+        "right": 217.5
+      },
+      {
+        "id": "ref-days-3",
+        "left": 1041.640625,
+        "right": 1336.578125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 1384.578125,
+        "right": 1626.75
+      },
+      {
+        "id": "ref-start-3",
+        "left": 1674.75,
+        "right": 2207.109375
+      },
+      {
+        "id": "",
+        "left": 197.5,
+        "right": 217.5
+      },
+      {
+        "id": "ref-days-4",
+        "left": 1041.640625,
+        "right": 1336.578125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 1384.578125,
+        "right": 1626.75
+      },
+      {
+        "id": "ref-start-4",
+        "left": 1674.75,
+        "right": 2207.109375
+      },
+      {
+        "id": "",
+        "left": 197.5,
+        "right": 217.5
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 172.5,
+        "name": "ref-course-grid",
+        "width": 2640
+      },
+      {
+        "left": 172.5,
+        "name": "ref-calc-toolbar",
+        "width": 2640
+      },
+      {
+        "left": 172.5,
+        "name": "ref-how-grid",
+        "width": 2640
+      },
+      {
+        "left": 172.5,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 2640
+      },
+      {
+        "left": 172.5,
+        "name": "ref-duration-grid",
+        "width": 2640
+      },
+      {
+        "left": 172.5,
+        "name": "ref-format-grid",
+        "width": 2640
+      },
+      {
+        "left": 172.5,
+        "name": "ref-prepare-grid",
+        "width": 2640
+      },
+      {
+        "left": 172.5,
+        "name": "ref-certificate-layout",
+        "width": 2640
+      },
+      {
+        "left": 172.5,
+        "name": "program-levels",
+        "width": 2640
+      }
+    ],
+    "pageWidth": 2985,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 3000
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "152.5px",
+        "paddingRight": "152.5px",
+        "width": 2545
+      }
+    ],
+    "body": 2545,
+    "controls": [
+      {
+        "id": "",
+        "left": 152.5,
+        "right": 432.5
+      },
+      {
+        "id": "",
+        "left": 177.5,
+        "right": 197.5
+      },
+      {
+        "id": "ref-days-1",
+        "left": 893.640625,
+        "right": 1136.578125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 1184.578125,
+        "right": 1382.75
+      },
+      {
+        "id": "ref-start-1",
+        "left": 1430.75,
+        "right": 1875.109375
+      },
+      {
+        "id": "",
+        "left": 177.5,
+        "right": 197.5
+      },
+      {
+        "id": "ref-days-2",
+        "left": 893.640625,
+        "right": 1136.578125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 1184.578125,
+        "right": 1382.75
+      },
+      {
+        "id": "ref-start-2",
+        "left": 1430.75,
+        "right": 1875.109375
+      },
+      {
+        "id": "",
+        "left": 177.5,
+        "right": 197.5
+      },
+      {
+        "id": "ref-days-3",
+        "left": 893.640625,
+        "right": 1136.578125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 1184.578125,
+        "right": 1382.75
+      },
+      {
+        "id": "ref-start-3",
+        "left": 1430.75,
+        "right": 1875.109375
+      },
+      {
+        "id": "",
+        "left": 177.5,
+        "right": 197.5
+      },
+      {
+        "id": "ref-days-4",
+        "left": 893.640625,
+        "right": 1136.578125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 1184.578125,
+        "right": 1382.75
+      },
+      {
+        "id": "ref-start-4",
+        "left": 1430.75,
+        "right": 1875.109375
+      },
+      {
+        "id": "",
+        "left": 177.5,
+        "right": 197.5
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 152.5,
+        "name": "ref-course-grid",
+        "width": 2240
+      },
+      {
+        "left": 152.5,
+        "name": "ref-calc-toolbar",
+        "width": 2240
+      },
+      {
+        "left": 152.5,
+        "name": "ref-how-grid",
+        "width": 2240
+      },
+      {
+        "left": 152.5,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 2240
+      },
+      {
+        "left": 152.5,
+        "name": "ref-duration-grid",
+        "width": 2240
+      },
+      {
+        "left": 152.5,
+        "name": "ref-format-grid",
+        "width": 2240
+      },
+      {
+        "left": 152.5,
+        "name": "ref-prepare-grid",
+        "width": 2240
+      },
+      {
+        "left": 152.5,
+        "name": "ref-certificate-layout",
+        "width": 2240
+      },
+      {
+        "left": 152.5,
+        "name": "program-levels",
+        "width": 2240
+      }
+    ],
+    "pageWidth": 2545,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 2560
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "102.5px",
+        "paddingRight": "102.5px",
+        "width": 1905
+      }
+    ],
+    "body": 1905,
+    "controls": [
+      {
+        "id": "",
+        "left": 102.5,
+        "right": 382.5
+      },
+      {
+        "id": "",
+        "left": 127.5,
+        "right": 147.5
+      },
+      {
+        "id": "ref-days-1",
+        "left": 670.84375,
+        "right": 843.578125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 891.578125,
+        "right": 1030.34375
+      },
+      {
+        "id": "ref-start-1",
+        "left": 1078.34375,
+        "right": 1403.890625
+      },
+      {
+        "id": "",
+        "left": 127.5,
+        "right": 147.5
+      },
+      {
+        "id": "ref-days-2",
+        "left": 670.84375,
+        "right": 843.578125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 891.578125,
+        "right": 1030.34375
+      },
+      {
+        "id": "ref-start-2",
+        "left": 1078.34375,
+        "right": 1403.890625
+      },
+      {
+        "id": "",
+        "left": 127.5,
+        "right": 147.5
+      },
+      {
+        "id": "ref-days-3",
+        "left": 670.84375,
+        "right": 843.578125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 891.578125,
+        "right": 1030.34375
+      },
+      {
+        "id": "ref-start-3",
+        "left": 1078.34375,
+        "right": 1403.890625
+      },
+      {
+        "id": "",
+        "left": 127.5,
+        "right": 147.5
+      },
+      {
+        "id": "ref-days-4",
+        "left": 670.84375,
+        "right": 843.578125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 891.578125,
+        "right": 1030.34375
+      },
+      {
+        "id": "ref-start-4",
+        "left": 1078.34375,
+        "right": 1403.890625
+      },
+      {
+        "id": "",
+        "left": 127.5,
+        "right": 147.5
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 102.5,
+        "name": "ref-course-grid",
+        "width": 1700
+      },
+      {
+        "left": 102.5,
+        "name": "ref-calc-toolbar",
+        "width": 1700
+      },
+      {
+        "left": 102.5,
+        "name": "ref-how-grid",
+        "width": 1700
+      },
+      {
+        "left": 102.5,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 1700
+      },
+      {
+        "left": 102.5,
+        "name": "ref-duration-grid",
+        "width": 1700
+      },
+      {
+        "left": 102.5,
+        "name": "ref-format-grid",
+        "width": 1700
+      },
+      {
+        "left": 102.5,
+        "name": "ref-prepare-grid",
+        "width": 1700
+      },
+      {
+        "left": 102.5,
+        "name": "ref-certificate-layout",
+        "width": 1700
+      },
+      {
+        "left": 102.5,
+        "name": "program-levels",
+        "width": 1700
+      }
+    ],
+    "pageWidth": 1905,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1920
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "82.5px",
+        "paddingRight": "82.5px",
+        "width": 1585
+      }
+    ],
+    "body": 1585,
+    "controls": [
+      {
+        "id": "",
+        "left": 82.5,
+        "right": 362.5
+      },
+      {
+        "id": "",
+        "left": 101.5,
+        "right": 121.5
+      },
+      {
+        "id": "ref-days-1",
+        "left": 555.25,
+        "right": 703.578125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 739.578125,
+        "right": 859.546875
+      },
+      {
+        "id": "ref-start-1",
+        "left": 895.546875,
+        "right": 1171.5
+      },
+      {
+        "id": "",
+        "left": 101.5,
+        "right": 121.5
+      },
+      {
+        "id": "ref-days-2",
+        "left": 555.25,
+        "right": 703.578125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 739.578125,
+        "right": 859.546875
+      },
+      {
+        "id": "ref-start-2",
+        "left": 895.546875,
+        "right": 1171.5
+      },
+      {
+        "id": "",
+        "left": 101.5,
+        "right": 121.5
+      },
+      {
+        "id": "ref-days-3",
+        "left": 555.25,
+        "right": 703.578125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 739.578125,
+        "right": 859.546875
+      },
+      {
+        "id": "ref-start-3",
+        "left": 895.546875,
+        "right": 1171.5
+      },
+      {
+        "id": "",
+        "left": 101.5,
+        "right": 121.5
+      },
+      {
+        "id": "ref-days-4",
+        "left": 555.25,
+        "right": 703.578125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 739.578125,
+        "right": 859.546875
+      },
+      {
+        "id": "ref-start-4",
+        "left": 895.546875,
+        "right": 1171.5
+      },
+      {
+        "id": "",
+        "left": 101.5,
+        "right": 121.5
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 82.5,
+        "name": "ref-course-grid",
+        "width": 1420
+      },
+      {
+        "left": 82.5,
+        "name": "ref-calc-toolbar",
+        "width": 1420
+      },
+      {
+        "left": 82.5,
+        "name": "ref-how-grid",
+        "width": 1420
+      },
+      {
+        "left": 82.5,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 1420
+      },
+      {
+        "left": 82.5,
+        "name": "ref-duration-grid",
+        "width": 1420
+      },
+      {
+        "left": 82.5,
+        "name": "ref-format-grid",
+        "width": 1420
+      },
+      {
+        "left": 82.5,
+        "name": "ref-prepare-grid",
+        "width": 1420
+      },
+      {
+        "left": 82.5,
+        "name": "ref-certificate-layout",
+        "width": 1420
+      },
+      {
+        "left": 82.5,
+        "name": "program-levels",
+        "width": 1420
+      }
+    ],
+    "pageWidth": 1585,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1600
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "112.5px",
+        "paddingRight": "112.5px",
+        "width": 1425
+      }
+    ],
+    "body": 1425,
+    "controls": [
+      {
+        "id": "",
+        "left": 112.5,
+        "right": 392.5
+      },
+      {
+        "id": "",
+        "left": 131.5,
+        "right": 151.5
+      },
+      {
+        "id": "ref-days-1",
+        "left": 514.84375,
+        "right": 634.578125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 670.578125,
+        "right": 766.34375
+      },
+      {
+        "id": "ref-start-1",
+        "left": 802.34375,
+        "right": 1029.890625
+      },
+      {
+        "id": "",
+        "left": 131.5,
+        "right": 151.5
+      },
+      {
+        "id": "ref-days-2",
+        "left": 514.84375,
+        "right": 634.578125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 670.578125,
+        "right": 766.34375
+      },
+      {
+        "id": "ref-start-2",
+        "left": 802.34375,
+        "right": 1029.890625
+      },
+      {
+        "id": "",
+        "left": 131.5,
+        "right": 151.5
+      },
+      {
+        "id": "ref-days-3",
+        "left": 514.84375,
+        "right": 634.578125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 670.578125,
+        "right": 766.34375
+      },
+      {
+        "id": "ref-start-3",
+        "left": 802.34375,
+        "right": 1029.890625
+      },
+      {
+        "id": "",
+        "left": 131.5,
+        "right": 151.5
+      },
+      {
+        "id": "ref-days-4",
+        "left": 514.84375,
+        "right": 634.578125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 670.578125,
+        "right": 766.34375
+      },
+      {
+        "id": "ref-start-4",
+        "left": 802.34375,
+        "right": 1029.890625
+      },
+      {
+        "id": "",
+        "left": 131.5,
+        "right": 151.5
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 112.5,
+        "name": "ref-course-grid",
+        "width": 1200
+      },
+      {
+        "left": 112.5,
+        "name": "ref-calc-toolbar",
+        "width": 1200
+      },
+      {
+        "left": 112.5,
+        "name": "ref-how-grid",
+        "width": 1200
+      },
+      {
+        "left": 112.5,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 1200
+      },
+      {
+        "left": 112.5,
+        "name": "ref-duration-grid",
+        "width": 1200
+      },
+      {
+        "left": 112.5,
+        "name": "ref-format-grid",
+        "width": 1200
+      },
+      {
+        "left": 112.5,
+        "name": "ref-prepare-grid",
+        "width": 1200
+      },
+      {
+        "left": 112.5,
+        "name": "ref-certificate-layout",
+        "width": 1200
+      },
+      {
+        "left": 112.5,
+        "name": "program-levels",
+        "width": 1200
+      }
+    ],
+    "pageWidth": 1425,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1440
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "76px",
+        "paddingRight": "76px",
+        "width": 1352
+      }
+    ],
+    "body": 1352,
+    "controls": [
+      {
+        "id": "",
+        "left": 76,
+        "right": 356
+      },
+      {
+        "id": "",
+        "left": 95,
+        "right": 115
+      },
+      {
+        "id": "ref-days-1",
+        "left": 478.34375,
+        "right": 598.078125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 634.078125,
+        "right": 729.84375
+      },
+      {
+        "id": "ref-start-1",
+        "left": 765.84375,
+        "right": 993.390625
+      },
+      {
+        "id": "",
+        "left": 95,
+        "right": 115
+      },
+      {
+        "id": "ref-days-2",
+        "left": 478.34375,
+        "right": 598.078125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 634.078125,
+        "right": 729.84375
+      },
+      {
+        "id": "ref-start-2",
+        "left": 765.84375,
+        "right": 993.390625
+      },
+      {
+        "id": "",
+        "left": 95,
+        "right": 115
+      },
+      {
+        "id": "ref-days-3",
+        "left": 478.34375,
+        "right": 598.078125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 634.078125,
+        "right": 729.84375
+      },
+      {
+        "id": "ref-start-3",
+        "left": 765.84375,
+        "right": 993.390625
+      },
+      {
+        "id": "",
+        "left": 95,
+        "right": 115
+      },
+      {
+        "id": "ref-days-4",
+        "left": 478.34375,
+        "right": 598.078125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 634.078125,
+        "right": 729.84375
+      },
+      {
+        "id": "ref-start-4",
+        "left": 765.84375,
+        "right": 993.390625
+      },
+      {
+        "id": "",
+        "left": 95,
+        "right": 115
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 76,
+        "name": "ref-course-grid",
+        "width": 1200
+      },
+      {
+        "left": 76,
+        "name": "ref-calc-toolbar",
+        "width": 1200
+      },
+      {
+        "left": 76,
+        "name": "ref-how-grid",
+        "width": 1200
+      },
+      {
+        "left": 76,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 1200
+      },
+      {
+        "left": 76,
+        "name": "ref-duration-grid",
+        "width": 1200
+      },
+      {
+        "left": 76,
+        "name": "ref-format-grid",
+        "width": 1200
+      },
+      {
+        "left": 76,
+        "name": "ref-prepare-grid",
+        "width": 1200
+      },
+      {
+        "left": 76,
+        "name": "ref-certificate-layout",
+        "width": 1200
+      },
+      {
+        "left": 76,
+        "name": "program-levels",
+        "width": 1200
+      }
+    ],
+    "pageWidth": 1352,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1367
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "67.5px",
+        "paddingRight": "67.5px",
+        "width": 1351
+      }
+    ],
+    "body": 1351,
+    "controls": [
+      {
+        "id": "",
+        "left": 67.5,
+        "right": 347.5
+      },
+      {
+        "id": "",
+        "left": 86.5,
+        "right": 106.5
+      },
+      {
+        "id": "ref-days-1",
+        "left": 474.96875,
+        "right": 596.78125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 632.78125,
+        "right": 730.3125
+      },
+      {
+        "id": "ref-start-1",
+        "left": 766.3125,
+        "right": 997.390625
+      },
+      {
+        "id": "",
+        "left": 86.5,
+        "right": 106.5
+      },
+      {
+        "id": "ref-days-2",
+        "left": 474.96875,
+        "right": 596.78125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 632.78125,
+        "right": 730.3125
+      },
+      {
+        "id": "ref-start-2",
+        "left": 766.3125,
+        "right": 997.390625
+      },
+      {
+        "id": "",
+        "left": 86.5,
+        "right": 106.5
+      },
+      {
+        "id": "ref-days-3",
+        "left": 474.96875,
+        "right": 596.78125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 632.78125,
+        "right": 730.3125
+      },
+      {
+        "id": "ref-start-3",
+        "left": 766.3125,
+        "right": 997.390625
+      },
+      {
+        "id": "",
+        "left": 86.5,
+        "right": 106.5
+      },
+      {
+        "id": "ref-days-4",
+        "left": 474.96875,
+        "right": 596.78125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 632.78125,
+        "right": 730.3125
+      },
+      {
+        "id": "ref-start-4",
+        "left": 766.3125,
+        "right": 997.390625
+      },
+      {
+        "id": "",
+        "left": 86.5,
+        "right": 106.5
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 67.5,
+        "name": "ref-course-grid",
+        "width": 1216
+      },
+      {
+        "left": 67.5,
+        "name": "ref-calc-toolbar",
+        "width": 1216
+      },
+      {
+        "left": 67.5,
+        "name": "ref-how-grid",
+        "width": 1216
+      },
+      {
+        "left": 67.5,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 1216
+      },
+      {
+        "left": 67.5,
+        "name": "ref-duration-grid",
+        "width": 1216
+      },
+      {
+        "left": 67.5,
+        "name": "ref-format-grid",
+        "width": 1216
+      },
+      {
+        "left": 67.5,
+        "name": "ref-prepare-grid",
+        "width": 1216
+      },
+      {
+        "left": 67.5,
+        "name": "ref-certificate-layout",
+        "width": 1216
+      },
+      {
+        "left": 67.5,
+        "name": "program-levels",
+        "width": 1216
+      }
+    ],
+    "pageWidth": 1351,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1366
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1265
+      }
+    ],
+    "body": 1265,
+    "controls": [
+      {
+        "id": "",
+        "left": 30,
+        "right": 310
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-1",
+        "left": 433.953125,
+        "right": 554.328125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 590.328125,
+        "right": 686.65625
+      },
+      {
+        "id": "ref-start-1",
+        "left": 722.65625,
+        "right": 951.3125
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-2",
+        "left": 433.953125,
+        "right": 554.328125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 590.328125,
+        "right": 686.65625
+      },
+      {
+        "id": "ref-start-2",
+        "left": 722.65625,
+        "right": 951.3125
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-3",
+        "left": 433.953125,
+        "right": 554.328125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 590.328125,
+        "right": 686.65625
+      },
+      {
+        "id": "ref-start-3",
+        "left": 722.65625,
+        "right": 951.3125
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-4",
+        "left": 433.953125,
+        "right": 554.328125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 590.328125,
+        "right": 686.65625
+      },
+      {
+        "id": "ref-start-4",
+        "left": 722.65625,
+        "right": 951.3125
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 30,
+        "name": "ref-course-grid",
+        "width": 1205
+      },
+      {
+        "left": 30,
+        "name": "ref-calc-toolbar",
+        "width": 1205
+      },
+      {
+        "left": 30,
+        "name": "ref-how-grid",
+        "width": 1205
+      },
+      {
+        "left": 30,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 1205
+      },
+      {
+        "left": 30,
+        "name": "ref-duration-grid",
+        "width": 1205
+      },
+      {
+        "left": 30,
+        "name": "ref-format-grid",
+        "width": 1205
+      },
+      {
+        "left": 30,
+        "name": "ref-prepare-grid",
+        "width": 1205
+      },
+      {
+        "left": 30,
+        "name": "ref-certificate-layout",
+        "width": 1205
+      },
+      {
+        "left": 30,
+        "name": "program-levels",
+        "width": 1205
+      }
+    ],
+    "pageWidth": 1265,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1280
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1186
+      }
+    ],
+    "body": 1186,
+    "controls": [
+      {
+        "id": "",
+        "left": 30,
+        "right": 310
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-1",
+        "left": 408.671875,
+        "right": 518.78125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 554.78125,
+        "right": 642.40625
+      },
+      {
+        "id": "ref-start-1",
+        "left": 678.40625,
+        "right": 889.6875
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-2",
+        "left": 408.671875,
+        "right": 518.78125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 554.78125,
+        "right": 642.40625
+      },
+      {
+        "id": "ref-start-2",
+        "left": 678.40625,
+        "right": 889.6875
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-3",
+        "left": 408.671875,
+        "right": 518.78125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 554.78125,
+        "right": 642.40625
+      },
+      {
+        "id": "ref-start-3",
+        "left": 678.40625,
+        "right": 889.6875
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-4",
+        "left": 408.671875,
+        "right": 518.78125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 554.78125,
+        "right": 642.40625
+      },
+      {
+        "id": "ref-start-4",
+        "left": 678.40625,
+        "right": 889.6875
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 30,
+        "name": "ref-course-grid",
+        "width": 1126
+      },
+      {
+        "left": 30,
+        "name": "ref-calc-toolbar",
+        "width": 1126
+      },
+      {
+        "left": 30,
+        "name": "ref-how-grid",
+        "width": 1126
+      },
+      {
+        "left": 30,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 1126
+      },
+      {
+        "left": 30,
+        "name": "ref-duration-grid",
+        "width": 1126
+      },
+      {
+        "left": 30,
+        "name": "ref-format-grid",
+        "width": 1126
+      },
+      {
+        "left": 30,
+        "name": "ref-prepare-grid",
+        "width": 1126
+      },
+      {
+        "left": 30,
+        "name": "ref-certificate-layout",
+        "width": 1126
+      },
+      {
+        "left": 30,
+        "name": "program-levels",
+        "width": 1126
+      }
+    ],
+    "pageWidth": 1221,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1201
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1185
+      }
+    ],
+    "body": 1185,
+    "controls": [
+      {
+        "id": "",
+        "left": 30,
+        "right": 310
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-1",
+        "left": 408.34375,
+        "right": 518.328125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 554.328125,
+        "right": 641.84375
+      },
+      {
+        "id": "ref-start-1",
+        "left": 677.84375,
+        "right": 888.890625
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-2",
+        "left": 408.34375,
+        "right": 518.328125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 554.328125,
+        "right": 641.84375
+      },
+      {
+        "id": "ref-start-2",
+        "left": 677.84375,
+        "right": 888.890625
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-3",
+        "left": 408.34375,
+        "right": 518.328125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 554.328125,
+        "right": 641.84375
+      },
+      {
+        "id": "ref-start-3",
+        "left": 677.84375,
+        "right": 888.890625
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-4",
+        "left": 408.34375,
+        "right": 518.328125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 554.328125,
+        "right": 641.84375
+      },
+      {
+        "id": "ref-start-4",
+        "left": 677.84375,
+        "right": 888.890625
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 30,
+        "name": "ref-course-grid",
+        "width": 1125
+      },
+      {
+        "left": 30,
+        "name": "ref-calc-toolbar",
+        "width": 1125
+      },
+      {
+        "left": 30,
+        "name": "ref-how-grid",
+        "width": 1125
+      },
+      {
+        "left": 30,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 1125
+      },
+      {
+        "left": 30,
+        "name": "ref-duration-grid",
+        "width": 1125
+      },
+      {
+        "left": 30,
+        "name": "ref-format-grid",
+        "width": 1125
+      },
+      {
+        "left": 30,
+        "name": "ref-prepare-grid",
+        "width": 1125
+      },
+      {
+        "left": 30,
+        "name": "ref-certificate-layout",
+        "width": 1125
+      },
+      {
+        "left": 30,
+        "name": "program-levels",
+        "width": 1125
+      }
+    ],
+    "pageWidth": 1185,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1200
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1184
+      }
+    ],
+    "body": 1184,
+    "controls": [
+      {
+        "id": "",
+        "left": 30,
+        "right": 310
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-1",
+        "left": 64,
+        "right": 393.328125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 427.328125,
+        "right": 756.65625
+      },
+      {
+        "id": "ref-start-1",
+        "left": 790.65625,
+        "right": 1120
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-2",
+        "left": 64,
+        "right": 393.328125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 427.328125,
+        "right": 756.65625
+      },
+      {
+        "id": "ref-start-2",
+        "left": 790.65625,
+        "right": 1120
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-3",
+        "left": 64,
+        "right": 393.328125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 427.328125,
+        "right": 756.65625
+      },
+      {
+        "id": "ref-start-3",
+        "left": 790.65625,
+        "right": 1120
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-4",
+        "left": 64,
+        "right": 393.328125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 427.328125,
+        "right": 756.65625
+      },
+      {
+        "id": "ref-start-4",
+        "left": 790.65625,
+        "right": 1120
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 30,
+        "name": "ref-course-grid",
+        "width": 1124
+      },
+      {
+        "left": 30,
+        "name": "ref-calc-toolbar",
+        "width": 1124
+      },
+      {
+        "left": 30,
+        "name": "ref-how-grid",
+        "width": 1124
+      },
+      {
+        "left": 30,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 1124
+      },
+      {
+        "left": 30,
+        "name": "ref-duration-grid",
+        "width": 1124
+      },
+      {
+        "left": 30,
+        "name": "ref-format-grid",
+        "width": 1124
+      },
+      {
+        "left": 30,
+        "name": "ref-prepare-grid",
+        "width": 1124
+      },
+      {
+        "left": 30,
+        "name": "ref-certificate-layout",
+        "width": 1124
+      },
+      {
+        "left": 30,
+        "name": "program-levels",
+        "width": 1124
+      }
+    ],
+    "pageWidth": 1184,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1199
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 1009
+      }
+    ],
+    "body": 1009,
+    "controls": [
+      {
+        "id": "",
+        "left": 30,
+        "right": 310
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-1",
+        "left": 64,
+        "right": 335
+      },
+      {
+        "id": "ref-people-1",
+        "left": 369,
+        "right": 640
+      },
+      {
+        "id": "ref-start-1",
+        "left": 674,
+        "right": 945
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-2",
+        "left": 64,
+        "right": 335
+      },
+      {
+        "id": "ref-people-2",
+        "left": 369,
+        "right": 640
+      },
+      {
+        "id": "ref-start-2",
+        "left": 674,
+        "right": 945
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-3",
+        "left": 64,
+        "right": 335
+      },
+      {
+        "id": "ref-people-3",
+        "left": 369,
+        "right": 640
+      },
+      {
+        "id": "ref-start-3",
+        "left": 674,
+        "right": 945
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-4",
+        "left": 64,
+        "right": 335
+      },
+      {
+        "id": "ref-people-4",
+        "left": 369,
+        "right": 640
+      },
+      {
+        "id": "ref-start-4",
+        "left": 674,
+        "right": 945
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 30,
+        "name": "ref-course-grid",
+        "width": 949
+      },
+      {
+        "left": 30,
+        "name": "ref-calc-toolbar",
+        "width": 949
+      },
+      {
+        "left": 30,
+        "name": "ref-how-grid",
+        "width": 949
+      },
+      {
+        "left": 30,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 949
+      },
+      {
+        "left": 30,
+        "name": "ref-duration-grid",
+        "width": 949
+      },
+      {
+        "left": 30,
+        "name": "ref-format-grid",
+        "width": 949
+      },
+      {
+        "left": 30,
+        "name": "ref-prepare-grid",
+        "width": 949
+      },
+      {
+        "left": 30,
+        "name": "ref-certificate-layout",
+        "width": 949
+      },
+      {
+        "left": 30,
+        "name": "program-levels",
+        "width": 949
+      }
+    ],
+    "pageWidth": 1009,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 1024
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 977
+      }
+    ],
+    "body": 977,
+    "controls": [
+      {
+        "id": "",
+        "left": 30,
+        "right": 310
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-1",
+        "left": 64,
+        "right": 324.328125
+      },
+      {
+        "id": "ref-people-1",
+        "left": 358.328125,
+        "right": 618.65625
+      },
+      {
+        "id": "ref-start-1",
+        "left": 652.65625,
+        "right": 913
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-2",
+        "left": 64,
+        "right": 324.328125
+      },
+      {
+        "id": "ref-people-2",
+        "left": 358.328125,
+        "right": 618.65625
+      },
+      {
+        "id": "ref-start-2",
+        "left": 652.65625,
+        "right": 913
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-3",
+        "left": 64,
+        "right": 324.328125
+      },
+      {
+        "id": "ref-people-3",
+        "left": 358.328125,
+        "right": 618.65625
+      },
+      {
+        "id": "ref-start-3",
+        "left": 652.65625,
+        "right": 913
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-4",
+        "left": 64,
+        "right": 324.328125
+      },
+      {
+        "id": "ref-people-4",
+        "left": 358.328125,
+        "right": 618.65625
+      },
+      {
+        "id": "ref-start-4",
+        "left": 652.65625,
+        "right": 913
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 30,
+        "name": "ref-course-grid",
+        "width": 917
+      },
+      {
+        "left": 30,
+        "name": "ref-calc-toolbar",
+        "width": 917
+      },
+      {
+        "left": 30,
+        "name": "ref-how-grid",
+        "width": 917
+      },
+      {
+        "left": 30,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 917
+      },
+      {
+        "left": 30,
+        "name": "ref-duration-grid",
+        "width": 917
+      },
+      {
+        "left": 30,
+        "name": "ref-format-grid",
+        "width": 917
+      },
+      {
+        "left": 30,
+        "name": "ref-prepare-grid",
+        "width": 917
+      },
+      {
+        "left": 30,
+        "name": "ref-certificate-layout",
+        "width": 917
+      },
+      {
+        "left": 30,
+        "name": "program-levels",
+        "width": 917
+      }
+    ],
+    "pageWidth": 977,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 992
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "30px",
+        "paddingRight": "30px",
+        "width": 976
+      }
+    ],
+    "body": 976,
+    "controls": [
+      {
+        "id": "",
+        "left": 30,
+        "right": 310
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-1",
+        "left": 64,
+        "right": 324
+      },
+      {
+        "id": "ref-people-1",
+        "left": 358,
+        "right": 618
+      },
+      {
+        "id": "ref-start-1",
+        "left": 652,
+        "right": 912
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-2",
+        "left": 64,
+        "right": 324
+      },
+      {
+        "id": "ref-people-2",
+        "left": 358,
+        "right": 618
+      },
+      {
+        "id": "ref-start-2",
+        "left": 652,
+        "right": 912
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-3",
+        "left": 64,
+        "right": 324
+      },
+      {
+        "id": "ref-people-3",
+        "left": 358,
+        "right": 618
+      },
+      {
+        "id": "ref-start-3",
+        "left": 652,
+        "right": 912
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      },
+      {
+        "id": "ref-days-4",
+        "left": 64,
+        "right": 324
+      },
+      {
+        "id": "ref-people-4",
+        "left": 358,
+        "right": 618
+      },
+      {
+        "id": "ref-start-4",
+        "left": 652,
+        "right": 912
+      },
+      {
+        "id": "",
+        "left": 64,
+        "right": 84
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 30,
+        "name": "ref-course-grid",
+        "width": 916
+      },
+      {
+        "left": 30,
+        "name": "ref-calc-toolbar",
+        "width": 916
+      },
+      {
+        "left": 30,
+        "name": "ref-how-grid",
+        "width": 916
+      },
+      {
+        "left": 30,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 916
+      },
+      {
+        "left": 30,
+        "name": "ref-duration-grid",
+        "width": 916
+      },
+      {
+        "left": 30,
+        "name": "ref-format-grid",
+        "width": 916
+      },
+      {
+        "left": 30,
+        "name": "ref-prepare-grid",
+        "width": 916
+      },
+      {
+        "left": 30,
+        "name": "ref-certificate-layout",
+        "width": 916
+      },
+      {
+        "left": 30,
+        "name": "program-levels",
+        "width": 916
+      }
+    ],
+    "pageWidth": 976,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 991
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 753
+      }
+    ],
+    "body": 753,
+    "controls": [
+      {
+        "id": "",
+        "left": 15,
+        "right": 295
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-1",
+        "left": 49,
+        "right": 244.65625
+      },
+      {
+        "id": "ref-people-1",
+        "left": 278.65625,
+        "right": 474.328125
+      },
+      {
+        "id": "ref-start-1",
+        "left": 508.328125,
+        "right": 704
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-2",
+        "left": 49,
+        "right": 244.65625
+      },
+      {
+        "id": "ref-people-2",
+        "left": 278.65625,
+        "right": 474.328125
+      },
+      {
+        "id": "ref-start-2",
+        "left": 508.328125,
+        "right": 704
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-3",
+        "left": 49,
+        "right": 244.65625
+      },
+      {
+        "id": "ref-people-3",
+        "left": 278.65625,
+        "right": 474.328125
+      },
+      {
+        "id": "ref-start-3",
+        "left": 508.328125,
+        "right": 704
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      },
+      {
+        "id": "ref-days-4",
+        "left": 49,
+        "right": 244.65625
+      },
+      {
+        "id": "ref-people-4",
+        "left": 278.65625,
+        "right": 474.328125
+      },
+      {
+        "id": "ref-start-4",
+        "left": 508.328125,
+        "right": 704
+      },
+      {
+        "id": "",
+        "left": 49,
+        "right": 69
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 15,
+        "name": "ref-course-grid",
+        "width": 723
+      },
+      {
+        "left": 15,
+        "name": "ref-calc-toolbar",
+        "width": 723
+      },
+      {
+        "left": 15,
+        "name": "ref-how-grid",
+        "width": 723
+      },
+      {
+        "left": 15,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 723
+      },
+      {
+        "left": 15,
+        "name": "ref-duration-grid",
+        "width": 723
+      },
+      {
+        "left": 15,
+        "name": "ref-format-grid",
+        "width": 723
+      },
+      {
+        "left": 15,
+        "name": "ref-prepare-grid",
+        "width": 723
+      },
+      {
+        "left": 15,
+        "name": "ref-certificate-layout",
+        "width": 723
+      },
+      {
+        "left": 15,
+        "name": "program-levels",
+        "width": 723
+      }
+    ],
+    "pageWidth": 753,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 768
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 375
+      }
+    ],
+    "body": 375,
+    "controls": [
+      {
+        "id": "",
+        "left": 15,
+        "right": 360
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      },
+      {
+        "id": "ref-days-1",
+        "left": 42,
+        "right": 172.5
+      },
+      {
+        "id": "ref-people-1",
+        "left": 202.5,
+        "right": 333
+      },
+      {
+        "id": "ref-start-1",
+        "left": 42,
+        "right": 333
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      },
+      {
+        "id": "ref-days-2",
+        "left": 42,
+        "right": 172.5
+      },
+      {
+        "id": "ref-people-2",
+        "left": 202.5,
+        "right": 333
+      },
+      {
+        "id": "ref-start-2",
+        "left": 42,
+        "right": 333
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      },
+      {
+        "id": "ref-days-3",
+        "left": 42,
+        "right": 172.5
+      },
+      {
+        "id": "ref-people-3",
+        "left": 202.5,
+        "right": 333
+      },
+      {
+        "id": "ref-start-3",
+        "left": 42,
+        "right": 333
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      },
+      {
+        "id": "ref-days-4",
+        "left": 42,
+        "right": 172.5
+      },
+      {
+        "id": "ref-people-4",
+        "left": 202.5,
+        "right": 333
+      },
+      {
+        "id": "ref-start-4",
+        "left": 42,
+        "right": 333
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 15,
+        "name": "ref-course-grid",
+        "width": 345
+      },
+      {
+        "left": 15,
+        "name": "ref-calc-toolbar",
+        "width": 345
+      },
+      {
+        "left": 15,
+        "name": "ref-how-grid",
+        "width": 345
+      },
+      {
+        "left": 15,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 345
+      },
+      {
+        "left": 15,
+        "name": "ref-duration-grid",
+        "width": 345
+      },
+      {
+        "left": 15,
+        "name": "ref-format-grid",
+        "width": 345
+      },
+      {
+        "left": 15,
+        "name": "ref-prepare-grid",
+        "width": 345
+      },
+      {
+        "left": 15,
+        "name": "ref-certificate-layout",
+        "width": 345
+      },
+      {
+        "left": 15,
+        "name": "program-levels",
+        "width": 345
+      }
+    ],
+    "pageWidth": 375,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 390
+  },
+  {
+    "blocks": [
+      {
+        "left": 0,
+        "name": "course-container review-inner",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "ref-intro",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "course-descriptions",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "training-calculator",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "how-training-works",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "training-books",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "training-duration",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "training-formats",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "before-training",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "course-certificate",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "course-container",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      },
+      {
+        "left": 0,
+        "name": "ref-variant-nav",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "width": 305
+      }
+    ],
+    "body": 305,
+    "controls": [
+      {
+        "id": "",
+        "left": 15,
+        "right": 290
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      },
+      {
+        "id": "ref-days-1",
+        "left": 42,
+        "right": 137.5
+      },
+      {
+        "id": "ref-people-1",
+        "left": 167.5,
+        "right": 263
+      },
+      {
+        "id": "ref-start-1",
+        "left": 42,
+        "right": 263
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      },
+      {
+        "id": "ref-days-2",
+        "left": 42,
+        "right": 137.5
+      },
+      {
+        "id": "ref-people-2",
+        "left": 167.5,
+        "right": 263
+      },
+      {
+        "id": "ref-start-2",
+        "left": 42,
+        "right": 263
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      },
+      {
+        "id": "ref-days-3",
+        "left": 42,
+        "right": 137.5
+      },
+      {
+        "id": "ref-people-3",
+        "left": 167.5,
+        "right": 263
+      },
+      {
+        "id": "ref-start-3",
+        "left": 42,
+        "right": 263
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      },
+      {
+        "id": "ref-days-4",
+        "left": 42,
+        "right": 137.5
+      },
+      {
+        "id": "ref-people-4",
+        "left": 167.5,
+        "right": 263
+      },
+      {
+        "id": "ref-start-4",
+        "left": 42,
+        "right": 263
+      },
+      {
+        "id": "",
+        "left": 42,
+        "right": 62
+      }
+    ],
+    "duration": "2 дня / 16 часов · 5 дней / 40 часов · 10 дней / 80 часов\nОт 40 000 ₽ за группу — 2 дня онлайн или в нашем офисе.",
+    "grids": [
+      {
+        "left": 15,
+        "name": "ref-course-grid",
+        "width": 275
+      },
+      {
+        "left": 15,
+        "name": "ref-calc-toolbar",
+        "width": 275
+      },
+      {
+        "left": 15,
+        "name": "ref-how-grid",
+        "width": 275
+      },
+      {
+        "left": 15,
+        "name": "ref-books-grid ref-overlap-layout",
+        "width": 275
+      },
+      {
+        "left": 15,
+        "name": "ref-duration-grid",
+        "width": 275
+      },
+      {
+        "left": 15,
+        "name": "ref-format-grid",
+        "width": 275
+      },
+      {
+        "left": 15,
+        "name": "ref-prepare-grid",
+        "width": 275
+      },
+      {
+        "left": 15,
+        "name": "ref-certificate-layout",
+        "width": 275
+      },
+      {
+        "left": 15,
+        "name": "program-levels",
+        "width": 275
+      }
+    ],
+    "pageWidth": 305,
+    "total": "Итого за выбранные позиции\n295 000 ₽\n\n4 программы · 11 дней · 88 часов\n\nОбсудить выбранный курс",
+    "viewport": 320
+  }
+]

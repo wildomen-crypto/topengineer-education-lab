@@ -1,0 +1,12 @@
+{
+  "id": "tekla-guide-set",
+  "name": "Tekla Structures modelling guide",
+  "description": "Electronic set of three English-language volumes",
+  "format": "Electronic",
+  "volumes": 3,
+  "language": "English",
+  "currency": "RUB",
+  "unitPriceCents": 800000,
+  "maxQuantity": 20,
+  "pricingNote": "Fixed selling price supplied by the user on 28 October 2026: RUB 8000 per electronic three-volume set."
+}

@@ -1,0 +1,374 @@
+[
+  {
+    "name": "small-mobile",
+    "body": {
+      "bottom": 17556.421875,
+      "height": 17371.921875,
+      "left": 0,
+      "right": 320,
+      "top": 184.5,
+      "width": 320,
+      "x": 0,
+      "y": 184.5
+    },
+    "client": 320,
+    "docHeight": 19467,
+    "height": 844,
+    "images": true,
+    "overflow": false,
+    "scroll": 320,
+    "sections": [
+      {
+        "height": 1672.875,
+        "id": "ref-intro",
+        "y": 184.5
+      },
+      {
+        "height": 2927.484375,
+        "id": "course-descriptions",
+        "y": 1857.375
+      },
+      {
+        "height": 2183.0625,
+        "id": "training-calculator",
+        "y": 4784.859375
+      },
+      {
+        "height": 1291.3125,
+        "id": "how-training-works",
+        "y": 6967.921875
+      },
+      {
+        "height": 1368.6875,
+        "id": "training-books",
+        "y": 8259.234375
+      },
+      {
+        "height": 1638.21875,
+        "id": "training-formats",
+        "y": 9627.921875
+      },
+      {
+        "height": 1391.546875,
+        "id": "before-training",
+        "y": 11266.140625
+      },
+      {
+        "height": 4898.734375,
+        "id": "ref-full-program",
+        "y": 12657.6875
+      }
+    ],
+    "width": 320
+  },
+  {
+    "name": "mobile",
+    "body": {
+      "bottom": 15808.671875,
+      "height": 15624.171875,
+      "left": 0,
+      "right": 390,
+      "top": 184.5,
+      "width": 390,
+      "x": 0,
+      "y": 184.5
+    },
+    "client": 390,
+    "docHeight": 17573,
+    "height": 844,
+    "images": true,
+    "overflow": false,
+    "scroll": 390,
+    "sections": [
+      {
+        "height": 1617.75,
+        "id": "ref-intro",
+        "y": 184.5
+      },
+      {
+        "height": 2630,
+        "id": "course-descriptions",
+        "y": 1802.25
+      },
+      {
+        "height": 2110.28125,
+        "id": "training-calculator",
+        "y": 4432.25
+      },
+      {
+        "height": 1146.03125,
+        "id": "how-training-works",
+        "y": 6542.53125
+      },
+      {
+        "height": 1281.671875,
+        "id": "training-books",
+        "y": 7688.5625
+      },
+      {
+        "height": 1458.734375,
+        "id": "training-formats",
+        "y": 8970.234375
+      },
+      {
+        "height": 1202,
+        "id": "before-training",
+        "y": 10428.96875
+      },
+      {
+        "height": 4177.703125,
+        "id": "ref-full-program",
+        "y": 11630.96875
+      }
+    ],
+    "width": 390
+  },
+  {
+    "name": "tablet",
+    "body": {
+      "bottom": 13000.546875,
+      "height": 12826.546875,
+      "left": 0,
+      "right": 768,
+      "top": 174,
+      "width": 768,
+      "x": 0,
+      "y": 174
+    },
+    "client": 768,
+    "docHeight": 14308,
+    "height": 1024,
+    "images": true,
+    "overflow": false,
+    "scroll": 768,
+    "sections": [
+      {
+        "height": 1121.671875,
+        "id": "ref-intro",
+        "y": 174
+      },
+      {
+        "height": 2149.546875,
+        "id": "course-descriptions",
+        "y": 1295.671875
+      },
+      {
+        "height": 1592.28125,
+        "id": "training-calculator",
+        "y": 3445.21875
+      },
+      {
+        "height": 1220.078125,
+        "id": "how-training-works",
+        "y": 5037.5
+      },
+      {
+        "height": 865.671875,
+        "id": "training-books",
+        "y": 6257.578125
+      },
+      {
+        "height": 1372.890625,
+        "id": "training-formats",
+        "y": 7123.25
+      },
+      {
+        "height": 924.796875,
+        "id": "before-training",
+        "y": 8496.140625
+      },
+      {
+        "height": 3579.609375,
+        "id": "ref-full-program",
+        "y": 9420.9375
+      }
+    ],
+    "width": 768
+  },
+  {
+    "name": "1280",
+    "body": {
+      "bottom": 8618.359375,
+      "height": 8388.359375,
+      "left": 0,
+      "right": 1280,
+      "top": 230,
+      "width": 1280,
+      "x": 0,
+      "y": 230
+    },
+    "client": 1280,
+    "docHeight": 9493,
+    "height": 900,
+    "images": true,
+    "overflow": false,
+    "scroll": 1280,
+    "sections": [
+      {
+        "height": 729.59375,
+        "id": "ref-intro",
+        "y": 230
+      },
+      {
+        "height": 1141.90625,
+        "id": "course-descriptions",
+        "y": 959.59375
+      },
+      {
+        "height": 1147.234375,
+        "id": "training-calculator",
+        "y": 2101.5
+      },
+      {
+        "height": 706.59375,
+        "id": "how-training-works",
+        "y": 3248.734375
+      },
+      {
+        "height": 741.265625,
+        "id": "training-books",
+        "y": 3955.328125
+      },
+      {
+        "height": 734.796875,
+        "id": "training-formats",
+        "y": 4696.59375
+      },
+      {
+        "height": 731.28125,
+        "id": "before-training",
+        "y": 5431.390625
+      },
+      {
+        "height": 2455.6875,
+        "id": "ref-full-program",
+        "y": 6162.671875
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "name": "desktop",
+    "body": {
+      "bottom": 8513.5625,
+      "height": 8283.5625,
+      "left": 0,
+      "right": 1440,
+      "top": 230,
+      "width": 1440,
+      "x": 0,
+      "y": 230
+    },
+    "client": 1440,
+    "docHeight": 9405,
+    "height": 1000,
+    "images": true,
+    "overflow": false,
+    "scroll": 1440,
+    "sections": [
+      {
+        "height": 678.359375,
+        "id": "ref-intro",
+        "y": 230
+      },
+      {
+        "height": 1040.15625,
+        "id": "course-descriptions",
+        "y": 908.359375
+      },
+      {
+        "height": 1154.234375,
+        "id": "training-calculator",
+        "y": 1948.515625
+      },
+      {
+        "height": 721.59375,
+        "id": "how-training-works",
+        "y": 3102.75
+      },
+      {
+        "height": 806.40625,
+        "id": "training-books",
+        "y": 3824.34375
+      },
+      {
+        "height": 713.015625,
+        "id": "training-formats",
+        "y": 4630.75
+      },
+      {
+        "height": 709.5,
+        "id": "before-training",
+        "y": 5343.765625
+      },
+      {
+        "height": 2460.296875,
+        "id": "ref-full-program",
+        "y": 6053.265625
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "name": "wide",
+    "body": {
+      "bottom": 9047.125,
+      "height": 8817.125,
+      "left": 0,
+      "right": 2560,
+      "top": 230,
+      "width": 2560,
+      "x": 0,
+      "y": 230
+    },
+    "client": 2560,
+    "docHeight": 9860,
+    "height": 1440,
+    "images": true,
+    "overflow": false,
+    "scroll": 2560,
+    "sections": [
+      {
+        "height": 746.3125,
+        "id": "ref-intro",
+        "y": 230
+      },
+      {
+        "height": 993.515625,
+        "id": "course-descriptions",
+        "y": 976.3125
+      },
+      {
+        "height": 1222.6875,
+        "id": "training-calculator",
+        "y": 1969.828125
+      },
+      {
+        "height": 1104.96875,
+        "id": "how-training-works",
+        "y": 3192.515625
+      },
+      {
+        "height": 859.640625,
+        "id": "training-books",
+        "y": 4297.484375
+      },
+      {
+        "height": 702.75,
+        "id": "training-formats",
+        "y": 5157.125
+      },
+      {
+        "height": 699.234375,
+        "id": "before-training",
+        "y": 5859.875
+      },
+      {
+        "height": 2488.015625,
+        "id": "ref-full-program",
+        "y": 6559.109375
+      }
+    ],
+    "width": 2560
+  }
+]

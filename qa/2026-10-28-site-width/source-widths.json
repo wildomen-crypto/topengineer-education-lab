@@ -1,0 +1,137 @@
+[
+  {
+    "article": {
+      "left": 152.5,
+      "width": 1862.65625
+    },
+    "body": 2545,
+    "container": {
+      "left": 72.5,
+      "maxWidth": "2400px",
+      "paddingLeft": "80px",
+      "paddingRight": "80px",
+      "width": 2400
+    },
+    "viewport": 2560
+  },
+  {
+    "article": {
+      "left": 102.5,
+      "width": 1269
+    },
+    "body": 1905,
+    "container": {
+      "left": 42.5,
+      "maxWidth": "1820px",
+      "paddingLeft": "60px",
+      "paddingRight": "60px",
+      "width": 1820
+    },
+    "viewport": 1920
+  },
+  {
+    "article": {
+      "left": 112.5,
+      "width": 894
+    },
+    "body": 1425,
+    "container": {
+      "left": 62.5,
+      "maxWidth": "1300px",
+      "paddingLeft": "50px",
+      "paddingRight": "50px",
+      "width": 1300
+    },
+    "viewport": 1440
+  },
+  {
+    "article": {
+      "left": 67.5,
+      "width": 802.65625
+    },
+    "body": 1351,
+    "container": {
+      "left": 37.5,
+      "maxWidth": "1276px",
+      "paddingLeft": "30px",
+      "paddingRight": "30px",
+      "width": 1276
+    },
+    "viewport": 1366
+  },
+  {
+    "article": {
+      "left": 30,
+      "width": 742
+    },
+    "body": 1185,
+    "container": {
+      "left": 0,
+      "maxWidth": "none",
+      "paddingLeft": "30px",
+      "paddingRight": "30px",
+      "width": 1185
+    },
+    "viewport": 1200
+  },
+  {
+    "article": {
+      "left": 30,
+      "width": 949
+    },
+    "body": 1009,
+    "container": {
+      "left": 0,
+      "maxWidth": "none",
+      "paddingLeft": "30px",
+      "paddingRight": "30px",
+      "width": 1009
+    },
+    "viewport": 1024
+  },
+  {
+    "article": {
+      "left": 15,
+      "width": 723
+    },
+    "body": 753,
+    "container": {
+      "left": 0,
+      "maxWidth": "none",
+      "paddingLeft": "15px",
+      "paddingRight": "15px",
+      "width": 753
+    },
+    "viewport": 768
+  },
+  {
+    "article": {
+      "left": 15,
+      "width": 345
+    },
+    "body": 375,
+    "container": {
+      "left": 0,
+      "maxWidth": "none",
+      "paddingLeft": "15px",
+      "paddingRight": "15px",
+      "width": 375
+    },
+    "viewport": 390
+  },
+  {
+    "article": {
+      "left": 172.5,
+      "width": 2196
+    },
+    "body": 2985,
+    "container": {
+      "left": 92.5,
+      "maxWidth": "2800px",
+      "paddingLeft": "80px",
+      "paddingRight": "80px",
+      "width": 2800
+    },
+    "viewport": 3000
+  }
+]

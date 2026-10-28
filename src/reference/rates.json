@@ -1,0 +1,135 @@
+{
+  "currency": "RUB",
+  "hoursPerDay": 8,
+  "days": [
+    2,
+    5,
+    10
+  ],
+  "maxParticipants": 20,
+  "minimumBillableParticipants": {
+    "2": 1,
+    "5": 3,
+    "10": 3
+  },
+  "totalsCents": {
+    "2": {
+      "1": 4000000,
+      "2": 5500000,
+      "3": 7000000,
+      "4": 8000000,
+      "5": 9000000,
+      "6": 10000000,
+      "7": 11000000,
+      "8": 12000000,
+      "9": 13000000,
+      "10": 14000000,
+      "11": 15000000,
+      "12": 16000000,
+      "13": 17000000,
+      "14": 18000000,
+      "15": 19000000,
+      "16": 20000000,
+      "17": 21000000,
+      "18": 22000000,
+      "19": 23000000,
+      "20": 24000000
+    },
+    "5": {
+      "3": 17500000,
+      "4": 20000000,
+      "5": 22000000,
+      "6": 24000000,
+      "7": 26000000,
+      "8": 28000000,
+      "9": 30000000,
+      "10": 40000000,
+      "11": 42000000,
+      "12": 44000000,
+      "13": 46000000,
+      "14": 48000000,
+      "15": 50000000,
+      "16": 52000000,
+      "17": 54000000,
+      "18": 56000000,
+      "19": 58000000,
+      "20": 60000000
+    },
+    "10": {
+      "3": 35000000,
+      "4": 40000000,
+      "5": 44000000,
+      "6": 48000000,
+      "7": 52000000,
+      "8": 56000000,
+      "9": 60000000,
+      "10": 80000000,
+      "11": 84000000,
+      "12": 88000000,
+      "13": 92000000,
+      "14": 96000000,
+      "15": 100000000,
+      "16": 104000000,
+      "17": 108000000,
+      "18": 112000000,
+      "19": 116000000,
+      "20": 120000000
+    }
+  },
+  "onsite": {
+    "minimumBillableParticipants": {
+      "2": 1,
+      "5": 1,
+      "10": 1
+    },
+    "totalsCents": {
+      "2": {},
+      "5": {
+        "5": 28000000,
+        "6": 29000000,
+        "7": 31000000,
+        "8": 33000000,
+        "9": 35000000,
+        "10": 37000000,
+        "11": 39000000,
+        "12": 41000000,
+        "13": 43000000,
+        "14": 45000000,
+        "15": 47000000,
+        "16": 49000000,
+        "17": 51000000,
+        "18": 53000000,
+        "19": 55000000,
+        "20": 57000000
+      },
+      "10": {
+        "5": 56000000,
+        "6": 58000000,
+        "7": 62000000,
+        "8": 66000000,
+        "9": 70000000,
+        "10": 74000000,
+        "11": 78000000,
+        "12": 82000000,
+        "13": 86000000,
+        "14": 90000000,
+        "15": 94000000,
+        "16": 98000000,
+        "17": 102000000,
+        "18": 106000000,
+        "19": 110000000,
+        "20": 114000000
+      }
+    }
+  },
+  "source": "Three ruble price screenshots supplied by the user on 28 October 2026.",
+  "confirmedRules": [
+    "Online and office group totals match the supplied 2-day and 5-day ruble tables.",
+    "For online/office 5-day and 10-day courses the source calculator minimum fee is for three participants.",
+    "The 10-day online/office fee is twice the 5-day fee, following the requested source mathematics.",
+    "The user explicitly confirmed: 10 days onsite costs twice the 5-day onsite fee.",
+    "The onsite table covers groups of 5-20 only. Missing onsite tariffs are by agreement; no minimum five-person fee is invented.",
+    "The user explicitly set the electronic three-volume book set price to RUB 8000.",
+    "Courses are additive without a bundle discount; book quantities are added to the total."
+  ]
+}

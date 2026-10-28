@@ -1,0 +1,90 @@
+[
+  {
+    "test": "synchronized courses, prices, dates",
+    "end": "Дата начала: Для опытных пользователейДо Не выбрана*",
+    "selectedCards": 2,
+    "selectedRows": 2,
+    "total": "130 000 ₽",
+    "dateStatus": "Initial date event issue corrected; final date/end test passed"
+  },
+  {
+    "test": "quote includes chosen courses and book request",
+    "book": true,
+    "courses": 2,
+    "open": true,
+    "total": "Онлайн130 000 ₽"
+  },
+  {
+    "test": "onsite excludes fixed total",
+    "total": "По согласованию"
+  },
+  {
+    "test": "over20 agreement",
+    "total": "По согласованию"
+  },
+  {
+    "test": "empty selection",
+    "disabled": true,
+    "total": "0 ₽"
+  },
+  {
+    "test": "full price table",
+    "rows": 20
+  },
+  {
+    "test": "all source topics",
+    "programs": [
+      {
+        "level": 1,
+        "count": 65,
+        "exact": true
+      },
+      {
+        "level": 2,
+        "count": 43,
+        "exact": true
+      },
+      {
+        "level": 3,
+        "count": 37,
+        "exact": true
+      }
+    ],
+    "emptySearch": true
+  },
+  {
+    "test": "final header order/date/form/book",
+    "date": {
+      "date": "2026-11-07",
+      "end": "Дата начала: Для опытных пользователейДо 08.11.2026*"
+    },
+    "mailHasCity": true,
+    "mailHasTask": true,
+    "mailHasDate": true,
+    "bookChecked": null,
+    "total": "Онлайн\n130 000 ₽"
+  },
+  {
+    "test": "mobile quote fits",
+    "dialogScroll": 337,
+    "dialogWidth": 337,
+    "pageOverflow": false
+  },
+  {
+    "test": "gallery/native mobile menu",
+    "cards": 23,
+    "url": "http://127.0.0.1:4173/education-centr/tekla-23-site-style/",
+    "menuClosed": true
+  },
+  {
+    "test": "retained22",
+    "topics": 65
+  },
+  {
+    "test": "retained04 synchronized calculators",
+    "values": [
+      "2",
+      "2"
+    ]
+  }
+]

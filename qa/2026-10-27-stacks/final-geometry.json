@@ -1,0 +1,659 @@
+[
+  {
+    "client": 2560,
+    "images": true,
+    "overflow": false,
+    "scroll": 2560,
+    "sections": [
+      {
+        "columns": "963.594px 1445.41px",
+        "copyHeight": 409.734375,
+        "deckHeight": 406.84375,
+        "galleryHeight": 443.84375,
+        "height": 743.484375,
+        "id": "training-books",
+        "items": [
+          {
+            "height": 406.84375,
+            "width": 265.328125,
+            "x": 0,
+            "y": 0,
+            "z": "3"
+          },
+          {
+            "height": 406.84375,
+            "width": 265.328125,
+            "x": 277.328125,
+            "y": 0,
+            "z": "2"
+          },
+          {
+            "height": 406.84375,
+            "width": 265.328125,
+            "x": 554.65625,
+            "y": 0,
+            "z": "1"
+          }
+        ],
+        "y": 4297.484375
+      },
+      {
+        "columns": "1632.58px 777.406px",
+        "copyHeight": 423.78125,
+        "deckHeight": 355.671875,
+        "galleryHeight": 466.859375,
+        "height": 766.5,
+        "id": "course-certificate",
+        "items": [
+          {
+            "height": 355.671875,
+            "width": 533.515625,
+            "x": 0,
+            "y": 0,
+            "z": "1"
+          },
+          {
+            "height": 355.671875,
+            "width": 533.515625,
+            "x": 549.515625,
+            "y": 0,
+            "z": "2"
+          },
+          {
+            "height": 355.671875,
+            "width": 533.515625,
+            "x": 1099.046875,
+            "y": 0,
+            "z": "3"
+          }
+        ],
+        "y": 6442.953125
+      }
+    ],
+    "width": 2560
+  },
+  {
+    "client": 1440,
+    "images": true,
+    "overflow": false,
+    "scroll": 1440,
+    "sections": [
+      {
+        "columns": "522.891px 784.359px",
+        "copyHeight": 409.734375,
+        "deckHeight": 372.734375,
+        "galleryHeight": 409.734375,
+        "height": 693.25,
+        "id": "training-books",
+        "items": [
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 0,
+            "y": 0,
+            "z": "3"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 166.4375,
+            "y": 40.6875,
+            "z": "2"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 332.890625,
+            "y": 81.390625,
+            "z": "1"
+          }
+        ],
+        "y": 3824.34375
+      },
+      {
+        "columns": "899.406px 428.297px",
+        "copyHeight": 451.828125,
+        "deckHeight": 340.640625,
+        "galleryHeight": 451.828125,
+        "height": 735.34375,
+        "id": "course-certificate",
+        "items": [
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 0,
+            "y": 0,
+            "z": "1"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 289.703125,
+            "y": 63.640625,
+            "z": "2"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 579.40625,
+            "y": 127.296875,
+            "z": "3"
+          }
+        ],
+        "y": 5940.109375
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "client": 1280,
+    "images": true,
+    "overflow": false,
+    "scroll": 1280,
+    "sections": [
+      {
+        "columns": "462.359px 693.547px",
+        "copyHeight": 445.734375,
+        "deckHeight": 408.734375,
+        "galleryHeight": 445.734375,
+        "height": 724.640625,
+        "id": "training-books",
+        "items": [
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 0,
+            "y": 0,
+            "z": "3"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 136.171875,
+            "y": 58.6875,
+            "z": "2"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 272.359375,
+            "y": 117.390625,
+            "z": "1"
+          }
+        ],
+        "y": 3955.328125
+      },
+      {
+        "columns": "799.469px 380.719px",
+        "copyHeight": 479.875,
+        "deckHeight": 368.6875,
+        "galleryHeight": 479.875,
+        "height": 758.78125,
+        "id": "course-certificate",
+        "items": [
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 0,
+            "y": 0,
+            "z": "1"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 239.734375,
+            "y": 77.671875,
+            "z": "2"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 479.46875,
+            "y": 155.34375,
+            "z": "3"
+          }
+        ],
+        "y": 6146.046875
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "client": 1200,
+    "images": true,
+    "overflow": false,
+    "scroll": 1200,
+    "sections": [
+      {
+        "columns": "432.078px 648.141px",
+        "copyHeight": 445.734375,
+        "deckHeight": 408.734375,
+        "galleryHeight": 445.734375,
+        "height": 723.78125,
+        "id": "training-books",
+        "items": [
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 0,
+            "y": 0,
+            "z": "3"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 121.03125,
+            "y": 58.6875,
+            "z": "2"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 242.078125,
+            "y": 117.390625,
+            "z": "1"
+          }
+        ],
+        "y": 3996.46875
+      },
+      {
+        "columns": "749.5px 356.906px",
+        "copyHeight": 507.921875,
+        "deckHeight": 396.734375,
+        "galleryHeight": 507.921875,
+        "height": 785.96875,
+        "id": "course-certificate",
+        "items": [
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 0,
+            "y": 0,
+            "z": "1"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 214.75,
+            "y": 91.6875,
+            "z": "2"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 429.5,
+            "y": 183.390625,
+            "z": "3"
+          }
+        ],
+        "y": 6184.609375
+      }
+    ],
+    "width": 1200
+  },
+  {
+    "client": 1199,
+    "images": true,
+    "overflow": false,
+    "scroll": 1199,
+    "sections": [
+      {
+        "columns": "431.703px 647.578px",
+        "copyHeight": 445.734375,
+        "deckHeight": 408.734375,
+        "galleryHeight": 445.734375,
+        "height": 723.78125,
+        "id": "training-books",
+        "items": [
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 0,
+            "y": 0,
+            "z": "3"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 120.84375,
+            "y": 58.6875,
+            "z": "2"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 241.703125,
+            "y": 117.390625,
+            "z": "1"
+          }
+        ],
+        "y": 4392.375
+      },
+      {
+        "columns": "1134.28px",
+        "copyHeight": 218.6875,
+        "deckHeight": 244.9375,
+        "galleryHeight": 356.125,
+        "height": 884.859375,
+        "id": "course-certificate",
+        "items": [
+          {
+            "height": 244.9375,
+            "width": 367.421875,
+            "x": 0,
+            "y": 0,
+            "z": "1"
+          },
+          {
+            "height": 244.9375,
+            "width": 367.421875,
+            "x": 383.421875,
+            "y": 0,
+            "z": "2"
+          },
+          {
+            "height": 244.9375,
+            "width": 367.421875,
+            "x": 766.84375,
+            "y": 0,
+            "z": "3"
+          }
+        ],
+        "y": 6568.515625
+      }
+    ],
+    "width": 1199
+  },
+  {
+    "client": 1024,
+    "images": true,
+    "overflow": false,
+    "scroll": 1024,
+    "sections": [
+      {
+        "columns": "365.484px 548.234px",
+        "copyHeight": 445.734375,
+        "deckHeight": 408.734375,
+        "galleryHeight": 445.734375,
+        "height": 723.78125,
+        "id": "training-books",
+        "items": [
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 0,
+            "y": 0,
+            "z": "3"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 87.734375,
+            "y": 58.6875,
+            "z": "2"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 175.484375,
+            "y": 117.390625,
+            "z": "1"
+          }
+        ],
+        "y": 4546.28125
+      },
+      {
+        "columns": "968.719px",
+        "copyHeight": 218.6875,
+        "deckHeight": 213.328125,
+        "galleryHeight": 324.515625,
+        "height": 853.25,
+        "id": "course-certificate",
+        "items": [
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 0,
+            "y": 0,
+            "z": "1"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 324.359375,
+            "y": 0,
+            "z": "2"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 648.71875,
+            "y": 0,
+            "z": "3"
+          }
+        ],
+        "y": 6799.046875
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "client": 768,
+    "images": true,
+    "overflow": false,
+    "scroll": 768,
+    "sections": [
+      {
+        "columns": "278.609px 417.922px",
+        "copyHeight": 587.625,
+        "deckHeight": 532.625,
+        "galleryHeight": 587.625,
+        "height": 865.671875,
+        "id": "training-books",
+        "items": [
+          {
+            "height": 256.3125,
+            "width": 167.15625,
+            "x": 0,
+            "y": 0,
+            "z": "3"
+          },
+          {
+            "height": 256.3125,
+            "width": 167.15625,
+            "x": 55.71875,
+            "y": 138.140625,
+            "z": "2"
+          },
+          {
+            "height": 256.3125,
+            "width": 167.15625,
+            "x": 111.4375,
+            "y": 276.296875,
+            "z": "1"
+          }
+        ],
+        "y": 6257.578125
+      },
+      {
+        "columns": "726.531px",
+        "copyHeight": 218.6875,
+        "deckHeight": 248.234375,
+        "galleryHeight": 359.421875,
+        "height": 888.15625,
+        "id": "course-certificate",
+        "items": [
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 0,
+            "y": 0,
+            "z": "1"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 203.265625,
+            "y": 17.4375,
+            "z": "2"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 406.53125,
+            "y": 34.890625,
+            "z": "3"
+          }
+        ],
+        "y": 9420.9375
+      }
+    ],
+    "width": 768
+  },
+  {
+    "client": 390,
+    "images": true,
+    "overflow": false,
+    "scroll": 390,
+    "sections": [
+      {
+        "columns": "358px",
+        "copyHeight": 641.890625,
+        "deckHeight": 400.765625,
+        "galleryHeight": 437.765625,
+        "height": 1391.4375,
+        "id": "training-books",
+        "items": [
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 0,
+            "y": 0,
+            "z": "3"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 84,
+            "y": 54.703125,
+            "z": "2"
+          },
+          {
+            "height": 291.328125,
+            "width": 190,
+            "x": 168,
+            "y": 109.421875,
+            "z": "1"
+          }
+        ],
+        "y": 7688.5625
+      },
+      {
+        "columns": "358px",
+        "copyHeight": 466.625,
+        "deckHeight": 336.6875,
+        "galleryHeight": 478.46875,
+        "height": 1216.875,
+        "id": "course-certificate",
+        "items": [
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 0,
+            "y": 0,
+            "z": "1"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 19,
+            "y": 61.671875,
+            "z": "2"
+          },
+          {
+            "height": 213.328125,
+            "width": 320,
+            "x": 38,
+            "y": 123.34375,
+            "z": "3"
+          }
+        ],
+        "y": 11740.734375
+      }
+    ],
+    "width": 390
+  },
+  {
+    "client": 320,
+    "images": true,
+    "overflow": false,
+    "scroll": 320,
+    "sections": [
+      {
+        "columns": "288px",
+        "copyHeight": 755.90625,
+        "deckHeight": 396.796875,
+        "galleryHeight": 451.796875,
+        "height": 1534.484375,
+        "id": "training-books",
+        "items": [
+          {
+            "height": 264.953125,
+            "width": 172.796875,
+            "x": 0,
+            "y": 0,
+            "z": "3"
+          },
+          {
+            "height": 264.953125,
+            "width": 172.796875,
+            "x": 57.59375,
+            "y": 65.90625,
+            "z": "2"
+          },
+          {
+            "height": 264.953125,
+            "width": 172.796875,
+            "x": 115.1875,
+            "y": 131.828125,
+            "z": "1"
+          }
+        ],
+        "y": 8259.234375
+      },
+      {
+        "columns": "288px",
+        "copyHeight": 545.796875,
+        "deckHeight": 312.625,
+        "galleryHeight": 454.40625,
+        "height": 1313.375,
+        "id": "course-certificate",
+        "items": [
+          {
+            "height": 176.625,
+            "width": 264.953125,
+            "x": 0,
+            "y": 0,
+            "z": "1"
+          },
+          {
+            "height": 176.625,
+            "width": 264.953125,
+            "x": 11.515625,
+            "y": 67.984375,
+            "z": "2"
+          },
+          {
+            "height": 176.625,
+            "width": 264.953125,
+            "x": 23.03125,
+            "y": 135.984375,
+            "z": "3"
+          }
+        ],
+        "y": 12823.484375
+      }
+    ],
+    "width": 320
+  }
+]

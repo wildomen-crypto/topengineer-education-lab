@@ -1,0 +1,88 @@
+/* Page surfaces fill the viewport; readable text and useful columns fill the space. */
+.course-site{--page-gutter:clamp(20px,1.55vw,40px)}
+.course-site .course-container{width:100%;max-width:none;margin-inline:0;padding-inline:var(--page-gutter)}
+.course-site .section-heading p,.course-site .hero-lead,.course-site .program-intro p,.course-site .faq-grid details p{max-width:68ch}
+.course-site .hero-composition{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(32px,4vw,96px)}
+.course-site .hero-copy h1{font-size:clamp(48px,3.65vw,88px);max-width:16ch}
+.course-site .hero-lead{font-size:clamp(17px,1vw,22px)}
+.course-site .hero-side{max-width:800px}
+.course-site .course-facts span{font-size:14px}
+.course-site .variants-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr))}
+.variant-preview:is(.preview-13,.preview-14,.preview-15,.preview-16,.preview-17,.preview-18,.preview-19,.preview-20,.preview-21,.preview-22) .variant-cover{background:#16222d}
+.variant-preview:is(.preview-13,.preview-14,.preview-15,.preview-16,.preview-17,.preview-18,.preview-19,.preview-20,.preview-21,.preview-22) .variant-cover img{opacity:.24;object-position:top center}
+.variant-preview:is(.preview-13,.preview-14,.preview-15,.preview-16,.preview-17,.preview-18,.preview-19,.preview-20,.preview-21,.preview-22) .cover-words,.variant-preview:is(.preview-13,.preview-14,.preview-15,.preview-16,.preview-17,.preview-18,.preview-19,.preview-20,.preview-21,.preview-22) .variant-id{color:#fff}
+.course-site.nc-loading{padding:90px 24px;font-size:22px}
+.course-site .article-layout{grid-template-columns:240px minmax(0,1fr);gap:clamp(32px,3vw,76px)}
+.course-site .article-body .course-container{padding-inline:0}
+.course-site .article-body .program-days{grid-template-columns:repeat(2,minmax(0,1fr))}
+.course-site.intensive-page .course-container{width:100%;max-width:none;padding-inline:var(--page-gutter)}
+.intensive-page .intensive-hero-inner{min-height:clamp(625px,29vw,780px)}
+.intensive-page .intensive-hero-copy{max-width:800px}
+.course-site.intensive-page .intensive-hero h1{font-size:clamp(48px,3.4vw,82px)}
+.intensive-page .intensive-hero-photo{object-position:center 15%}
+.intensive-page .intensive-photo-note{right:var(--page-gutter)}
+.intensive-page .intensive-step-photo img{height:clamp(165px,10vw,260px)}
+.intensive-page .intensive-mentor-copy{padding-inline:clamp(30px,3vw,72px)}
+.intensive-page .intensive-price strong{font-size:clamp(48px,3vw,78px)}
+.course-site.team-class-page{padding-inline:0}
+.team-class-page .team-class-layout{width:100%;max-width:none;margin:0}
+.team-class-page .team-class-breadcrumb{margin-inline:var(--page-gutter)}
+.team-class-page .team-class-hero{border-radius:0;min-height:clamp(414px,25vw,680px)}
+.team-class-page .team-class-hero-copy{width:46%;padding:clamp(32px,2.8vw,72px) var(--page-gutter)}
+.course-site.team-class-page .team-class-hero h1{font-size:clamp(48px,3.45vw,84px)}
+.team-class-page .team-class-subtitle{font-size:clamp(24px,1.35vw,34px)}
+.team-class-page .team-class-hero-photo{object-position:center 15%}
+.team-class-page .team-class-organization,.team-class-page .team-class-formats{padding-inline:var(--page-gutter)}
+.team-class-page .team-class-budget{gap:0;grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);min-height:clamp(470px,30vw,780px)}
+.team-class-page .team-class-practice,.team-class-page .team-class-price{border-radius:0}
+.team-class-page .team-class-practice img{object-position:center top}
+.team-class-page .team-class-price{display:flex;flex-direction:column;padding:clamp(25px,2.5vw,64px)}
+.team-class-page .team-class-price-note{margin-top:auto;padding-top:28px}
+.team-class-page .team-class-contact{border-radius:0;padding-inline:var(--page-gutter)}
+.team-class-page .team-class-variants{padding-inline:var(--page-gutter)}
+/* A dialog remains bounded so it can be read and closed comfortably. */
+.course-site .intensive-dialog .course-container{padding-inline:0;width:calc(100% - 64px);margin-inline:auto}
+.course-site .intensive-dialog .program-day .topic-list{columns:auto}
+@media(min-width:1400px){
+ .course-site :is(.hero-7,.hero-8,.hero-9,.hero-10) .hero-composition{max-width:none}
+ .course-site :is(.hero-7,.hero-8,.hero-9,.hero-10) .hero-copy{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);column-gap:clamp(40px,5vw,120px);align-items:start}
+ .course-site :is(.hero-7,.hero-8,.hero-9,.hero-10) .hero-copy>.eyebrow{grid-column:1;grid-row:1}
+ .course-site :is(.hero-7,.hero-8,.hero-9,.hero-10) .hero-copy>h1{grid-column:1;grid-row:2/5;max-width:22ch;margin-bottom:0}
+ .course-site :is(.hero-7,.hero-8,.hero-9,.hero-10) .hero-lead{grid-column:2;grid-row:2;max-width:62ch;padding-top:10px}
+ .course-site :is(.hero-7,.hero-8,.hero-9,.hero-10) .hero-actions{grid-column:2;grid-row:3;margin-top:22px}
+}
+@media(min-width:1800px){
+ .course-site .course-section{padding-block:76px}
+ .course-site .section-heading h2{font-size:52px}
+ .course-site .result-grid p,.course-site .level-description,.course-site .format-grid p,.course-site .support-grid p{font-size:18px;max-width:65ch}
+ .course-site .program-intro p,.course-site .program-day li,.course-site .faq-grid details p{font-size:17px;line-height:1.7}
+ .course-site .program-day .topic-list{columns:2;column-gap:36px}
+ .course-site .program-day li{break-inside:avoid}
+ .course-site .article-body .pricing-grid,.course-site .article-body .teaching-grid,.course-site .article-body .support-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .intensive-page .intensive-steps{gap:72px}.intensive-page .intensive-steps p{max-width:38ch}
+ .team-class-page .team-class-facts{font-size:22px;gap:38px}.team-class-page .team-class-actions{margin-top:38px}.team-class-page .team-class-action{font-size:22px;min-height:64px}
+ .team-class-page .team-class-steps{gap:55px}.team-class-page .team-class-step-copy>span{font-size:19px;max-width:34ch}.team-class-page .team-class-step-copy strong{font-size:27px}
+ .team-class-page .team-class-total{font-size:96px}.team-class-page .team-class-price h2{font-size:28px}.team-class-page .team-class-price-detail{font-size:28px;padding-block:24px}.team-class-page .team-class-other-prices p{font-size:23px}.team-class-page .team-class-price-note{font-size:20px;max-width:50ch}
+}
+@media(min-width:1600px){
+ .course-site .primary-faq .faq-grid{max-width:none;width:100%;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:18px 30px}
+}
+@media(max-width:1199px){
+ .course-site .hero-composition{gap:32px}.course-site .article-layout{grid-template-columns:180px minmax(0,1fr);gap:30px}
+ .course-site .hero-copy h1{font-size:49px}
+ .course-site.intensive-page .intensive-hero h1{font-size:44px}
+ .team-class-page .team-class-hero-copy{width:48%;padding:30px var(--page-gutter)}
+ .course-site.team-class-page .team-class-hero h1{font-size:clamp(40px,4.15vw,50px)}
+}
+@media(max-width:900px){
+ .intensive-page .intensive-hero-inner{min-height:0}.intensive-page .intensive-hero-copy{max-width:none}.course-site.intensive-page .intensive-hero h1{font-size:44px}
+ .team-class-page .team-class-hero{min-height:0}
+}
+@media(max-width:800px){.team-class-page .team-class-hero-copy{width:100%;padding:28px var(--page-gutter)}}
+@media(max-width:767px){
+ .course-site{--page-gutter:16px}.course-site .hero-composition{grid-template-columns:1fr;gap:30px}.course-site .hero-copy h1{font-size:38px!important;max-width:none}.course-site .hero-lead{font-size:16px}
+ .course-site .course-facts span{font-size:12px}.course-site .article-layout{grid-template-columns:1fr;gap:0}.course-site .article-body .program-days{grid-template-columns:1fr}
+ .course-site.intensive-page .intensive-hero h1{font-size:36px}.intensive-page .intensive-price strong{font-size:43px}.intensive-page .intensive-step-photo img{height:157px}
+ .course-site.team-class-page .team-class-hero h1{font-size:36px}.team-class-page .team-class-subtitle{font-size:19px}.team-class-page .team-class-budget{grid-template-columns:1fr;min-height:0;gap:0}.team-class-page .team-class-practice{height:250px}.team-class-page .team-class-price{padding:26px var(--page-gutter)}
+ .course-site .intensive-dialog .course-container{width:calc(100% - 30px)}
+}

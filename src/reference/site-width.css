@@ -1,0 +1,48 @@
+/* Match the live site's .container.wide-container content boundaries.
+   Sections keep their full-width backgrounds; their content shares one inset. */
+.course-site.reference-course {
+  --ref-container-width: 100%;
+  --ref-container-padding: 30px;
+  --ref-gutter: max(var(--ref-container-padding), calc((100% - var(--ref-container-width)) / 2 + var(--ref-container-padding)));
+}
+
+.reference-course .review-bar .course-container {
+  padding-inline: var(--ref-gutter);
+}
+
+/* The bounded hero needs room for whole fact labels and the teacher's face. */
+.reference-course .ref-at-glance dl > div {
+  grid-template-columns: minmax(110px, .8fr) minmax(0, 1.2fr);
+}
+@media (min-width: 601px) and (max-width: 1799px) {
+  .reference-course .ref-hero-photo img { object-position: 45% center; }
+}
+@media (min-width: 601px) and (max-width: 850px) {
+  .reference-course .ref-at-glance dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  .reference-course .ref-intro { grid-template-columns: minmax(0, 1fr); }
+  .reference-course .ref-hero-photo { min-height: 0; height: 330px; }
+}
+
+@media (max-width: 768px) {
+  .course-site.reference-course { --ref-container-padding: 15px; }
+}
+@media (min-width: 1201px) {
+  .course-site.reference-course { --ref-container-width: 1276px; }
+}
+@media (min-width: 1367px) {
+  .course-site.reference-course { --ref-container-width: 1300px; --ref-container-padding: 50px; }
+}
+@media (min-width: 1600px) {
+  .course-site.reference-course { --ref-container-width: 1520px; }
+}
+@media (min-width: 1920px) {
+  .course-site.reference-course { --ref-container-width: 1820px; --ref-container-padding: 60px; }
+}
+@media (min-width: 2560px) {
+  .course-site.reference-course { --ref-container-width: 2400px; --ref-container-padding: 80px; }
+}
+@media (min-width: 3000px) {
+  .course-site.reference-course { --ref-container-width: 2800px; }
+}

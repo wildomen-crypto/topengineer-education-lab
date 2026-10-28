@@ -1,0 +1,98 @@
+[
+  {
+    "durations": 4,
+    "overflow": false,
+    "people": 4,
+    "section": {
+      "height": 1629.625,
+      "y": 2251.59375
+    },
+    "total": "1 271 000 ₽",
+    "width": 2560,
+    "screenshot": "calculator-2560-page.png"
+  },
+  {
+    "durations": 4,
+    "overflow": false,
+    "people": 4,
+    "section": {
+      "height": 1573.875,
+      "y": 2707.96875
+    },
+    "total": "1 271 000 ₽",
+    "width": 1440,
+    "screenshot": "calculator-1440-page.png"
+  },
+  {
+    "durations": 4,
+    "overflow": false,
+    "people": 4,
+    "section": {
+      "height": 1606.046875,
+      "y": 2960.421875
+    },
+    "total": "1 271 000 ₽",
+    "width": 1200,
+    "screenshot": ""
+  },
+  {
+    "durations": 4,
+    "overflow": false,
+    "people": 4,
+    "section": {
+      "height": 2573.5625,
+      "y": 2913.71875
+    },
+    "total": "1 271 000 ₽",
+    "width": 1199,
+    "screenshot": ""
+  },
+  {
+    "durations": 4,
+    "overflow": false,
+    "people": 4,
+    "section": {
+      "height": 2573.5625,
+      "y": 3265.46875
+    },
+    "total": "1 271 000 ₽",
+    "width": 1024,
+    "screenshot": ""
+  },
+  {
+    "durations": 4,
+    "overflow": false,
+    "people": 4,
+    "section": {
+      "height": 2686.03125,
+      "y": 4463.21875
+    },
+    "total": "1 271 000 ₽",
+    "width": 768,
+    "screenshot": ""
+  },
+  {
+    "durations": 4,
+    "overflow": false,
+    "people": 4,
+    "section": {
+      "height": 3730.609375,
+      "y": 5862.671875
+    },
+    "total": "1 271 000 ₽",
+    "width": 390,
+    "screenshot": "calculator-390-page.png"
+  },
+  {
+    "durations": 4,
+    "overflow": false,
+    "people": 4,
+    "section": {
+      "height": 3927.265625,
+      "y": 6893.59375
+    },
+    "total": "1 271 000 ₽",
+    "width": 320,
+    "screenshot": ""
+  }
+]

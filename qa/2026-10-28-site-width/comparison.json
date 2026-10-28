@@ -1,0 +1,138 @@
+{
+  "boundaryIssues": [],
+  "courseOverflow": [],
+  "contentWidthChecks": [
+    {
+      "client": 2985,
+      "page": 2985,
+      "scroll": 2985,
+      "viewport": 3000
+    },
+    {
+      "client": 2545,
+      "page": 2545,
+      "scroll": 2545,
+      "viewport": 2560
+    },
+    {
+      "client": 1905,
+      "page": 1905,
+      "scroll": 1905,
+      "viewport": 1920
+    },
+    {
+      "client": 1585,
+      "page": 1585,
+      "scroll": 1585,
+      "viewport": 1600
+    },
+    {
+      "client": 1425,
+      "page": 1425,
+      "scroll": 1425,
+      "viewport": 1440
+    },
+    {
+      "client": 1352,
+      "page": 1352,
+      "scroll": 1352,
+      "viewport": 1367
+    },
+    {
+      "client": 1351,
+      "page": 1351,
+      "scroll": 1351,
+      "viewport": 1366
+    },
+    {
+      "client": 1265,
+      "page": 1265,
+      "scroll": 1265,
+      "viewport": 1280
+    },
+    {
+      "client": 1186,
+      "page": 1220,
+      "scroll": 1186,
+      "viewport": 1201
+    },
+    {
+      "client": 1185,
+      "page": 1185,
+      "scroll": 1185,
+      "viewport": 1200
+    },
+    {
+      "client": 1184,
+      "page": 1184,
+      "scroll": 1184,
+      "viewport": 1199
+    },
+    {
+      "client": 1009,
+      "page": 1009,
+      "scroll": 1009,
+      "viewport": 1024
+    },
+    {
+      "client": 977,
+      "page": 977,
+      "scroll": 977,
+      "viewport": 992
+    },
+    {
+      "client": 976,
+      "page": 976,
+      "scroll": 976,
+      "viewport": 991
+    },
+    {
+      "client": 753,
+      "page": 753,
+      "scroll": 753,
+      "viewport": 768
+    },
+    {
+      "client": 375,
+      "page": 375,
+      "scroll": 375,
+      "viewport": 390
+    },
+    {
+      "client": 305,
+      "page": 305,
+      "scroll": 305,
+      "viewport": 320
+    }
+  ],
+  "checkedWidths": [
+    3000,
+    2560,
+    1920,
+    1600,
+    1440,
+    1367,
+    1366,
+    1280,
+    1201,
+    1200,
+    1199,
+    1024,
+    992,
+    991,
+    768,
+    390,
+    320
+  ],
+  "sourceWidths": [
+    2560,
+    1920,
+    1440,
+    1366,
+    1200,
+    1024,
+    768,
+    390,
+    3000
+  ]
+}

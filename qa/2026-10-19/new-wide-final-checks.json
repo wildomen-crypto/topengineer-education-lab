@@ -1,0 +1,263 @@
+[
+  {
+    "id": 13,
+    "body": {
+      "bottom": 1776.15625,
+      "height": 1545.15625,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [],
+    "client": 2545,
+    "overflow": false,
+    "primary": [],
+    "scroll": 2545,
+    "topics": [
+      {
+        "color": "rgb(22, 34, 45)",
+        "font": "20px"
+      }
+    ],
+    "width": 2560
+  },
+  {
+    "id": 14,
+    "body": {
+      "bottom": 1977.578125,
+      "height": 1746.578125,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [],
+    "client": 2545,
+    "overflow": false,
+    "primary": [],
+    "scroll": 2545,
+    "topics": [],
+    "width": 2560
+  },
+  {
+    "id": 15,
+    "body": {
+      "bottom": 1709.375,
+      "height": 1478.375,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [],
+    "client": 2545,
+    "overflow": false,
+    "primary": [],
+    "scroll": 2545,
+    "topics": [],
+    "width": 2560
+  },
+  {
+    "id": 16,
+    "body": {
+      "bottom": 2220.265625,
+      "height": 1989.265625,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [],
+    "client": 2545,
+    "overflow": false,
+    "primary": [],
+    "scroll": 2545,
+    "topics": [],
+    "width": 2560
+  },
+  {
+    "id": 17,
+    "body": {
+      "bottom": 1770.5625,
+      "height": 1539.5625,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [],
+    "client": 2545,
+    "overflow": false,
+    "primary": [],
+    "scroll": 2545,
+    "topics": [
+      {
+        "color": "rgb(22, 34, 45)",
+        "font": "20px"
+      }
+    ],
+    "width": 2560
+  },
+  {
+    "id": 18,
+    "body": {
+      "bottom": 1646.03125,
+      "height": 1415.03125,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [
+      {
+        "display": "grid",
+        "font": "20px",
+        "title": "26px"
+      }
+    ],
+    "client": 2545,
+    "overflow": false,
+    "primary": [
+      {
+        "bg": "rgb(255, 198, 75)",
+        "color": "rgb(22, 34, 45)",
+        "text": "Продолжить"
+      }
+    ],
+    "scroll": 2545,
+    "topics": [],
+    "width": 2560
+  },
+  {
+    "id": 19,
+    "body": {
+      "bottom": 1667.40625,
+      "height": 1436.40625,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [],
+    "client": 2545,
+    "overflow": false,
+    "primary": [
+      {
+        "bg": "rgb(255, 198, 75)",
+        "color": "rgb(22, 34, 45)",
+        "text": "Обсудить обучение"
+      }
+    ],
+    "scroll": 2545,
+    "topics": [],
+    "width": 2560
+  },
+  {
+    "id": 20,
+    "body": {
+      "bottom": 1608.5625,
+      "height": 1377.5625,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [],
+    "client": 2545,
+    "overflow": false,
+    "primary": [
+      {
+        "bg": "rgb(255, 198, 75)",
+        "color": "rgb(22, 34, 45)",
+        "text": "Обсудить обучение"
+      }
+    ],
+    "scroll": 2545,
+    "topics": [],
+    "width": 2560
+  },
+  {
+    "id": 21,
+    "body": {
+      "bottom": 1573.109375,
+      "height": 1342.109375,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [],
+    "client": 2545,
+    "overflow": false,
+    "primary": [
+      {
+        "bg": "rgb(255, 198, 75)",
+        "color": "rgb(22, 34, 45)",
+        "text": "Обсудить обучение"
+      }
+    ],
+    "scroll": 2545,
+    "topics": [],
+    "width": 2560
+  },
+  {
+    "id": 22,
+    "body": {
+      "bottom": 2239.4375,
+      "height": 2008.4375,
+      "left": 0,
+      "right": 2545,
+      "top": 231,
+      "width": 2545,
+      "x": 0,
+      "y": 231
+    },
+    "brokenImages": 0,
+    "choice": [],
+    "client": 2545,
+    "overflow": false,
+    "primary": [
+      {
+        "bg": "rgb(255, 198, 75)",
+        "color": "rgb(22, 34, 45)",
+        "text": "Печать программы"
+      },
+      {
+        "bg": "rgb(255, 198, 75)",
+        "color": "rgb(22, 34, 45)",
+        "text": "Обсудить обучение"
+      }
+    ],
+    "scroll": 2545,
+    "topics": [],
+    "width": 2560
+  }
+]

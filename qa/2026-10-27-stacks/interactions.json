@@ -1,0 +1,46 @@
+[
+  {
+    "test": "certificate opens",
+    "title": "2 дня · 16 часов",
+    "src": "/assets/reference/certificates/2-days.png"
+  },
+  {
+    "test": "next certificate",
+    "title": "5 дней · 40 часов"
+  },
+  {
+    "test": "keyboard next",
+    "title": "10 дней · 80 часов"
+  },
+  {
+    "test": "escape and focus",
+    "bodyOverflow": "",
+    "focus": "Рассмотреть сертификат: 2 дня",
+    "open": false
+  },
+  {
+    "test": "book keyboard open",
+    "title": "Том 2",
+    "src": "/assets/reference/books/volume-2.jpg"
+  },
+  {
+    "test": "phone viewer",
+    "pageOverflow": false,
+    "scroll": 352,
+    "width": 352
+  },
+  {
+    "test": "book next",
+    "title": "Том 3"
+  },
+  {
+    "test": "phone duration caption opens covered certificate",
+    "title": "5 дней · 40 часов"
+  },
+  {
+    "button": "Руководство добавлено в запрос",
+    "checked": true,
+    "price": "Стоимость выбранного обучения\n40 000 ₽\n\n1 программа · 2 дня · 16 часов\n\nРуководство добавлено в запрос. Его стоимость уточним отдельно.\nОбсудить выбранный курс",
+    "test": "book add request regression"
+  }
+]

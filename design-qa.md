@@ -1,33 +1,25 @@
-# Source-site content width — variant 23
+# Flat group price for 1–5 people — variant 23
 
-Source inspected in the browser: https://dev.topengineer.ru/izgotovlenie-metalloconstrukciy/izgotovlenie-jelezobetonnih-metallokonstrukciy/
+The user's latest clarification replaces the former minimum-three rule and the missing onsite small-group tariffs. For every supported course lasting five or ten days, one through five actual participants pay the existing five-person group price:
 
-The current source uses a centred `.container.wide-container`, rather than unbounded article content. Its CSSOM rules and actual bounding rectangles were read from the live page. The course now matches those content boundaries while retaining full-width section backgrounds. The approved shell and variants 1–22 are untouched.
-
-| Viewport range | Maximum outer container | Inner horizontal padding |
+| Format | 5 days / 40 hours | 10 days / 80 hours |
 |---|---:|---:|
-| Up to 768 px | Available width | 15 px |
-| 769–1200 px | Available width | 30 px |
-| 1201–1366 px | 1276 px | 30 px |
-| 1367–1599 px | 1300 px | 50 px |
-| 1600–1919 px | 1520 px | 50 px |
-| 1920–2559 px | 1820 px | 60 px |
-| 2560–2999 px | 2400 px | 80 px |
-| From 3000 px | 2800 px | 80 px |
+| Online / Moscow office | 220,000 ₽ | 440,000 ₽ |
+| Onsite | 280,000 ₽ | 560,000 ₽ |
 
-`site-width.css` computes one shared section inset from those widths and padding. This avoids adding nested margins or changing the section backgrounds. The hero, catalogue, calculator, training process, books, durations, formats, preparation, certificates, full programme and local design navigation use the same boundaries.
+From six participants, the published group totals are unchanged. All two-day online/office rates and the unknown two-day onsite rate are retained. The actual number of students remains in the calculator, enquiry and prepared email; per-person prices divide the group total by that actual number. Book prices and course-day/date calculations are unchanged.
 
-The narrower hero also has a minimum label width to prevent “Длительность” splitting, and its intermediate-screen photo focus preserves the teacher's face. At 601–768 px the hero becomes a single column; at 601–850 px course facts use two columns. This prevents the long heading from intruding into the image at 601 px.
+The price dialog now lists the 1–5-person prices, marks those five rows and states the flat group total above the table. Calculator notes, individual fee notes, enquiry and email explain the same rule. The historical screenshot fixture stays unchanged; the old online 3/4-person screenshot fees are explicitly superseded by the new instruction.
 
-## Evidence
+Validation:
 
-- `qa/2026-10-28-site-width/source-widths.json`: nine actual source measurements, including 1440/1920/2560/3000 px. `source-2560.png` records the reference page.
-- `local-widths.json` and `comparison.json`: 17 course widths, 320–3000 px, including 1200/1201, 1366/1367 and 991/992 boundaries. Every main content grid matches the source's expected left/right boundaries. The course itself has no horizontal overflow, including with all four courses selected.
-- The same four-course example remained 295,000 ₽, 11 days, 88 hours at all measured sizes. Calculation data and functions were not changed.
-- `final-hero-checks.json`: after the text/photo adjustments, 11 widths pass both course and heading overflow checks, including 600/601 and 768/769 px.
-- Desktop 1440 and 2560 px hero captures, 1440 px book and certificate galleries and the phone layout were visually inspected. Galleries keep their overlap and height distribution.
-- At exactly 1201 px the unchanged shared shell reports 1220 px page scroll width; course scroll width remains 1186 px, equal to its available width. No course element or control extends beyond the viewport. This existing shell edge case is recorded separately from content-width validation; no approved header/footer rule was edited.
+- `npm run check` passed: nine pricing tests, four hosting tests and the production build (59 modules). Independent tests cover all flat prices, actual group sizes, the sixth-person boundary, 52 unaffected screenshot rows, 720 combinations using the original billing algorithm with updated rates, mixed orders, books and inclusive dates.
+- Browser calculator: online five-day price remains 220,000 ₽ for 1/2/3/4/5 people and becomes 240,000 ₽ for six; onsite five days for one = 280,000 ₽; onsite ten days for one or five = 560,000 ₽.
+- All four visible 5/10-day price tables list the same expected group fee in their first five rows. The sixth row uses the next published rate.
+- Enquiry and prepared email correctly state one actual participant, ten days, 80 hours, 560,000 ₽ onsite and the flat-group explanation. No email was sent.
+- The final phone price table fits at both 390 and 320 px (305/305 and 235/235 client/scroll width). A global inherited no-wrap rule on the long online table caption was overridden so the last price column stays visible. The “1–5” badge stays together on a line.
+- Desktop and 320px final screenshots were visually inspected. Temporary viewport overrides were reset, the original basic-course calculator selection restored, and the five-day price dialog left open for review.
 
-Production build passed with 59 modules. No new unit tests were added for CSS sizing changes. The user's original basic-course selection was restored, viewport overrides reset, and the updated page left open. Earlier price, catalogue, gallery and duration checks remain in their dated reports.
+Evidence: `qa/2026-10-28-flat-group/calculator-and-quote.json`, `price-tables.json`, `responsive.json`, `price-online-five-days.png`, `flat-group-proof.png` and phone screenshots. Earlier dated reports remain historical records of the previous pricing rule.
 
-Result: **course width and responsive layout passed**.
+Result: **passed**.

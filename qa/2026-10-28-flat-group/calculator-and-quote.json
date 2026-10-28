@@ -1,0 +1,61 @@
+[
+  {
+    "format": "online",
+    "days": 5,
+    "participants": 1,
+    "total": "220 000 ₽"
+  },
+  {
+    "format": "online",
+    "days": 5,
+    "participants": 2,
+    "total": "220 000 ₽"
+  },
+  {
+    "format": "online",
+    "days": 5,
+    "participants": 3,
+    "total": "220 000 ₽"
+  },
+  {
+    "format": "online",
+    "days": 5,
+    "participants": 4,
+    "total": "220 000 ₽"
+  },
+  {
+    "format": "online",
+    "days": 5,
+    "participants": 5,
+    "total": "220 000 ₽"
+  },
+  {
+    "format": "online",
+    "days": 5,
+    "participants": 6,
+    "total": "240 000 ₽"
+  },
+  {
+    "format": "onsite",
+    "days": 5,
+    "participants": 1,
+    "total": "280 000 ₽"
+  },
+  {
+    "format": "onsite",
+    "days": 10,
+    "participants": 1,
+    "total": "560 000 ₽"
+  },
+  {
+    "format": "onsite",
+    "days": 10,
+    "participants": 5,
+    "total": "560 000 ₽"
+  },
+  {
+    "test": "quote and prepared email keep one actual participant at the flat onsite ten-day fee",
+    "quote": "УЧЕБНЫЙ ЦЕНТР TOPENGINEER\n\nОбсудим ваш выбор\n\nПроверьте выбранные позиции и оставьте вопросы. Кнопка ниже подготовит письмо — отправку вы подтвердите в своём почтовом приложении.\n\nБазовый курс\n10 дней · 80 часов · 1 участник · 560 000 ₽ за группу\nНачало: по согласованию. Окончание: по согласованию.\nЕдиная стоимость для группы от 1 до 5 человек.\nНа базе заказчика\n560 000 ₽\n\nПроезд и проживание преподавателя согласуются и оплачиваются отдельно.\n\nВаш город\nЗадачи и вопросы\nПодготовить письмо\n\n+7 (495) 215-07-79\ninfo@topengineer.ru",
+    "email": "mailto:info@topengineer.ru?subject=Обучение Tekla Structures&body=Здравствуйте! Хочу обсудить обучение Tekla Structures.\nФормат: На базе заказчика\nБазовый курс: 1 участн., 10 дней / 80 часов, 560 000 ₽ за группу. Единая стоимость для группы от 1 до 5 человек. Желаемое начало: по согласованию. Окончание: по согласованию.\nИтого за выбранные позиции: 560 000 ₽\nПроезд и проживание преподавателя согласуются и оплачиваются отдельно.\nГород: уточню\nЗадачи и вопросы: "
+  }
+]

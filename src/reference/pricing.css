@@ -8,7 +8,8 @@
 .reference-course .ref-price-tabs button[aria-selected=true]{background:var(--ref-ink);color:white;border-color:var(--ref-ink)}
 .reference-course .ref-price-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain}
 .reference-course .ref-price-table{min-width:420px;font-variant-numeric:tabular-nums}
-.reference-course .ref-price-table caption{text-align:left;color:var(--ref-muted);font-size:14px;padding-block:15px}
+.reference-course .ref-price-table caption{text-align:left;color:var(--ref-muted);font-size:14px;padding-block:15px;white-space:normal}
+.reference-course .ref-price-group{white-space:nowrap}
 .reference-course .ref-price-table td{white-space:nowrap}
 .reference-course .ref-price-note{margin-block:20px}
 .reference-course .ref-request-list small{font-size:13px;color:var(--ref-muted)}

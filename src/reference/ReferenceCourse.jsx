@@ -66,7 +66,7 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
   const email=[
     selection.length?'Здравствуйте! Хочу обсудить обучение Tekla Structures.':'Здравствуйте! Хочу приобрести электронный комплект книг Tekla Structures.',
     selection.length?'Формат: '+formatNames[format]:'',
-    ...summary.courses.map(item=>`${item.full}: ${item.participants} участн., ${item.days} ${word(item.days,['день','дня','дней'])} / ${item.hours} часов, ${money(item.totalCents)} за группу.${item.billedParticipants>item.participants?' Минимальная оплата за '+item.billedParticipants+' участников.':''} Желаемое начало: ${formatDate(item.startDate)||'по согласованию'}. Окончание: ${formatDate(endDate(item.startDate,item.days))||'по согласованию'}.`),
+    ...summary.courses.map(item=>`${item.full}: ${item.participants} участн., ${item.days} ${word(item.days,['день','дня','дней'])} / ${item.hours} часов, ${money(item.totalCents)} за группу.${item.billedParticipants>item.participants?' Единая стоимость для группы от 1 до '+item.billedParticipants+' человек.':''} Желаемое начало: ${formatDate(item.startDate)||'по согласованию'}. Окончание: ${formatDate(endDate(item.startDate,item.days))||'по согласованию'}.`),
     books?`Электронный комплект из трёх томов на английском языке: ${bookQuantity} ${word(bookQuantity,['комплект','комплекта','комплектов'])} × ${money(bookProduct.unitPriceCents)} = ${money(summary.bookTotalCents)}.`:'',
     'Итого за выбранные позиции: '+priceText,
     selection.length&&format==='onsite'?'Проезд и проживание преподавателя согласуются и оплачиваются отдельно.':'',
@@ -120,7 +120,7 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
                 <td data-label="Длительность"><label className="ref-sr-only" htmlFor={'ref-days-'+item.id}>Длительность: {item.full}</label><select id={'ref-days-'+item.id} value={durations[item.id]} onChange={event=>setDurations({...durations,[item.id]:Number(event.target.value)})}>{rates.days.map(value=><option key={value} value={value}>{value} {word(value,['день','дня','дней'])}</option>)}</select><span className="ref-cell-note">{quote.hours} часов</span><a className="ref-text-link ref-cell-note" href="#training-duration">О форматах</a></td>
                 <td data-label="Участники"><label className="ref-sr-only" htmlFor={'ref-people-'+item.id}>Участники: {item.full}</label><select id={'ref-people-'+item.id} value={people[item.id]} onChange={event=>setPeople({...people,[item.id]:Number(event.target.value)})}>{participantOptions.map(value=><option key={value} value={value}>{value}</option>)}</select></td>
                 <td data-label="Желаемое начало"><label className="ref-sr-only" htmlFor={'ref-start-'+item.id}>Дата начала: {item.full}</label><input id={'ref-start-'+item.id} type="date" min="0001-01-01" max="9999-12-31" value={dates[item.id]} aria-invalid={badDate||undefined} onInput={event=>setDates({...dates,[item.id]:event.currentTarget.value})} onChange={event=>setDates({...dates,[item.id]:event.target.value})}/><span className="ref-cell-note">{finish?'До '+formatDate(finish)+'*':badDate?'Проверьте дату':'Дата по согласованию'}</span></td>
-                <td data-label="За группу"><strong className="ref-row-price">{money(quote.totalCents)}</strong>{quote.totalCents!==null?<span className="ref-cell-note">{money(quote.totalCents/quote.participants)} на человека</span>:<span className="ref-cell-note">Для этого выездного формата и размера группы тарифа в таблице нет.</span>}{quote.billedParticipants>quote.participants&&<span className="ref-cell-note ref-minimum-fee">Минимальная оплата за {quote.billedParticipants} участников. Фактически обучаются: {quote.participants}.</span>}</td>
+                <td data-label="За группу"><strong className="ref-row-price">{money(quote.totalCents)}</strong>{quote.totalCents!==null?<span className="ref-cell-note">{money(quote.totalCents/quote.participants)} на человека</span>:<span className="ref-cell-note">Для этого выездного формата и размера группы тарифа в таблице нет.</span>}{quote.billedParticipants>quote.participants&&<span className="ref-cell-note ref-minimum-fee">Единая стоимость для группы от 1 до {quote.billedParticipants} человек. Фактически обучаются: {quote.participants}.</span>}</td>
               </>:<td className="ref-inactive-row" colSpan={4}>Отметьте программу, чтобы добавить её в расчёт</td>}
             </tr>;
           })}
@@ -140,7 +140,7 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
           <Button disabled={!hasItems||invalidDates} onClick={event=>open('quote',event)}>{selection.length?'Обсудить выбранный курс':'Обсудить заказ книг'}</Button>
         </div>
         <div className="ref-calculator-notes">
-          <p>Онлайн и в офисе: для 5 и 10 дней минимальная оплата — за 3 участников. Для выезда опубликован тариф на группы от 5 человек; остальные случаи — по согласованию. Десятидневный курс стоит вдвое больше пятидневного. Цены курсов суммируются без скидки за пакет.</p>
+          <p>Для курсов на 5 и 10 дней стоимость группы от 1 до 5 человек одинакова во всех форматах. Начиная с 6 участников цена меняется по прайсу. Десятидневный курс стоит вдвое больше пятидневного. Двухдневный выезд — по согласованию. Цены курсов суммируются без скидки за пакет.</p>
           <p>* Окончание считается по календарным дням, включая выходные и день начала. Фактический график подтверждает преподаватель. При выезде проезд и проживание оплачиваются отдельно.</p>
           {invalidDates&&<p role="alert" className="ref-calculator-error">Проверьте дату начала: курс должен закончиться не позже 31.12.9999.</p>}
         </div>
@@ -218,7 +218,7 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
         {selection.length>0&&<ul className="ref-request-list">{summary.courses.map(item=><li key={item.id}>
           <strong>{item.full}</strong><span>{item.days} {word(item.days,['день','дня','дней'])} · {item.hours} часов · {item.participants} {word(item.participants,['участник','участника','участников'])} · {money(item.totalCents)} за группу</span>
           <span>Начало: {formatDate(item.startDate)||'по согласованию'}. Окончание: {formatDate(endDate(item.startDate,item.days))||'по согласованию'}.</span>
-          {item.billedParticipants>item.participants&&<small>Минимальная оплата за {item.billedParticipants} участников.</small>}
+          {item.billedParticipants>item.participants&&<small>Единая стоимость для группы от 1 до {item.billedParticipants} человек.</small>}
         </li>)}</ul>}
         {books&&<p className="ref-request-books"><Icon name="book"/>Электронный комплект из трёх томов на английском языке: {bookQuantity} {word(bookQuantity,['комплект','комплекта','комплектов'])} × {money(bookProduct.unitPriceCents)} = <strong>{money(summary.bookTotalCents)}</strong>.</p>}
         <div className="ref-request-total"><span>{selection.length?formatNames[format]:'Электронные книги'}</span><strong>{priceText}</strong></div>

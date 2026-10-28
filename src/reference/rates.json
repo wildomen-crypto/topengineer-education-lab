@@ -9,8 +9,8 @@
   "maxParticipants": 20,
   "minimumBillableParticipants": {
     "2": 1,
-    "5": 3,
-    "10": 3
+    "5": 5,
+    "10": 5
   },
   "totalsCents": {
     "2": {
@@ -36,8 +36,6 @@
       "20": 24000000
     },
     "5": {
-      "3": 17500000,
-      "4": 20000000,
       "5": 22000000,
       "6": 24000000,
       "7": 26000000,
@@ -56,8 +54,6 @@
       "20": 60000000
     },
     "10": {
-      "3": 35000000,
-      "4": 40000000,
       "5": 44000000,
       "6": 48000000,
       "7": 52000000,
@@ -79,8 +75,8 @@
   "onsite": {
     "minimumBillableParticipants": {
       "2": 1,
-      "5": 1,
-      "10": 1
+      "5": 5,
+      "10": 5
     },
     "totalsCents": {
       "2": {},
@@ -122,13 +118,13 @@
       }
     }
   },
-  "source": "Three ruble price screenshots supplied by the user on 28 October 2026.",
+  "source": "Three ruble price screenshots with the user's later clarification: for 5-day and 10-day courses, groups of 1-5 pay the same five-person group rate.",
   "confirmedRules": [
-    "Online and office group totals match the supplied 2-day and 5-day ruble tables.",
-    "For online/office 5-day and 10-day courses the source calculator minimum fee is for three participants.",
+    "Two-day online/office rates and all published 5-day rates for 5-20 participants remain unchanged.",
+    "For every format, 5-day and 10-day groups of 1-5 pay the five-person group rate. This overrides the earlier online minimum of three and the older separate 3/4-person prices.",
     "The 10-day online/office fee is twice the 5-day fee, following the requested source mathematics.",
     "The user explicitly confirmed: 10 days onsite costs twice the 5-day onsite fee.",
-    "The onsite table covers groups of 5-20 only. Missing onsite tariffs are by agreement; no minimum five-person fee is invented.",
+    "The confirmed five-person base rate also applies to onsite groups of 1-4 for 5/10 days. Only two-day onsite training remains by agreement.",
     "The user explicitly set the electronic three-volume book set price to RUB 8000.",
     "Courses are additive without a bundle discount; book quantities are added to the total."
   ]

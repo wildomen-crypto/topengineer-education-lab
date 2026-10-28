@@ -1,0 +1,430 @@
+[
+  {
+    "mode": "online",
+    "days": 5,
+    "total": "220 000 ₽",
+    "rows": [
+      {
+        "participant": "1",
+        "perPerson": "220 000 ₽",
+        "total": "220 000 ₽"
+      },
+      {
+        "participant": "2",
+        "perPerson": "110 000 ₽",
+        "total": "220 000 ₽"
+      },
+      {
+        "participant": "3",
+        "perPerson": "73 333 ₽",
+        "total": "220 000 ₽"
+      },
+      {
+        "participant": "4",
+        "perPerson": "55 000 ₽",
+        "total": "220 000 ₽"
+      },
+      {
+        "participant": "5",
+        "perPerson": "44 000 ₽",
+        "total": "220 000 ₽"
+      },
+      {
+        "participant": "6",
+        "perPerson": "40 000 ₽",
+        "total": "240 000 ₽"
+      },
+      {
+        "participant": "7",
+        "perPerson": "37 143 ₽",
+        "total": "260 000 ₽"
+      },
+      {
+        "participant": "8",
+        "perPerson": "35 000 ₽",
+        "total": "280 000 ₽"
+      },
+      {
+        "participant": "9",
+        "perPerson": "33 333 ₽",
+        "total": "300 000 ₽"
+      },
+      {
+        "participant": "10",
+        "perPerson": "40 000 ₽",
+        "total": "400 000 ₽"
+      },
+      {
+        "participant": "11",
+        "perPerson": "38 182 ₽",
+        "total": "420 000 ₽"
+      },
+      {
+        "participant": "12",
+        "perPerson": "36 667 ₽",
+        "total": "440 000 ₽"
+      },
+      {
+        "participant": "13",
+        "perPerson": "35 385 ₽",
+        "total": "460 000 ₽"
+      },
+      {
+        "participant": "14",
+        "perPerson": "34 286 ₽",
+        "total": "480 000 ₽"
+      },
+      {
+        "participant": "15",
+        "perPerson": "33 333 ₽",
+        "total": "500 000 ₽"
+      },
+      {
+        "participant": "16",
+        "perPerson": "32 500 ₽",
+        "total": "520 000 ₽"
+      },
+      {
+        "participant": "17",
+        "perPerson": "31 765 ₽",
+        "total": "540 000 ₽"
+      },
+      {
+        "participant": "18",
+        "perPerson": "31 111 ₽",
+        "total": "560 000 ₽"
+      },
+      {
+        "participant": "19",
+        "perPerson": "30 526 ₽",
+        "total": "580 000 ₽"
+      },
+      {
+        "participant": "20",
+        "perPerson": "30 000 ₽",
+        "total": "600 000 ₽"
+      }
+    ]
+  },
+  {
+    "mode": "online",
+    "days": 10,
+    "total": "440 000 ₽",
+    "rows": [
+      {
+        "participant": "1",
+        "perPerson": "440 000 ₽",
+        "total": "440 000 ₽"
+      },
+      {
+        "participant": "2",
+        "perPerson": "220 000 ₽",
+        "total": "440 000 ₽"
+      },
+      {
+        "participant": "3",
+        "perPerson": "146 667 ₽",
+        "total": "440 000 ₽"
+      },
+      {
+        "participant": "4",
+        "perPerson": "110 000 ₽",
+        "total": "440 000 ₽"
+      },
+      {
+        "participant": "5",
+        "perPerson": "88 000 ₽",
+        "total": "440 000 ₽"
+      },
+      {
+        "participant": "6",
+        "perPerson": "80 000 ₽",
+        "total": "480 000 ₽"
+      },
+      {
+        "participant": "7",
+        "perPerson": "74 286 ₽",
+        "total": "520 000 ₽"
+      },
+      {
+        "participant": "8",
+        "perPerson": "70 000 ₽",
+        "total": "560 000 ₽"
+      },
+      {
+        "participant": "9",
+        "perPerson": "66 667 ₽",
+        "total": "600 000 ₽"
+      },
+      {
+        "participant": "10",
+        "perPerson": "80 000 ₽",
+        "total": "800 000 ₽"
+      },
+      {
+        "participant": "11",
+        "perPerson": "76 364 ₽",
+        "total": "840 000 ₽"
+      },
+      {
+        "participant": "12",
+        "perPerson": "73 333 ₽",
+        "total": "880 000 ₽"
+      },
+      {
+        "participant": "13",
+        "perPerson": "70 769 ₽",
+        "total": "920 000 ₽"
+      },
+      {
+        "participant": "14",
+        "perPerson": "68 571 ₽",
+        "total": "960 000 ₽"
+      },
+      {
+        "participant": "15",
+        "perPerson": "66 667 ₽",
+        "total": "1 000 000 ₽"
+      },
+      {
+        "participant": "16",
+        "perPerson": "65 000 ₽",
+        "total": "1 040 000 ₽"
+      },
+      {
+        "participant": "17",
+        "perPerson": "63 529 ₽",
+        "total": "1 080 000 ₽"
+      },
+      {
+        "participant": "18",
+        "perPerson": "62 222 ₽",
+        "total": "1 120 000 ₽"
+      },
+      {
+        "participant": "19",
+        "perPerson": "61 053 ₽",
+        "total": "1 160 000 ₽"
+      },
+      {
+        "participant": "20",
+        "perPerson": "60 000 ₽",
+        "total": "1 200 000 ₽"
+      }
+    ]
+  },
+  {
+    "mode": "onsite",
+    "days": 5,
+    "total": "280 000 ₽",
+    "rows": [
+      {
+        "participant": "1",
+        "perPerson": "280 000 ₽",
+        "total": "280 000 ₽"
+      },
+      {
+        "participant": "2",
+        "perPerson": "140 000 ₽",
+        "total": "280 000 ₽"
+      },
+      {
+        "participant": "3",
+        "perPerson": "93 333 ₽",
+        "total": "280 000 ₽"
+      },
+      {
+        "participant": "4",
+        "perPerson": "70 000 ₽",
+        "total": "280 000 ₽"
+      },
+      {
+        "participant": "5",
+        "perPerson": "56 000 ₽",
+        "total": "280 000 ₽"
+      },
+      {
+        "participant": "6",
+        "perPerson": "48 333 ₽",
+        "total": "290 000 ₽"
+      },
+      {
+        "participant": "7",
+        "perPerson": "44 286 ₽",
+        "total": "310 000 ₽"
+      },
+      {
+        "participant": "8",
+        "perPerson": "41 250 ₽",
+        "total": "330 000 ₽"
+      },
+      {
+        "participant": "9",
+        "perPerson": "38 889 ₽",
+        "total": "350 000 ₽"
+      },
+      {
+        "participant": "10",
+        "perPerson": "37 000 ₽",
+        "total": "370 000 ₽"
+      },
+      {
+        "participant": "11",
+        "perPerson": "35 455 ₽",
+        "total": "390 000 ₽"
+      },
+      {
+        "participant": "12",
+        "perPerson": "34 167 ₽",
+        "total": "410 000 ₽"
+      },
+      {
+        "participant": "13",
+        "perPerson": "33 077 ₽",
+        "total": "430 000 ₽"
+      },
+      {
+        "participant": "14",
+        "perPerson": "32 143 ₽",
+        "total": "450 000 ₽"
+      },
+      {
+        "participant": "15",
+        "perPerson": "31 333 ₽",
+        "total": "470 000 ₽"
+      },
+      {
+        "participant": "16",
+        "perPerson": "30 625 ₽",
+        "total": "490 000 ₽"
+      },
+      {
+        "participant": "17",
+        "perPerson": "30 000 ₽",
+        "total": "510 000 ₽"
+      },
+      {
+        "participant": "18",
+        "perPerson": "29 444 ₽",
+        "total": "530 000 ₽"
+      },
+      {
+        "participant": "19",
+        "perPerson": "28 947 ₽",
+        "total": "550 000 ₽"
+      },
+      {
+        "participant": "20",
+        "perPerson": "28 500 ₽",
+        "total": "570 000 ₽"
+      }
+    ]
+  },
+  {
+    "mode": "onsite",
+    "days": 10,
+    "total": "560 000 ₽",
+    "rows": [
+      {
+        "participant": "1",
+        "perPerson": "560 000 ₽",
+        "total": "560 000 ₽"
+      },
+      {
+        "participant": "2",
+        "perPerson": "280 000 ₽",
+        "total": "560 000 ₽"
+      },
+      {
+        "participant": "3",
+        "perPerson": "186 667 ₽",
+        "total": "560 000 ₽"
+      },
+      {
+        "participant": "4",
+        "perPerson": "140 000 ₽",
+        "total": "560 000 ₽"
+      },
+      {
+        "participant": "5",
+        "perPerson": "112 000 ₽",
+        "total": "560 000 ₽"
+      },
+      {
+        "participant": "6",
+        "perPerson": "96 667 ₽",
+        "total": "580 000 ₽"
+      },
+      {
+        "participant": "7",
+        "perPerson": "88 571 ₽",
+        "total": "620 000 ₽"
+      },
+      {
+        "participant": "8",
+        "perPerson": "82 500 ₽",
+        "total": "660 000 ₽"
+      },
+      {
+        "participant": "9",
+        "perPerson": "77 778 ₽",
+        "total": "700 000 ₽"
+      },
+      {
+        "participant": "10",
+        "perPerson": "74 000 ₽",
+        "total": "740 000 ₽"
+      },
+      {
+        "participant": "11",
+        "perPerson": "70 909 ₽",
+        "total": "780 000 ₽"
+      },
+      {
+        "participant": "12",
+        "perPerson": "68 333 ₽",
+        "total": "820 000 ₽"
+      },
+      {
+        "participant": "13",
+        "perPerson": "66 154 ₽",
+        "total": "860 000 ₽"
+      },
+      {
+        "participant": "14",
+        "perPerson": "64 286 ₽",
+        "total": "900 000 ₽"
+      },
+      {
+        "participant": "15",
+        "perPerson": "62 667 ₽",
+        "total": "940 000 ₽"
+      },
+      {
+        "participant": "16",
+        "perPerson": "61 250 ₽",
+        "total": "980 000 ₽"
+      },
+      {
+        "participant": "17",
+        "perPerson": "60 000 ₽",
+        "total": "1 020 000 ₽"
+      },
+      {
+        "participant": "18",
+        "perPerson": "58 889 ₽",
+        "total": "1 060 000 ₽"
+      },
+      {
+        "participant": "19",
+        "perPerson": "57 895 ₽",
+        "total": "1 100 000 ₽"
+      },
+      {
+        "participant": "20",
+        "perPerson": "57 000 ₽",
+        "total": "1 140 000 ₽"
+      }
+    ]
+  }
+]

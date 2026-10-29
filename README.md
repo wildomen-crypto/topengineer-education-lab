@@ -1,6 +1,6 @@
 # Учебный центр Topengineer: 23 варианта страницы Tekla Structures
 
-Отдельный репозиторий: [wildomen-crypto/topengineer-education-lab](https://github.com/wildomen-crypto/topengineer-education-lab) (приватный).
+Отдельный репозиторий: [wildomen-crypto/topengineer-education-lab](https://github.com/wildomen-crypto/topengineer-education-lab) (публичный).
 
 **Запуск на другом ПК:** [DEPLOYMENT.md](DEPLOYMENT.md). Нужен Node.js 24: `npm ci`, `npm run check`, `npm start`. В инструкции есть готовое задание для Codex, работа из Windows/macOS/Linux, повторный запуск и размещение сборки. Основная страница — вариант 23; все остальные варианты сохранены.
 

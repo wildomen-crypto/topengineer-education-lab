@@ -1,0 +1,222 @@
+[
+  {
+    "client": 305,
+    "clippedCells": [],
+    "columns": "275px",
+    "height": 900,
+    "hero": {
+      "bottom": 1604.265625,
+      "height": 1524.265625,
+      "left": 0,
+      "right": 305,
+      "top": 80,
+      "width": 305,
+      "x": 0,
+      "y": 80
+    },
+    "page": 305,
+    "photoWidth": 305,
+    "rows": 13,
+    "width": 320
+  },
+  {
+    "client": 375,
+    "clippedCells": [],
+    "columns": "345px",
+    "height": 900,
+    "hero": {
+      "bottom": 1459.984375,
+      "height": 1379.984375,
+      "left": 0,
+      "right": 375,
+      "top": 80,
+      "width": 375,
+      "x": 0,
+      "y": 80
+    },
+    "page": 375,
+    "photoWidth": 375,
+    "rows": 13,
+    "width": 390
+  },
+  {
+    "client": 753,
+    "clippedCells": [],
+    "columns": "723px",
+    "height": 900,
+    "hero": {
+      "bottom": 1250.921875,
+      "height": 1170.921875,
+      "left": 0,
+      "right": 753,
+      "top": 80,
+      "width": 753,
+      "x": 0,
+      "y": 80
+    },
+    "page": 753,
+    "photoWidth": 753,
+    "rows": 13,
+    "width": 768
+  },
+  {
+    "client": 835,
+    "clippedCells": [],
+    "columns": "775px",
+    "height": 900,
+    "hero": {
+      "bottom": 1263.4375,
+      "height": 1183.4375,
+      "left": 0,
+      "right": 835,
+      "top": 80,
+      "width": 835,
+      "x": 0,
+      "y": 80
+    },
+    "page": 835,
+    "photoWidth": 835,
+    "rows": 13,
+    "width": 850
+  },
+  {
+    "client": 836,
+    "clippedCells": [],
+    "columns": "379.484px 360.516px",
+    "height": 900,
+    "hero": {
+      "bottom": 902,
+      "height": 822,
+      "left": 0,
+      "right": 836,
+      "top": 80,
+      "width": 836,
+      "x": 0,
+      "y": 80
+    },
+    "page": 836,
+    "photoWidth": 836,
+    "rows": 13,
+    "width": 851
+  },
+  {
+    "client": 1009,
+    "clippedCells": [],
+    "columns": "468.203px 444.781px",
+    "height": 900,
+    "hero": {
+      "bottom": 902,
+      "height": 822,
+      "left": 0,
+      "right": 1009,
+      "top": 80,
+      "width": 1009,
+      "x": 0,
+      "y": 80
+    },
+    "page": 1009,
+    "photoWidth": 1009,
+    "rows": 13,
+    "width": 1024
+  },
+  {
+    "client": 1184,
+    "clippedCells": [],
+    "columns": "557.938px 530.062px",
+    "height": 900,
+    "hero": {
+      "bottom": 902,
+      "height": 822,
+      "left": 0,
+      "right": 1184,
+      "top": 80,
+      "width": 1184,
+      "x": 0,
+      "y": 80
+    },
+    "page": 1184,
+    "photoWidth": 1184,
+    "rows": 13,
+    "width": 1199
+  },
+  {
+    "client": 1185,
+    "clippedCells": [],
+    "columns": "639px 390px",
+    "height": 900,
+    "hero": {
+      "bottom": 862.328125,
+      "height": 742.328125,
+      "left": 0,
+      "right": 1185,
+      "top": 120,
+      "width": 1185,
+      "x": 0,
+      "y": 120
+    },
+    "page": 1185,
+    "photoWidth": 1185,
+    "rows": 13,
+    "width": 1200
+  },
+  {
+    "client": 1425,
+    "clippedCells": [],
+    "columns": "638.422px 446.391px",
+    "height": 900,
+    "hero": {
+      "bottom": 900,
+      "height": 724,
+      "left": 0,
+      "right": 1425,
+      "top": 176,
+      "width": 1425,
+      "x": 0,
+      "y": 176
+    },
+    "page": 1425,
+    "photoWidth": 1425,
+    "rows": 13,
+    "width": 1440
+  },
+  {
+    "client": 1907,
+    "clippedCells": [],
+    "columns": "950.438px 595.812px",
+    "height": 1080,
+    "hero": {
+      "bottom": 1080,
+      "height": 904,
+      "left": 0,
+      "right": 1907,
+      "top": 176,
+      "width": 1907,
+      "x": 0,
+      "y": 176
+    },
+    "page": 1907,
+    "photoWidth": 1907,
+    "rows": 13,
+    "width": 1922
+  },
+  {
+    "client": 2545,
+    "clippedCells": [],
+    "columns": "1415.2px 620px",
+    "height": 1080,
+    "hero": {
+      "bottom": 1080,
+      "height": 904,
+      "left": 0,
+      "right": 2545,
+      "top": 176,
+      "width": 2545,
+      "x": 0,
+      "y": 176
+    },
+    "page": 2545,
+    "photoWidth": 2545,
+    "rows": 13,
+    "width": 2560
+  }
+]

@@ -13,11 +13,16 @@ import './site-width.css';
 import './calculator-compact.css';
 import './course-interactions.css';
 import './support.css';
+import './photo-hero.css';
 
 const formatNames={online:'Онлайн',office:'В офисе в Москве',onsite:'На базе заказчика'};
 const listChoices=values=>new Intl.ListFormat('ru-RU',{type:'disjunction'}).format(values.map(String));
 const otherBookLanguages=new Intl.ListFormat('ru-RU').format(bookProduct.availableLanguages.filter(language=>language!==bookProduct.language).map(language=>language.toLowerCase()));
 const bookLanguageSummary=`${bookProduct.language} (основной). Также доступны ${otherBookLanguages}.${bookProduct.otherLanguagesOnRequest?' Другие языки — по запросу.':''}`;
+const introParagraphs=[
+  'Занимайтесь с преподавателем, который работает в Tekla Structures. До начала курса обсудим вашу подготовку, рабочие задачи и удобное время.',
+  'Начните с базового курса. После него курсы 2–4 можно проходить в любом порядке; последовательность по номерам — рекомендуемая. Для опытных инженеров программу можно адаптировать под рабочие задачи.',
+];
 const steps=[
   ['Согласуйте задачи и связь','До начала занятий обсудите подготовку, рабочие задачи, программу и удобный способ подключения.'],
   ['Посмотрите, как работает инструмент','Преподаватель показывает последовательность действий в Tekla Structures и объясняет, как применять её в работе.'],
@@ -31,7 +36,7 @@ function Button({children,secondary=false,onClick,href,className='',...props}){
   return <Tag {...(href?{href}:{type:'button'})} className={`ref-button ${secondary?'ref-secondary':''} ${className}`} onClick={onClick} {...props}><span>{children}</span><span className="ref-button-icon"><Icon name="arrow-right"/></span></Tag>;
 }
 function Heading({eyebrow,title,children}){return <header className="ref-heading"><p className="ref-eyebrow">{eyebrow}</p><h2>{title}</h2>{children&&<p>{children}</p>}</header>;}
-export default function ReferenceCourse(){
+export default function ReferenceCourse({photoHero=false}){
   const [selected,setSelected]=useState([1]);
   const [people,setPeople]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,1])));
   const [durations,setDurations]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,2])));
@@ -86,19 +91,20 @@ export default function ReferenceCourse(){
     'Задачи и вопросы: '+message,
   ].filter(Boolean).join('\n');
   const mailto='mailto:info@topengineer.ru?subject='+encodeURIComponent('Обучение Tekla Structures')+'&body='+encodeURIComponent(email);
-  return <main className="course-site reference-course variant-23">
+  return <main className={'course-site reference-course variant-23'+(photoHero?' ref-photo-course':'')}>
     <div className="ref-content">
       <section className="ref-intro" aria-labelledby="ref-title">
+        {photoHero&&<figure className="ref-photo-background"><img src="/assets/intensive/hero.jpg" width="1853" height="849" fetchPriority="high" alt="Преподаватель показывает инженерную модель Tekla Structures группе за компьютерами"/><figcaption>Иллюстрация формата обучения</figcaption></figure>}
         <div className="ref-intro-copy">
           <p className="ref-eyebrow">Учебный центр / Tekla Structures</p>
-          <h1 id="ref-title">Индивидуальное обучение <span>Tekla Structures</span></h1>
+          <h1 id="ref-title">{photoHero?'Индивидуальный курс обучения':'Индивидуальное обучение'} <span>Tekla Structures</span></h1>
           <p className="ref-intro-strong">Практические навыки для ваших инженерных задач.</p>
-          <p>Занимайтесь с преподавателем, который работает в Tekla Structures. До начала курса обсудим вашу подготовку, рабочие задачи и удобное время.</p>
-          <p>Начните с базового курса. После него курсы 2–4 можно проходить в любом порядке; последовательность по номерам — рекомендуемая. Для опытных инженеров программу можно адаптировать под рабочие задачи.</p>
+          {!photoHero&&introParagraphs.map(text=><p key={text}>{text}</p>)}
           <p className="ref-hero-facts">{trainingDurations.map(({days,hours},index)=><React.Fragment key={days}>{index>0&&' · '}<span className="ref-hero-duration">{days} {word(days,['день','дня','дней'])} / {hours} часов</span></React.Fragment>)}<small>От {money(rates.totalsCents['2']['1'])} за группу — 2 дня онлайн или в нашем офисе.</small></p>
           <div className="ref-intro-actions"><Button href="#training-calculator">Рассчитать обучение</Button><Button href="#course-descriptions" secondary>Выбрать программу</Button></div>
+          {photoHero&&<details className="ref-photo-details"><summary>Подробнее об обучении</summary>{introParagraphs.map(text=><p key={text}>{text}</p>)}</details>}
         </div>
-        <figure className="ref-hero-photo"><img src="/assets/reference/classroom.png" width="1644" height="957" alt="Преподаватель объясняет работу в Tekla Structures ученикам за компьютерами"/><figcaption>Иллюстрация формата обучения</figcaption></figure>
+        {!photoHero&&<figure className="ref-hero-photo"><img src="/assets/reference/classroom.png" width="1644" height="957" alt="Преподаватель объясняет работу в Tekla Structures ученикам за компьютерами"/><figcaption>Иллюстрация формата обучения</figcaption></figure>}
         <aside className="ref-at-glance" aria-labelledby="ref-facts-title"><h2 id="ref-facts-title">Коротко о курсе</h2><dl>{[
           ['Программа','Tekla Structures'],
           ['Версия Tekla','Любая версия'],

@@ -1,0 +1,113 @@
+/* Optional photographic introduction; the approved split introduction stays intact. */
+.reference-course.ref-photo-course .ref-intro {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(390px, clamp(390px, 31vw, 620px));
+  gap: 40px clamp(64px, 8vw, 220px);
+  align-items: center;
+  min-height: calc(100svh - 78px);
+  padding-block: clamp(24px, 1.35vw, 40px);
+  background: #16222d;
+  color: #fff;
+}
+.ref-photo-course .ref-photo-background {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  margin: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.ref-photo-course .ref-photo-background::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #0715224d;
+}
+.ref-photo-course .ref-photo-background img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.ref-photo-course .ref-photo-background figcaption {
+  position: absolute;
+  z-index: 1;
+  right: var(--ref-gutter);
+  bottom: 10px;
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.reference-course.ref-photo-course .ref-intro-copy { max-width: 720px; }
+.reference-course.ref-photo-course .ref-intro h1 {
+  max-width: 17ch;
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: clamp(46px, 3.4vw, 82px);
+  line-height: 1.06;
+  letter-spacing: -.035em;
+}
+.reference-course.ref-photo-course .ref-intro-copy :is(.ref-eyebrow,.ref-intro-strong,.ref-hero-facts) { color: #fff; }
+.reference-course.ref-photo-course .ref-intro-copy .ref-eyebrow { font-size: 12px; }
+.reference-course.ref-photo-course .ref-intro-copy .ref-intro-strong {
+  max-width: 35ch;
+  font-size: clamp(19px, 1.25vw, 25px);
+}
+.reference-course.ref-photo-course .ref-hero-facts {
+  margin: 26px 0;
+  font-size: 18px;
+  line-height: 1.55;
+}
+.reference-course.ref-photo-course .ref-hero-facts small { max-width: 55ch; color: #eef2f5; }
+.ref-photo-course .ref-intro-actions .ref-secondary { background: #16222d70; border-color: #ffffffa6; color: #fff; }
+.ref-photo-course .ref-intro-actions .ref-secondary:hover { background: #fff; color: #16222d; }
+.ref-photo-course .ref-intro :is(a,button,summary):focus-visible { outline-color: #ffc34e; }
+.ref-photo-course .ref-photo-details { max-width: 62ch; margin-top: 22px; color: #fff; font-size: 15px; }
+.ref-photo-course .ref-photo-details summary { width: fit-content; padding: 9px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 4px; }
+.reference-course.ref-photo-course .ref-photo-details p { margin-top: 14px; color: #eef2f5; line-height: 1.65; }
+.reference-course.ref-photo-course .ref-at-glance {
+  grid-column: auto;
+  width: 100%;
+  padding: 22px 24px;
+  border: 1px solid #ffffff40;
+  border-radius: 12px;
+  background: #10202ef0;
+  color: #fff;
+}
+.reference-course.ref-photo-course .ref-at-glance h2 { color: #fff; font-size: 22px; padding-bottom: 13px; margin-bottom: 4px; border-color: #ffffff70; }
+.reference-course.ref-photo-course .ref-at-glance dl { display: block; font-size: 14px; line-height: 1.45; }
+.reference-course.ref-photo-course .ref-at-glance dl > div { grid-template-columns: minmax(115px, .7fr) minmax(0, 1.3fr); gap: 14px; padding: 7px 0; border-color: #ffffff30; }
+.reference-course.ref-photo-course .ref-at-glance dt { color: #fff; }
+.reference-course.ref-photo-course .ref-at-glance dd { color: #edf1f5; }
+.reference-course.ref-photo-course .ref-at-glance dd small { margin-top: 3px; }
+.reference-course.ref-photo-course .ref-at-glance a { color: #ffcc68; }
+.reference-course.ref-photo-course .ref-at-glance dl > div:last-child { border-bottom: 0; }
+@media (min-width: 1200px) {
+  .reference-course.ref-photo-course { padding-top: 40px; }
+  .reference-course.ref-photo-course .ref-intro { min-height: calc(100svh - 176px); }
+}
+@media (max-width: 1199px) {
+  .reference-course.ref-photo-course .ref-intro { grid-template-columns: minmax(0, 1fr) minmax(350px, .95fr); gap: 36px; }
+  .reference-course.ref-photo-course .ref-intro h1 { font-size: clamp(40px, 4.4vw, 52px); }
+  .reference-course.ref-photo-course .ref-at-glance { padding: 20px; }
+}
+@media (max-width: 850px) {
+  .reference-course.ref-photo-course .ref-intro { grid-template-columns: minmax(0, 1fr); padding-block: 40px; gap: 34px; }
+  .reference-course.ref-photo-course .ref-intro-copy { max-width: 640px; }
+  .reference-course.ref-photo-course .ref-intro h1 { max-width: 18ch; font-size: clamp(36px, 6vw, 50px); }
+  .reference-course.ref-photo-course .ref-at-glance { max-width: 640px; }
+  .ref-photo-course .ref-photo-background::after { background: #07152299; }
+  .ref-photo-course .ref-photo-background img { object-position: 62% center; }
+}
+@media (max-width: 600px) {
+  .reference-course.ref-photo-course .ref-intro { padding-top: 32px; padding-bottom: 42px; }
+  .reference-course.ref-photo-course .ref-intro h1 { font-size: clamp(32px, 8.2vw, 46px); line-height: 1.1; }
+  .reference-course.ref-photo-course .ref-intro-copy .ref-intro-strong { font-size: 18px; }
+  .reference-course.ref-photo-course .ref-hero-facts { font-size: 16px; margin-block: 22px; }
+  .reference-course.ref-photo-course .ref-hero-facts small { font-size: 13px; }
+  .reference-course.ref-photo-course .ref-at-glance { padding: 18px 16px; }
+  .reference-course.ref-photo-course .ref-at-glance dl > div { grid-template-columns: minmax(94px, .7fr) minmax(0, 1.3fr); gap: 10px; padding-block: 9px; }
+}

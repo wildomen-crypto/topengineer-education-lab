@@ -1,0 +1,16 @@
+{
+  "source": {
+    "width": 1922,
+    "height": 902,
+    "browserChromeRemoved": 75
+  },
+  "cssViewport": {
+    "width": 1922,
+    "height": 827
+  },
+  "implementation": {
+    "width": 1907,
+    "height": 821
+  },
+  "comparisonHalfWidth": 960
+}

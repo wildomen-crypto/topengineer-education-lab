@@ -3,6 +3,7 @@ import shell from "./data/shell.json";
 
 const ReferenceCourse = React.lazy(() => import("./reference/ReferenceCourse.jsx"));
 const courseUrl = "/education-centr/tekla-23-site-style/";
+const photoCourseUrl = "/education-centr/tekla-photo-hero/";
 const courseSections = [
   {id:"course-descriptions",name:"Курсы Tekla Structures",keywords:"базовый компоненты продвинутая настройка шаблоны"},
   {id:"training-calculator",name:"Стоимость и расчёт обучения",keywords:"калькулятор цена прайс рубли группа участники"},
@@ -16,21 +17,25 @@ const courseSections = [
   {id:"program",name:"Полные программы курсов",keywords:"темы моделирование чертежи компоненты"},
 ];
 
-// Keep the approved shell and add one course article to its existing menu.
+// Keep the approved shell; both introductions use the same course content.
 const headerDocument = new DOMParser().parseFromString(shell.header, "text/html");
 headerDocument.querySelectorAll('header a[href="/education-centr/"]').forEach((link) => {
   if (link.textContent.trim() !== "Учебный центр") return;
   const menu = link.parentElement.querySelector(":scope > ul");
   if (!menu) return;
-  const item = document.createElement("li");
-  const article = document.createElement("a");
-  article.href = courseUrl;
-  const label = document.createElement("span");
-  label.className = "pbmit-span-wrapper";
-  label.textContent = "Обучение Tekla Structures";
-  article.append(label);
-  item.append(article);
-  menu.prepend(item);
+  const articles = [[courseUrl,"Обучение Tekla Structures"],[photoCourseUrl,"Tekla Structures — с фотографией"]];
+  const items = articles.map(([url,name]) => {
+    const item = document.createElement("li");
+    const article = document.createElement("a");
+    article.href = url;
+    const label = document.createElement("span");
+    label.className = "pbmit-span-wrapper";
+    label.textContent = name;
+    article.append(label);
+    item.append(article);
+    return item;
+  });
+  menu.prepend(...items);
 });
 const header = headerDocument.body.innerHTML;
 function Arrow() { return <i aria-hidden="true" className="pbmit-base-icon-next" />; }
@@ -156,19 +161,21 @@ function SiteShell({ children }) {
   );
 }
 export function App() {
+  const photoHero = location.pathname === photoCourseUrl || location.pathname === photoCourseUrl.slice(0,-1);
   useEffect(() => {
     document.title = "Обучение Tekla Structures | Топинженер";
-    if (location.pathname !== courseUrl) {
+    const canonicalUrl = photoHero ? photoCourseUrl : courseUrl;
+    if (location.pathname !== canonicalUrl) {
       // Old comparison links now lead to the retained course, keeping useful anchors.
       const hash = location.hash === "#designs" ? "#course-descriptions"
         : location.hash === "#enroll" ? "#training-calculator" : location.hash;
-      history.replaceState(null, "", courseUrl + hash);
+      history.replaceState(null, "", canonicalUrl + hash);
     }
   }, []);
   return (
     <SiteShell>
       <React.Suspense fallback={<main className="course-site nc-loading" role="status">Загрузка страницы курса…</main>}>
-        <ReferenceCourse />
+        <ReferenceCourse photoHero={photoHero}/>
       </React.Suspense>
     </SiteShell>
   );

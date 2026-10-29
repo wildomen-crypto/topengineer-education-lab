@@ -1,0 +1,97 @@
+{
+  "client": 1265,
+  "contentHeadings": [
+    "Коротко о курсе",
+    "Выберите свою программу",
+    "Рассчитайте своё обучение",
+    "Как проходит обучение",
+    "Руководство Tekla Structures",
+    "Выберите длительность обучения",
+    "Где будем заниматься",
+    "Подготовьтесь к обучению",
+    "Ваш сертификат",
+    "Поддержка после обучения",
+    "Программы курсов Tekla Structures"
+  ],
+  "courseCards": 4,
+  "footerFont": "Roboto, sans-serif",
+  "headStyleCount": 5,
+  "headerFont": "Roboto, sans-serif",
+  "heroImageLoaded": true,
+  "lightDOMCourseCount": 0,
+  "overviewRows": 13,
+  "page": 1629,
+  "ready": "true",
+  "shadowRoot": true,
+  "url": "https://dev.topengineer.ru/test/",
+  "headerUnchanged": true,
+  "footerUnchanged": true,
+  "headerFontUnchanged": true,
+  "footerFontUnchanged": true,
+  "overflowBefore": {
+    "client": 1265,
+    "page": 1629
+  },
+  "calculator": {
+    "days": 5,
+    "people": 1,
+    "format": "onsite",
+    "totalRUB": 280000,
+    "quoteCorrect": true
+  },
+  "modal": {
+    "bodyStyle": "overflow: hidden;",
+    "dialog": {
+      "bottom": 695,
+      "height": 670,
+      "left": 215,
+      "right": 1065,
+      "top": 25,
+      "width": 850,
+      "x": 215,
+      "y": 25
+    },
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  "bookViewerVerified": true,
+  "consoleErrors": [],
+  "mobile": {
+    "client": 375,
+    "course": {
+      "bottom": 17080.171875,
+      "height": 22498.171875,
+      "left": 0,
+      "right": 375,
+      "top": -5418,
+      "width": 375,
+      "x": 0,
+      "y": -5418
+    },
+    "courseOverflow": [
+      {
+        "cls": "",
+        "tag": "IMG"
+      }
+    ],
+    "overviewTerms": 13,
+    "page": 375,
+    "viewport": 390
+  },
+  "headerRawHTMLUnchanged": false,
+  "footerRawHTMLUnchanged": false,
+  "shellComparison": "Ignore whitespace and comments removed by native Bitrix composite cache; markup otherwise identical.",
+  "hostRuntimeStyleIds": [
+    "swiper-v12-runtime-fix",
+    "theia-sticky-sidebar-stylesheet-TSS"
+  ],
+  "embeddingStylesInDocumentHead": 0,
+  "initialImmediateComparison": {
+    "headerByteIdentical": true,
+    "footerByteIdentical": true,
+    "headStyleCountBefore": 3,
+    "headStyleCountAfter": 3
+  }
+}

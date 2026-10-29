@@ -1,3 +1,7 @@
+# Latest verification — isolated live test
+
+The photographic course body is published at https://dev.topengineer.ru/test/ inside Shadow DOM. The live Bitrix header/footer and their PHP wrappers are preserved. See [the deployment QA report](qa/design-qa-2026-10-29-isolated-test.md) and [administrator instructions](BITRIX-TEST.md). Functional, isolation, phone and 2560 px checks passed; the existing host menu overflow at 1280 px is unchanged. The original photographic-design comparison follows below.
+
 # Photographic introduction — design QA
 
 **Findings**

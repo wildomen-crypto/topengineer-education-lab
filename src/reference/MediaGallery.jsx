@@ -30,11 +30,13 @@ function ArtworkViewer({items,index,onIndex,onClose,opener}){
   useEffect(()=>{
     const element=dialog.current;
     const previousOverflow=document.body.style.overflow;
+    const hadBodyStyle=document.body.hasAttribute('style');
     element.showModal();
     document.body.style.overflow='hidden';
     return()=>{
       if(element.open)element.close();
       document.body.style.overflow=previousOverflow;
+      if(!hadBodyStyle&&!document.body.getAttribute('style'))document.body.removeAttribute('style');
       if(opener.current?.isConnected)opener.current.focus();
     };
   },[]);

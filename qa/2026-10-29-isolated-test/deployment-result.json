@@ -1,0 +1,8 @@
+{
+  "url": "https://dev.topengineer.ru/test/",
+  "backup": "/root/topengineer-test-deploy-20261029-ae94783/index.php.before",
+  "beforeSHA256": "1d3ff31328cd13d82afcc19d3befb143997a66a15a736e6cd634c19ab57b5dba",
+  "afterSHA256": "1f0f2af886bd79c3d818fed776530657b2eb5ba5db89d78795ce777f61e57dd9",
+  "headerFooterWrapperPreserved": true,
+  "assetDirectory": "/var/www/clients/client1/web1/web/test/te-tekla-20261029"
+}

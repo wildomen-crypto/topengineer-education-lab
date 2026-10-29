@@ -36,7 +36,9 @@ function Button({children,secondary=false,onClick,href,className='',...props}){
   return <Tag {...(href?{href}:{type:'button'})} className={`ref-button ${secondary?'ref-secondary':''} ${className}`} onClick={onClick} {...props}><span>{children}</span><span className="ref-button-icon"><Icon name="arrow-right"/></span></Tag>;
 }
 function Heading({eyebrow,title,children}){return <header className="ref-heading"><p className="ref-eyebrow">{eyebrow}</p><h2>{title}</h2>{children&&<p>{children}</p>}</header>;}
-export default function ReferenceCourse({photoHero=false}){
+export default function ReferenceCourse({photoHero=false,embedded=false}){
+  const contentRoot=useRef(null);
+  const CourseRoot=embedded?'div':'main';
   const [selected,setSelected]=useState([1]);
   const [people,setPeople]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,1])));
   const [durations,setDurations]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,2])));
@@ -66,20 +68,20 @@ export default function ReferenceCourse({photoHero=false}){
     event.currentTarget.querySelector('input[type="checkbox"]')?.focus({preventScroll:true});
     toggle(id);
   };
-  const scrollTo=id=>document.getElementById(id)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+  const scrollTo=id=>contentRoot.current?.querySelector('#'+CSS.escape(id))?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
   const open=(name,event)=>{opener.current=event?.currentTarget;setPanel(name);};
   const openProgram=id=>{setLevel(id);requestAnimationFrame(()=>scrollTo('program'));};
   useEffect(()=>{
     const order=event=>{opener.current=event.detail?.opener;setPanel('quote');};
-    window.addEventListener('tekla-intensive-enroll',order);
-    if(location.hash)requestAnimationFrame(()=>document.getElementById(location.hash.slice(1))?.scrollIntoView());
-    return()=>window.removeEventListener('tekla-intensive-enroll',order);
+    if(!embedded)window.addEventListener('tekla-intensive-enroll',order);
+    if(location.hash)requestAnimationFrame(()=>scrollTo(location.hash.slice(1).replace(/^te-training-/,'')));
+    return()=>{if(!embedded)window.removeEventListener('tekla-intensive-enroll',order);};
   },[]);
   useEffect(()=>{
     if(!panel)return;
-    const element=dialog.current;const oldOverflow=document.body.style.overflow;
+    const element=dialog.current;const oldOverflow=document.body.style.overflow;const hadBodyStyle=document.body.hasAttribute('style');
     element.showModal();document.body.style.overflow='hidden';
-    return()=>{if(element.open)element.close();document.body.style.overflow=oldOverflow;if(opener.current?.isConnected)opener.current.focus();};
+    return()=>{if(element.open)element.close();document.body.style.overflow=oldOverflow;if(!hadBodyStyle&&!document.body.getAttribute('style'))document.body.removeAttribute('style');if(opener.current?.isConnected)opener.current.focus();};
   },[panel]);
   const email=[
     selection.length?'Здравствуйте! Хочу обсудить обучение Tekla Structures.':'Здравствуйте! Хочу приобрести электронный комплект книг Tekla Structures.',
@@ -91,7 +93,7 @@ export default function ReferenceCourse({photoHero=false}){
     'Задачи и вопросы: '+message,
   ].filter(Boolean).join('\n');
   const mailto='mailto:info@topengineer.ru?subject='+encodeURIComponent('Обучение Tekla Structures')+'&body='+encodeURIComponent(email);
-  return <main className={'course-site reference-course variant-23'+(photoHero?' ref-photo-course':'')}>
+  return <CourseRoot ref={contentRoot} className={'course-site reference-course variant-23'+(photoHero?' ref-photo-course':'')}>
     <div className="ref-content">
       <section className="ref-intro" aria-labelledby="ref-title">
         {photoHero&&<figure className="ref-photo-background"><img src="/assets/intensive/hero.jpg" width="1853" height="849" fetchPriority="high" alt="Преподаватель показывает инженерную модель Tekla Structures группе за компьютерами"/><figcaption>Иллюстрация формата обучения</figcaption></figure>}
@@ -264,5 +266,5 @@ export default function ReferenceCourse({photoHero=false}){
         <p className="ref-dialog-contact"><a href="tel:+74952150779">+7 (495) 215-07-79</a><a href="mailto:info@topengineer.ru">info@topengineer.ru</a></p>
       </>}</div>
     </dialog>}
-  </main>;
+  </CourseRoot>;
 }

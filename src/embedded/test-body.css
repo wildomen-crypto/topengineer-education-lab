@@ -1,0 +1,18 @@
+:host {
+  all: initial;
+  display: block;
+  width: 100%;
+  color-scheme: light;
+  direction: ltr;
+  text-align: left;
+  isolation: isolate;
+  --pbmit-blackish-color: #16222d;
+  --pbmit-global-color: #ffc34e;
+  --pbmit-light-color: #ecf0f4;
+  --pbmit-body-typography-color: #696f6f;
+}
+:host > div { display: block; }
+.reference-course { text-align: left; }
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}

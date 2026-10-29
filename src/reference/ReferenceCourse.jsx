@@ -12,6 +12,7 @@ import './pricing.css';
 import './site-width.css';
 import './calculator-compact.css';
 import './course-interactions.css';
+import './support.css';
 
 const formatNames={online:'Онлайн',office:'В офисе в Москве',onsite:'На базе заказчика'};
 const steps=[
@@ -202,7 +203,6 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
           ['02','Компьютер и рабочее место','Для онлайн-занятий подготовьте компьютер с Tekla Structures, связь и звук. Необходимую версию и дополнительные инструменты обсудите заранее.'],
           ['03','Даты и организация','Укажите город, удобную дату начала и способ оплаты. Для группы согласуйте место проведения и доступ к рабочим файлам.'],
         ].map(([n,title,text])=><article key={n}><span>{n}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
-        <div className="ref-support"><div><p className="ref-eyebrow">После курса</p><h3>Поддержка в дальнейшей работе</h3><p>Технические вопросы можно обсудить на специализированном форуме. Помощь во внедрении Tekla на предприятии оформляется отдельным соглашением.</p></div><a className="ref-text-link" href="https://topengineer.ru/forum" target="_blank" rel="noreferrer">Перейти на форум <Icon name="angle-right"/></a></div>
       </section>
 
       <section className="ref-section ref-certificates" id="course-certificate" aria-labelledby="ref-certificate-title">
@@ -215,6 +215,15 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
             <p>На изображениях показаны образцы для разной продолжительности обучения. Электронную версию можно сохранить или распечатать самостоятельно.</p>
           </div>
         </div>
+      </section>
+      <section className="ref-section ref-after-support" id="after-training-support" aria-labelledby="ref-support-title">
+        <Heading eyebrow="Когда курс завершён" title={<span id="ref-support-title">Поддержка после обучения</span>}>Поможем применить новые навыки на практике.</Heading>
+        <p className="ref-after-support-intro">После курса у вас остаются прямые контакты преподавателя. Вы можете задавать дополнительные вопросы в Telegram, WhatsApp или через другой согласованный канал связи.</p>
+        <div className="ref-support-options">
+          <article className="ref-support-option"><Icon name="comments-o"/><div><h3>Короткие вопросы — бесплатно</h3><p>Если на вопрос можно ответить без существенных затрат времени, преподаватель поможет бесплатно.</p></div></article>
+          <article className="ref-support-option"><Icon name="clock-o"/><div><h3>Сложные задачи — с почасовой оплатой</h3><p>Если требуется непосредственное участие преподавателя и значительное рабочее время, можно заказать платную техническую поддержку. Задачу и почасовую ставку согласуем с вами до начала работ.</p></div></article>
+        </div>
+        <div className="ref-support-resources"><p>Технические вопросы также можно обсудить на специализированном форуме. Помощь во внедрении Tekla на предприятии оформляется отдельным соглашением.</p><a className="ref-text-link" href="https://topengineer.ru/forum" target="_blank" rel="noreferrer">Перейти на форум <Icon name="angle-right"/></a></div>
       </section>
       <div className="ref-full-program"><ReferenceProgram level={level} setLevel={setLevel}/></div>
     </div>

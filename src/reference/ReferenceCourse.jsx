@@ -28,7 +28,7 @@ function Button({children,secondary=false,onClick,href,className='',...props}){
   return <Tag {...(href?{href}:{type:'button'})} className={`ref-button ${secondary?'ref-secondary':''} ${className}`} onClick={onClick} {...props}><span>{children}</span><span className="ref-button-icon"><Icon name="arrow-right"/></span></Tag>;
 }
 function Heading({eyebrow,title,children}){return <header className="ref-heading"><p className="ref-eyebrow">{eyebrow}</p><h2>{title}</h2>{children&&<p>{children}</p>}</header>;}
-export default function ReferenceCourse({variant,Review,allVariants,route,home}){
+export default function ReferenceCourse(){
   const [selected,setSelected]=useState([1]);
   const [people,setPeople]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,1])));
   const [durations,setDurations]=useState(()=>Object.fromEntries(levels.map(item=>[item.id,2])));
@@ -83,9 +83,7 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
     'Задачи и вопросы: '+message,
   ].filter(Boolean).join('\n');
   const mailto='mailto:info@topengineer.ru?subject='+encodeURIComponent('Обучение Tekla Structures')+'&body='+encodeURIComponent(email);
-  const position=allVariants.findIndex(item=>item.id===variant.id);
   return <main className="course-site reference-course variant-23">
-    <Review variant={variant}/>
     <div className="ref-content">
       <section className="ref-intro" aria-labelledby="ref-title">
         <div className="ref-intro-copy">
@@ -227,7 +225,6 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
       </section>
       <div className="ref-full-program"><ReferenceProgram level={level} setLevel={setLevel}/></div>
     </div>
-    <nav className="ref-variant-nav" aria-label="Другие варианты дизайна"><a href={route(allVariants[(position+allVariants.length-1)%allVariants.length])}>Предыдущий вариант</a><a href={home+'#designs'}>Все {allVariants.length} варианта</a><a href={route(allVariants[(position+1)%allVariants.length])}>Следующий вариант</a></nav>
     {panel&&<dialog ref={dialog} className="ref-dialog" aria-labelledby="ref-dialog-title" onCancel={event=>{event.preventDefault();setPanel(null);}} onClick={event=>{if(event.target===event.currentTarget)setPanel(null);}}>
       <header><div><p className="ref-eyebrow">Учебный центр Topengineer</p><h2 id="ref-dialog-title">{panel==='prices'?'Прайс на обучение':'Обсудим ваш выбор'}</h2></div><button type="button" className="ref-close" onClick={()=>setPanel(null)} aria-label="Закрыть окно"><Icon name="times"/></button></header>
       <div className="ref-dialog-body">{panel==='prices'?<PriceTable format={summary.courses[0]?.format}/>:<>

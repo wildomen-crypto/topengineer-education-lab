@@ -1,0 +1,92 @@
+[
+  {
+    "clientWidth": 305,
+    "daysScroll": 275,
+    "daysWidth": 275,
+    "pageWidth": 305,
+    "section": {
+      "height": 9729.015625,
+      "width": 305,
+      "x": 0,
+      "y": 19326.859375
+    },
+    "tabsScroll": 275,
+    "tabsWidth": 275,
+    "toolsHeight": 44,
+    "toolsScroll": 275,
+    "toolsWidth": 275,
+    "width": 320
+  },
+  {
+    "clientWidth": 390,
+    "daysScroll": 360,
+    "daysWidth": 360,
+    "pageWidth": 390,
+    "section": {
+      "height": 7233.90625,
+      "width": 390,
+      "x": 0,
+      "y": 16910.03125
+    },
+    "tabsScroll": 360,
+    "tabsWidth": 360,
+    "toolsHeight": 44,
+    "toolsScroll": 360,
+    "toolsWidth": 360,
+    "width": 390
+  },
+  {
+    "clientWidth": 835,
+    "daysScroll": 775,
+    "daysWidth": 775,
+    "pageWidth": 835,
+    "section": {
+      "height": 4591.5,
+      "width": 835,
+      "x": 0,
+      "y": 13147.15625
+    },
+    "tabsScroll": 775,
+    "tabsWidth": 775,
+    "toolsHeight": 44,
+    "toolsScroll": 775,
+    "toolsWidth": 775,
+    "width": 850
+  },
+  {
+    "clientWidth": 1440,
+    "daysScroll": 1200,
+    "daysWidth": 1200,
+    "pageWidth": 1440,
+    "section": {
+      "height": 2909.578125,
+      "width": 1440,
+      "x": 0,
+      "y": 9091.328125
+    },
+    "tabsScroll": 1200,
+    "tabsWidth": 1200,
+    "toolsHeight": 44,
+    "toolsScroll": 1200,
+    "toolsWidth": 1200,
+    "width": 1440
+  },
+  {
+    "clientWidth": 2545,
+    "daysScroll": 2240,
+    "daysWidth": 2240,
+    "pageWidth": 2545,
+    "section": {
+      "height": 2501.53125,
+      "width": 2545,
+      "x": 0,
+      "y": 8147.390625
+    },
+    "tabsScroll": 2240,
+    "tabsWidth": 2240,
+    "toolsHeight": 44,
+    "toolsScroll": 2240,
+    "toolsWidth": 2240,
+    "width": 2560
+  }
+]

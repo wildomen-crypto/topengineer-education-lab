@@ -1,5 +1,8 @@
 .reference-course .ref-full-program .program-levels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
 .reference-course .ref-full-program .program-levels button{min-width:0;white-space:normal;text-align:left;font-size:14px;line-height:1.5}
+.reference-course .ref-full-program .ref-program-tools{display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;margin:0 0 16px;padding:0}
+.reference-course .ref-full-program .ref-program-tools>span{font-size:13px;line-height:1.5;color:var(--ref-muted)}
+.reference-course .ref-full-program .ref-program-tools>button{min-height:44px;margin:0;font-size:14px}
 .reference-course .ref-full-program .day-heading{margin:0;padding:22px}
 .reference-course .ref-full-program .day-heading>div{min-width:0;flex:1}
 .reference-course .ref-full-program .day-heading>small{flex:none;font-size:12px;color:#dbe1e5}

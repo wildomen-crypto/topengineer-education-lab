@@ -1,0 +1,49 @@
+{
+  "courses": [
+    {
+      "parts": [
+        44,
+        44
+      ],
+      "removedIntro": 0,
+      "search": 0,
+      "tab": "ref-level-tab-1",
+      "topics": 88
+    },
+    {
+      "parts": [
+        44,
+        44
+      ],
+      "removedIntro": 0,
+      "search": 0,
+      "tab": "ref-level-tab-2",
+      "topics": 88
+    },
+    {
+      "parts": [
+        44,
+        44
+      ],
+      "removedIntro": 0,
+      "search": 0,
+      "tab": "ref-level-tab-3",
+      "topics": 88
+    },
+    {
+      "parts": [
+        44,
+        44
+      ],
+      "removedIntro": 0,
+      "search": 0,
+      "tab": "ref-level-tab-4",
+      "topics": 88
+    }
+  ],
+  "allClosed": true,
+  "allOpen": true,
+  "firstClosed": true,
+  "home": "true",
+  "right": "true"
+}

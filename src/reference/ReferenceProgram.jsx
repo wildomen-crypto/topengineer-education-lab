@@ -13,7 +13,7 @@ export default function ReferenceProgram({level,setLevel}){
   const results=parts.reduce((sum,part)=>sum+part.groups.reduce((count,group)=>count+group.topics.length,0),0);
   return <section id="program" className="course-section program-section" aria-labelledby="ref-program-title">
     <div className="course-container">
-    <header className="section-heading"><p className="eyebrow">Программы четырёх курсов</p><h2 id="ref-program-title">От основ к вашим рабочим задачам</h2><p>Начните с базового курса. Курсы 2–4 после него можно проходить в любом порядке; последовательность по номерам — рекомендуемая.</p></header>
+    <header className="section-heading"><p className="eyebrow">Программы четырёх курсов</p><h2 id="ref-program-title">Программы курсов Tekla Structures</h2><p>Начните с базового курса. Курсы 2–4 после него можно проходить в любом порядке; последовательность по номерам — рекомендуемая.</p></header>
     <div ref={tabs} className="program-levels" role="tablist" aria-label="Программа курса">{courses.map((course,index)=><button type="button" role="tab" key={course.id} id={`ref-level-tab-${course.id}`} aria-selected={selected.id===course.id} aria-controls="ref-program-panel" tabIndex={selected.id===course.id?0:-1} className={selected.id===course.id?'active':''} onClick={()=>choose(course.id)} onKeyDown={event=>{
       const next=event.key==='ArrowRight'?(index+1)%courses.length:event.key==='ArrowLeft'?(index+courses.length-1)%courses.length:event.key==='Home'?0:event.key==='End'?courses.length-1:null;
       if(next!==null){event.preventDefault();choose(courses[next].id);tabs.current.querySelector(`#ref-level-tab-${courses[next].id}`).focus();}

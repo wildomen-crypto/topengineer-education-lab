@@ -15,6 +15,7 @@ import './course-interactions.css';
 import './support.css';
 
 const formatNames={online:'Онлайн',office:'В офисе в Москве',onsite:'На базе заказчика'};
+const listChoices=values=>new Intl.ListFormat('ru-RU',{type:'disjunction'}).format(values.map(String));
 const steps=[
   ['Согласуйте задачи и связь','До начала занятий обсудите подготовку, рабочие задачи, программу и удобный способ подключения.'],
   ['Посмотрите, как работает инструмент','Преподаватель показывает последовательность действий в Tekla Structures и объясняет, как применять её в работе.'],
@@ -97,7 +98,19 @@ export default function ReferenceCourse(){
         </div>
         <figure className="ref-hero-photo"><img src="/assets/reference/classroom.png" width="1644" height="957" alt="Преподаватель объясняет работу в Tekla Structures ученикам за компьютерами"/><figcaption>Иллюстрация формата обучения</figcaption></figure>
         <aside className="ref-at-glance" aria-labelledby="ref-facts-title"><h2 id="ref-facts-title">Коротко о курсе</h2><dl>{[
-          ['Программа','Tekla Structures'],['Длительность','2, 5 или 10 дней'],['Занятия','8 часов в день'],['Курсы','4 программы: основы, компоненты, продвинутая работа, шаблоны'],['Участники','1–20 человек'],['Формат','Онлайн, в Москве или на вашей базе'],['Начало','По согласованию'],['Язык','Русский или English'],['Стоимость',<a href="#training-calculator">Рассчитать для группы <Icon name="angle-right"/></a>],
+          ['Программа','Tekla Structures'],
+          ['Версия Tekla','Любая версия'],
+          ['Дней на курс',`${listChoices(trainingDurations.map(item=>item.days))} дней`],
+          ['Часов в день',`${rates.hoursPerDay} часов`],
+          ['Всего часов',`${listChoices(trainingDurations.map(item=>item.hours))} часов на курс`],
+          ['Курсы',<a href="#course-descriptions">4 программы <Icon name="angle-right"/></a>],
+          ['Формат',<>Онлайн, в Москве или на вашей базе.<small>Онлайн: Zoom, Google Meet или аналог.</small></>],
+          ['Начало','Любая удобная дата — по согласованию'],
+          ['Участники','1–20 человек'],
+          ['Подготовка','Курс 1 — без опыта; курсы 2–4 — знания базового курса'],
+          ['Языки','Русский, английский и испанский'],
+          ['Оплата','Банковский перевод по счёту (по согласованию)'],
+          ['Стоимость',<a href="#training-calculator">Рассчитать для группы <Icon name="angle-right"/></a>],
         ].map(([name,value])=><div key={name}><dt>{name}</dt><dd>{value}</dd></div>)}</dl></aside>
       </section>
 

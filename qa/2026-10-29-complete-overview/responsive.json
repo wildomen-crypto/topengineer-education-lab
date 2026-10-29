@@ -1,0 +1,72 @@
+[
+  {
+    "client": 305,
+    "columns": "275px",
+    "factsHeight": 875.296875,
+    "factsWidth": 275,
+    "overflowingCells": [],
+    "page": 305,
+    "rows": 13,
+    "width": 320
+  },
+  {
+    "client": 375,
+    "columns": "345px",
+    "factsHeight": 785.296875,
+    "factsWidth": 345,
+    "overflowingCells": [],
+    "page": 375,
+    "rows": 13,
+    "width": 390
+  },
+  {
+    "client": 753,
+    "columns": "349px 349px",
+    "factsHeight": 488.890625,
+    "factsWidth": 723,
+    "overflowingCells": [],
+    "page": 753,
+    "rows": 13,
+    "width": 768
+  },
+  {
+    "client": 1184,
+    "columns": "358px 358px 358px",
+    "factsHeight": 360.890625,
+    "factsWidth": 1124,
+    "overflowingCells": [],
+    "page": 1184,
+    "rows": 13,
+    "width": 1199
+  },
+  {
+    "client": 1185,
+    "columns": "none",
+    "factsHeight": 782.890625,
+    "factsWidth": 339.375,
+    "overflowingCells": [],
+    "page": 1185,
+    "rows": 13,
+    "width": 1200
+  },
+  {
+    "client": 1425,
+    "columns": "none",
+    "factsHeight": 760.390625,
+    "factsWidth": 363.171875,
+    "overflowingCells": [],
+    "page": 1425,
+    "rows": 13,
+    "width": 1440
+  },
+  {
+    "client": 2545,
+    "columns": "none",
+    "factsHeight": 748.390625,
+    "factsWidth": 684.4375,
+    "overflowingCells": [],
+    "page": 2545,
+    "rows": 13,
+    "width": 2560
+  }
+]

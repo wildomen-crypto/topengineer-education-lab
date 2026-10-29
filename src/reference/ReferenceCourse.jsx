@@ -11,6 +11,7 @@ import PriceTable from './PriceTable.jsx';
 import './pricing.css';
 import './site-width.css';
 import './calculator-compact.css';
+import './course-interactions.css';
 
 const formatNames={online:'Онлайн',office:'В офисе в Москве',onsite:'На базе заказчика'};
 const steps=[
@@ -49,6 +50,12 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
   const toggle=id=>{
     if(!selected.includes(id)){setDurations(current=>({...current,[id]:2}));setPeople(current=>({...current,[id]:1}));}
     setSelected(current=>current.includes(id)?current.filter(n=>n!==id):[...current,id].sort());
+  };
+  const selectFromCard=(event,id)=>{
+    // Keep the native checkbox and programme button independent, and allow text selection.
+    if(event.target.closest('a,button,input,label,select,textarea,summary')||window.getSelection()?.toString().trim())return;
+    event.currentTarget.querySelector('input[type="checkbox"]')?.focus({preventScroll:true});
+    toggle(id);
   };
   const scrollTo=id=>document.getElementById(id)?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
   const open=(name,event)=>{opener.current=event?.currentTarget;setPanel(name);};
@@ -96,8 +103,8 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
       </section>
 
       <section id="course-descriptions" className="ref-section ref-courses" aria-labelledby="ref-courses-title">
-        <Heading eyebrow="Четыре курса Tekla Structures" title={<span id="ref-courses-title">Выберите свою программу</span>}>Базовый курс — основа для курсов 2–4. Выберите нужные направления: отмеченные программы сразу появляются в расчёте.</Heading>
-        <div className="ref-course-grid">{levels.map(item=><article className={'ref-course-card '+(selected.includes(item.id)?'is-selected':'')} key={item.id} aria-labelledby={'ref-course-'+item.id}>
+        <Heading eyebrow="Четыре курса Tekla Structures" title={<span id="ref-courses-title">Выберите свою программу</span>}>Базовый курс — основа для курсов 2–4. Нажмите на карточку, чтобы добавить курс в расчёт или убрать его. Полную программу можно открыть отдельной кнопкой.</Heading>
+        <div className="ref-course-grid">{levels.map(item=><article className={'ref-course-card '+(selected.includes(item.id)?'is-selected':'')} key={item.id} aria-labelledby={'ref-course-'+item.id} onClick={event=>selectFromCard(event,item.id)}>
           <label className="ref-card-choice"><input type="checkbox" checked={selected.includes(item.id)} onChange={()=>toggle(item.id)} aria-label={'Добавить в расчёт: '+item.full}/><span>Курс 0{item.id}</span><small>{topicText(topicCount(item))}</small></label>
           <div className="ref-course-card-body"><h3 id={'ref-course-'+item.id}>{item.full}</h3><p className="ref-course-subtitle">{item.text}</p><div><h4>Для кого</h4><p>{item.experience}.</p></div><div><h4>Что изучаем</h4><ul>{item.goals.map(goal=><li key={goal}><Icon name="check"/>{goal}</li>)}</ul></div><div><h4>После курса</h4><p>{item.result}</p></div><Button secondary onClick={()=>openProgram(item.id)}>Полная программа · {topicText(topicCount(item))}</Button></div>
         </article>)}</div>

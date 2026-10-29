@@ -1,0 +1,52 @@
+[
+  {
+    "test": "body heading toggles course on",
+    "checked": true,
+    "calculatorChecked": true,
+    "total": "Итого за выбранные позиции\n80 000 ₽\n\n2 программы · 4 дня · 32 часа\n\nОбсудить выбранный курс"
+  },
+  {
+    "test": "body subtitle toggles course off",
+    "checked": false
+  },
+  {
+    "test": "programme button opens correct programme without toggling selection",
+    "checked": true,
+    "activeProgramme": "true"
+  },
+  {
+    "test": "native checkbox works with Space and shows whole-card keyboard focus",
+    "checked": true,
+    "focus": {
+      "focused": true,
+      "outline": "solid",
+      "outlineColor": "rgb(128, 87, 0)"
+    }
+  },
+  {
+    "test": "header label toggles exactly once",
+    "checked": false
+  },
+  {
+    "test": "fourth card selects via body",
+    "card": true,
+    "table": true
+  },
+  {
+    "test": "whole basic card deselects and disables empty enquiry",
+    "checked": false,
+    "enabled": false
+  },
+  {
+    "test": "pointer hover feedback after whole-card click",
+    "cursor": "pointer",
+    "hover": true,
+    "shadow": "rgba(255, 195, 78, 0.5) 0px 0px 0px 2px, rgba(22, 34, 45, 0.08) 0px 3px 10px 0px inset",
+    "transform": "matrix(1, 0, 0, 1, 0, 2)"
+  },
+  {
+    "test": "phone body click selects course and calculator together",
+    "card": true,
+    "table": true
+  }
+]

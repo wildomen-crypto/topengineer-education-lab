@@ -1,18 +1,18 @@
-# Course-specific location column — variant 23
+# Course card feedback and alternating backgrounds — variant 23
 
-“Где будете заниматься” is now a column inside the calculator, independently selectable for each active course. The global selector was removed. Each course's chosen format determines its own rate and is retained in the enquiry and prepared email. The onsite travel note appears when any selected course uses onsite training. Informational location cards link to the calculator without changing every course. All current ruble rates remain unchanged.
+The whole course-description card now toggles selection when its body or empty space is clicked. The handler excludes native controls, labels and links, and skips toggling while text is selected. It focuses the existing checkbox without scrolling. Checkbox Space operation remains native; the programme button keeps its separate navigation action. Pointer hover adds a 2px inset movement, border and inset shadow; pressing deepens it. Whole-card keyboard focus is visible. Reduced-motion styling removes movement while retaining static feedback.
 
-The seven-column desktop table retains the compact layout. Below 1200 px, location becomes a labelled field within each course card; on phones it spans that card's width. Date and price layout uses named cell classes instead of old column positions. Inactive rows and books span the correct number of columns.
+All ten content blocks alternate white and the existing light-grey token in actual DOM order, including the final programme wrapper. The sequence is: intro white, courses grey, calculator white, learning process grey, books white, duration grey, locations white, preparation grey, certificates white, full programme grey. Grey sections use the darker existing muted text colour. Approved header/footer and the other 22 variants are unchanged.
 
 Validation:
 
-- `npm run check` passed: production build, nine pricing tests and four hosting tests.
-- Mixed order: online two days/one person = 40,000 ₽; onsite five days/three people = 280,000 ₽; office ten days/six people = 480,000 ₽; two book sets = 16,000 ₽. Total = 816,000 ₽. The enquiry and prepared email keep each course's exact location, duration, participants and price. No email was sent.
-- Changing only the onsite course to online changes the total to 756,000 ₽ and leaves other formats intact. Two-day onsite remains “По согласованию”, with a known subtotal of 536,000 ₽ for the other positions.
-- Clear removes active course fields and disables the empty enquiry. A books-only order has no stale course location or travel note. An onsite first course opens the price dialog at onsite/five-day rates.
-- All four courses and books selected at widths 2560, 1440, 1280, 1200, 1199, 1024, 701, 700, 600, 390 and 320 px: no horizontal overflow and no fields outside their cells. Controls are at least 40 px high, or 44 px on phones.
-- Desktop and phone screenshots visually inspected. Viewport override reset; basic two-day online default restored. The calculator remains available at its anchor.
+- Production build passed with 61 modules; `git diff --check` passed. No pricing algorithms or tariff files changed; no redundant unit tests were added for this visual update.
+- Body headings and descriptions select/deselect courses and synchronize the calculator. Adding a second two-day course changes the total from 40,000 ₽ to 80,000 ₽. Deselecting the only course disables the empty enquiry.
+- The programme button opens course 3 while leaving its selection intact. Header labels toggle once. Space toggles the native checkbox and produces the whole-card focus outline. Phone body clicks also update both the card and calculator.
+- Actual hover after a body click was observed: pointer cursor, transform matrix with a 2px vertical shift, yellow border glow and inset shadow. Pressed and reduced-motion rules were inspected in source; no operating-system preference was changed.
+- Widths 2560, 1800, 1799, 1440, 1200, 851, 850, 390 and 320 px: no page or card horizontal overflow; correct 4/2/1-column transitions; all ten section backgrounds retain the alternating sequence.
+- Desktop cards, phone keyboard focus, and the books/duration boundary were visually inspected. The three book covers load correctly on entering the section. Viewport overrides reset; default basic-course selection retained.
 
-Evidence: `qa/2026-10-28-course-location/` contains interaction results, responsive measurements and screenshots. Earlier compact-calculator measurements describe the layout before the additional location column.
+Evidence: `qa/2026-10-29-cards-backgrounds/` contains before/after backgrounds, responsive measurements, interaction checks, full-page captures and cropped desktop/phone views. Some offscreen lazy images are absent from the first full-page capture; the separate books capture was taken after entering that section and shows all three covers.
 
 Result: **passed**.

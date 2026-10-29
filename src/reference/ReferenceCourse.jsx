@@ -177,13 +177,13 @@ export default function ReferenceCourse({variant,Review,allVariants,route,home})
       <section className="ref-section ref-duration" id="training-duration" aria-labelledby="ref-duration-title">
         <Heading eyebrow="Время на обучение и практику" title={<span id="ref-duration-title">Выберите длительность обучения</span>}>Практика помогает внедрить Tekla Structures в работу компании. Выберите, сколько времени отвести занятиям и работе над своим проектом.</Heading>
         <div className="ref-duration-grid">{trainingDurations.map(item=><article className={'ref-duration-card '+(item.popular?'is-popular':'')} key={item.days} aria-labelledby={`ref-duration-${item.days}`}>
-          <header><h3 id={`ref-duration-${item.days}`}>{item.days} {item.days===2?'дня':'дней'}</h3><p>{item.hours} часов</p></header>
-          {item.popular&&<span className="ref-duration-popular">Популярный формат</span>}
+          <header><h3 id={`ref-duration-${item.days}`}>{item.days} {item.days===2?'дня':'дней'}</h3><div className="ref-duration-hours"><p>{item.hours} часов</p>{item.popular&&<span className="ref-duration-popular">Популярный формат</span>}</div></header>
           <h4 className="ref-duration-title">{item.title}</h4>
-          {item.split&&<p className="ref-duration-split">{item.split}</p>}
-          {item.paragraphs.map(text=><p key={text}>{text}</p>)}
-          {item.popularity&&<p className="ref-duration-popularity">{item.popularity}</p>}
+          <p className="ref-duration-plan">{item.split||item.plan}</p>
+          <p>{item.overview}</p>
         </article>)}</div>
+        <p className="ref-duration-popularity">{trainingDurations.find(item=>item.popular)?.popularity}</p>
+        <details className="ref-duration-details"><summary>Подробнее о форматах на 2, 5 и 10 дней</summary><div className="ref-duration-details-grid">{trainingDurations.map(item=><article key={item.days}><h3>{item.days} {word(item.days,['день','дня','дней'])} · {item.hours} часов</h3>{item.split&&<p className="ref-duration-detail-split">{item.split}</p>}{item.paragraphs.map(text=><p key={text}>{text}</p>)}</article>)}</div></details>
         <div className="ref-duration-footnote"><p>Выберите длительность каждой программы в калькуляторе. Прайс указан в рублях; для выездного обучения действуют отдельные ставки.</p><a className="ref-text-link" href="#training-calculator">Вернуться к расчёту <Icon name="arrow-up"/></a></div>
       </section>
 

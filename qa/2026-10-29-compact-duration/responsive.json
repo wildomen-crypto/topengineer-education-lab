@@ -1,0 +1,272 @@
+[
+  {
+    "cards": [
+      {
+        "descriptionOffset": 266.4375,
+        "height": 383.578125,
+        "overflow": false,
+        "planOffset": 222.390625,
+        "titleOffset": 178.796875
+      },
+      {
+        "descriptionOffset": 266.4375,
+        "height": 383.578125,
+        "overflow": false,
+        "planOffset": 222.390625,
+        "titleOffset": 178.796875
+      },
+      {
+        "descriptionOffset": 266.4375,
+        "height": 383.578125,
+        "overflow": false,
+        "planOffset": 222.390625,
+        "titleOffset": 178.796875
+      }
+    ],
+    "columns": "728px 728px 728px",
+    "detailsOpen": false,
+    "overflow": false,
+    "sectionHeight": 902.65625,
+    "width": 2560
+  },
+  {
+    "cards": [
+      {
+        "descriptionOffset": 305.796875,
+        "height": 507.078125,
+        "overflow": false,
+        "planOffset": 233.703125,
+        "titleOffset": 162.515625
+      },
+      {
+        "descriptionOffset": 305.796875,
+        "height": 507.078125,
+        "overflow": false,
+        "planOffset": 233.703125,
+        "titleOffset": 162.515625
+      },
+      {
+        "descriptionOffset": 305.796875,
+        "height": 507.078125,
+        "overflow": false,
+        "planOffset": 233.703125,
+        "titleOffset": 162.515625
+      }
+    ],
+    "columns": "381.328px 381.328px 381.344px",
+    "detailsOpen": false,
+    "overflow": false,
+    "sectionHeight": 1010.03125,
+    "width": 1440
+  },
+  {
+    "cards": [
+      {
+        "descriptionOffset": 297.875,
+        "height": 527.203125,
+        "overflow": false,
+        "planOffset": 225.78125,
+        "titleOffset": 154.59375
+      },
+      {
+        "descriptionOffset": 297.875,
+        "height": 527.203125,
+        "overflow": false,
+        "planOffset": 225.78125,
+        "titleOffset": 154.59375
+      },
+      {
+        "descriptionOffset": 297.875,
+        "height": 527.203125,
+        "overflow": false,
+        "planOffset": 225.78125,
+        "titleOffset": 154.59375
+      }
+    ],
+    "columns": "356.328px 356.328px 356.344px",
+    "detailsOpen": false,
+    "overflow": false,
+    "sectionHeight": 1024.6875,
+    "width": 1200
+  },
+  {
+    "cards": [
+      {
+        "descriptionOffset": 285.0625,
+        "height": 478.34375,
+        "overflow": false,
+        "planOffset": 212.96875,
+        "titleOffset": 146.59375
+      },
+      {
+        "descriptionOffset": 285.0625,
+        "height": 478.34375,
+        "overflow": false,
+        "planOffset": 212.96875,
+        "titleOffset": 146.59375
+      },
+      {
+        "descriptionOffset": 285.0625,
+        "height": 478.34375,
+        "overflow": false,
+        "planOffset": 212.96875,
+        "titleOffset": 146.59375
+      }
+    ],
+    "columns": "362.656px 362.672px 362.656px",
+    "detailsOpen": false,
+    "overflow": false,
+    "sectionHeight": 975.828125,
+    "width": 1199
+  },
+  {
+    "cards": [
+      {
+        "descriptionOffset": 313.109375,
+        "height": 534.4375,
+        "overflow": false,
+        "planOffset": 212.96875,
+        "titleOffset": 146.59375
+      },
+      {
+        "descriptionOffset": 313.109375,
+        "height": 534.4375,
+        "overflow": false,
+        "planOffset": 212.96875,
+        "titleOffset": 146.59375
+      },
+      {
+        "descriptionOffset": 313.109375,
+        "height": 534.4375,
+        "overflow": false,
+        "planOffset": 212.96875,
+        "titleOffset": 146.59375
+      }
+    ],
+    "columns": "304.328px 304.328px 304.344px",
+    "detailsOpen": false,
+    "overflow": false,
+    "sectionHeight": 1031.921875,
+    "width": 1024
+  },
+  {
+    "cards": [
+      {
+        "descriptionOffset": 313.109375,
+        "height": 534.4375,
+        "overflow": false,
+        "planOffset": 212.96875,
+        "titleOffset": 146.59375
+      },
+      {
+        "descriptionOffset": 313.109375,
+        "height": 534.4375,
+        "overflow": false,
+        "planOffset": 212.96875,
+        "titleOffset": 146.59375
+      },
+      {
+        "descriptionOffset": 313.109375,
+        "height": 534.4375,
+        "overflow": false,
+        "planOffset": 212.96875,
+        "titleOffset": 146.59375
+      }
+    ],
+    "columns": "293.656px 293.672px 293.656px",
+    "detailsOpen": false,
+    "overflow": false,
+    "sectionHeight": 1031.921875,
+    "width": 992
+  },
+  {
+    "cards": [
+      {
+        "descriptionOffset": 231.828125,
+        "height": 340.96875,
+        "overflow": false,
+        "planOffset": 187.78125,
+        "titleOffset": 146.59375
+      },
+      {
+        "descriptionOffset": 231.828125,
+        "height": 340.96875,
+        "overflow": false,
+        "planOffset": 187.78125,
+        "titleOffset": 146.59375
+      },
+      {
+        "descriptionOffset": 231.828125,
+        "height": 340.96875,
+        "overflow": false,
+        "planOffset": 187.78125,
+        "titleOffset": 146.59375
+      }
+    ],
+    "columns": "916px",
+    "detailsOpen": false,
+    "overflow": false,
+    "sectionHeight": 1591.390625,
+    "width": 991
+  },
+  {
+    "cards": [
+      {
+        "descriptionOffset": 291.96875,
+        "height": 449.921875,
+        "overflow": false,
+        "planOffset": 223.1875,
+        "titleOffset": 152
+      },
+      {
+        "descriptionOffset": 291.96875,
+        "height": 476.3125,
+        "overflow": false,
+        "planOffset": 223.1875,
+        "titleOffset": 152
+      },
+      {
+        "descriptionOffset": 291.96875,
+        "height": 449.921875,
+        "overflow": false,
+        "planOffset": 223.1875,
+        "titleOffset": 152
+      }
+    ],
+    "columns": "345px",
+    "detailsOpen": false,
+    "overflow": false,
+    "sectionHeight": 2102.5,
+    "width": 390
+  },
+  {
+    "cards": [
+      {
+        "descriptionOffset": 318.359375,
+        "height": 529.09375,
+        "overflow": false,
+        "planOffset": 223.1875,
+        "titleOffset": 152
+      },
+      {
+        "descriptionOffset": 345.953125,
+        "height": 556.6875,
+        "overflow": false,
+        "planOffset": 250.78125,
+        "titleOffset": 152
+      },
+      {
+        "descriptionOffset": 318.359375,
+        "height": 529.09375,
+        "overflow": false,
+        "planOffset": 223.1875,
+        "titleOffset": 152
+      }
+    ],
+    "columns": "275px",
+    "detailsOpen": false,
+    "overflow": false,
+    "sectionHeight": 2367.609375,
+    "width": 320
+  }
+]

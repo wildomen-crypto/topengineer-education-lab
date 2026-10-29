@@ -16,6 +16,8 @@ import './support.css';
 
 const formatNames={online:'Онлайн',office:'В офисе в Москве',onsite:'На базе заказчика'};
 const listChoices=values=>new Intl.ListFormat('ru-RU',{type:'disjunction'}).format(values.map(String));
+const otherBookLanguages=new Intl.ListFormat('ru-RU').format(bookProduct.availableLanguages.filter(language=>language!==bookProduct.language).map(language=>language.toLowerCase()));
+const bookLanguageSummary=`${bookProduct.language} (основной). Также доступны ${otherBookLanguages}.${bookProduct.otherLanguagesOnRequest?' Другие языки — по запросу.':''}`;
 const steps=[
   ['Согласуйте задачи и связь','До начала занятий обсудите подготовку, рабочие задачи, программу и удобный способ подключения.'],
   ['Посмотрите, как работает инструмент','Преподаватель показывает последовательность действий в Tekla Structures и объясняет, как применять её в работе.'],
@@ -77,7 +79,7 @@ export default function ReferenceCourse(){
   const email=[
     selection.length?'Здравствуйте! Хочу обсудить обучение Tekla Structures.':'Здравствуйте! Хочу приобрести электронный комплект книг Tekla Structures.',
     ...summary.courses.map(item=>`${item.full}: ${formatNames[item.format]}, ${item.participants} участн., ${item.days} ${word(item.days,['день','дня','дней'])} / ${item.hours} часов, ${money(item.totalCents)} за группу.${item.billedParticipants>item.participants?' Единая стоимость для группы от 1 до '+item.billedParticipants+' человек.':''} Желаемое начало: ${formatDate(item.startDate)||'по согласованию'}. Окончание: ${formatDate(endDate(item.startDate,item.days))||'по согласованию'}.`),
-    books?`Электронный комплект из трёх томов на английском языке: ${bookQuantity} ${word(bookQuantity,['комплект','комплекта','комплектов'])} × ${money(bookProduct.unitPriceCents)} = ${money(summary.bookTotalCents)}.`:'',
+    books?`Электронный комплект из трёх томов: ${bookQuantity} ${word(bookQuantity,['комплект','комплекта','комплектов'])} × ${money(bookProduct.unitPriceCents)} = ${money(summary.bookTotalCents)}. Языки: ${bookLanguageSummary}`:'',
     'Итого за выбранные позиции: '+priceText,
     hasOnsiteCourse?'Для выездных курсов проезд и проживание преподавателя согласуются и оплачиваются отдельно.':'',
     selection.length?'Город: '+(city||'уточню'):'',
@@ -146,7 +148,7 @@ export default function ReferenceCourse(){
           })}
           <tr className={'ref-book-row '+(books?'is-selected':'')}>
             <td><label className="ref-row-choice"><input type="checkbox" checked={books} onChange={event=>setBooks(event.target.checked)} aria-label="Добавить руководство в запрос"/><span>Книги</span></label></td>
-            <td colSpan={6}><div className="ref-book-line"><div className="ref-book-info"><strong>Tekla Structures — руководство в трёх томах</strong><span>Электронный комплект на английском · {money(bookProduct.unitPriceCents)} за комплект</span>{' '}<a href="#training-books">Подробнее <Icon name="angle-right"/></a></div>
+            <td colSpan={6}><div className="ref-book-line"><div className="ref-book-info"><strong>Tekla Structures — руководство в трёх томах</strong><span>Электронный комплект · основной язык — {bookProduct.language.toLowerCase()} · {money(bookProduct.unitPriceCents)} за комплект</span>{' '}<a href="#training-books">Подробнее <Icon name="angle-right"/></a></div>
               {books&&<div className="ref-book-controls"><label className="ref-field"><span>Комплектов</span><select aria-label="Количество комплектов книг" value={bookQuantity} onChange={event=>setBookQuantity(Number(event.target.value))}>{Array.from({length:bookProduct.maxQuantity},(_,index)=>index+1).map(value=><option key={value} value={value}>{value}</option>)}</select></label><strong>{money(summary.bookTotalCents)}</strong></div>}</div>
             </td>
           </tr></tbody>
@@ -178,7 +180,7 @@ export default function ReferenceCourse(){
           <div className="ref-books-copy">
             <h3>Три тома для начинающих и опытных пользователей</h3><p>Пошаговые объяснения, иллюстрации и практические примеры помогут повторить изученное и продолжить работу самостоятельно.</p>
             <ul><li>Моделирование стальных и бетонных конструкций, включая армирование.</li><li>Компоненты и практические примеры инженерных задач.</li><li>Материал для повторения после занятий.</li></ul>
-            <dl><div><dt>Комплект</dt><dd>3 электронных тома</dd></div><div><dt>Язык</dt><dd>Английский</dd></div><div><dt>Стоимость</dt><dd>{money(bookProduct.unitPriceCents)} за комплект</dd></div></dl>
+            <dl><div><dt>Комплект</dt><dd>3 электронных тома</dd></div><div><dt>Языки</dt><dd>{bookLanguageSummary}</dd></div><div><dt>Стоимость</dt><dd>{money(bookProduct.unitPriceCents)} за комплект</dd></div></dl>
             <p>Добавьте электронный комплект к обучению или приобретите книги отдельно. Количество комплектов можно выбрать в калькуляторе.</p>
             <div className="ref-inline-actions"><Button onClick={()=>{setBooks(true);scrollTo('training-calculator');}}>{books?'Руководство добавлено в запрос':'Добавить руководство в запрос'}</Button><a className="ref-text-link" href="https://dev.topengineer.ru/education-centr/books/" target="_blank" rel="noreferrer">Другие издания <Icon name="angle-right"/></a></div>
           </div>
@@ -247,7 +249,7 @@ export default function ReferenceCourse(){
           <span>Начало: {formatDate(item.startDate)||'по согласованию'}. Окончание: {formatDate(endDate(item.startDate,item.days))||'по согласованию'}.</span>
           {item.billedParticipants>item.participants&&<small>Единая стоимость для группы от 1 до {item.billedParticipants} человек.</small>}
         </li>)}</ul>}
-        {books&&<p className="ref-request-books"><Icon name="book"/>Электронный комплект из трёх томов на английском языке: {bookQuantity} {word(bookQuantity,['комплект','комплекта','комплектов'])} × {money(bookProduct.unitPriceCents)} = <strong>{money(summary.bookTotalCents)}</strong>.</p>}
+        {books&&<p className="ref-request-books"><Icon name="book"/>Электронный комплект из трёх томов: {bookQuantity} {word(bookQuantity,['комплект','комплекта','комплектов'])} × {money(bookProduct.unitPriceCents)} = <strong>{money(summary.bookTotalCents)}</strong>. Языки: {bookLanguageSummary}</p>}
         <div className="ref-request-total"><span>Итого за выбранные позиции</span><strong>{priceText}</strong></div>
         {hasOnsiteCourse&&<p className="ref-price-note">Для выездных курсов проезд и проживание преподавателя согласуются и оплачиваются отдельно.</p>}
         {selection.length>0&&<label className="ref-field"><span>Ваш город</span><input value={city} onChange={event=>setCity(event.target.value)} placeholder="Например, Москва"/></label>}

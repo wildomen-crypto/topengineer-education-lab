@@ -1,0 +1,12 @@
+{
+  "url": "https://dev.topengineer.ru/test/",
+  "version": "te-tekla-20261030",
+  "backup": "/root/topengineer-test-deploy-20261030-compact/index.php.before",
+  "beforeSHA256": "1f0f2af886bd79c3d818fed776530657b2eb5ba5db89d78795ce777f61e57dd9",
+  "afterSHA256": "c30564031025629fb872e3111998209049e3c22d766aa63af69238063f8243b2",
+  "onlyScriptURLChanged": true,
+  "headerFooterWrapperPreserved": true,
+  "cacheFilesBackedUp": [
+    "index@.html"
+  ]
+}

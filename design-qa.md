@@ -1,4 +1,8 @@
-# Latest verification — isolated live test
+# Latest verification — compact photographic introduction, 30 October 2026
+
+The public `/test/` hero now follows the content height plus 15% instead of filling the viewport. The overview has nine rows after the four requested removals. The complete photograph is fitted without cropping; on phones it sits above the text and overview. Evidence and measurements: [qa/2026-10-30-compact-hero/](qa/2026-10-30-compact-hero/). Earlier reports below document the previous design and are historical.
+
+# Previous verification — isolated live test
 
 The photographic course body is published at https://dev.topengineer.ru/test/ inside Shadow DOM. The live Bitrix header/footer and their PHP wrappers are preserved. See [the deployment QA report](qa/design-qa-2026-10-29-isolated-test.md) and [administrator instructions](BITRIX-TEST.md). Functional, isolation, phone and 2560 px checks passed; the existing host menu overflow at 1280 px is unchanged. The original photographic-design comparison follows below.
 

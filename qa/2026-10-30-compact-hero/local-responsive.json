@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "clientWidth": 375,
+      "contentHeight": 533.65625,
+      "extraPercent": 144.67412308953564,
+      "factLabels": [
+        "Программа",
+        "Версия Tekla",
+        "Дней на курс",
+        "Часов в день",
+        "Всего часов",
+        "Курсы",
+        "Формат",
+        "Начало",
+        "Участники"
+      ],
+      "height": 844,
+      "heroHeight": 1305.71875,
+      "natural": [
+        1853,
+        849
+      ],
+      "pageWidth": 375,
+      "photoFit": "contain",
+      "photoLoaded": true,
+      "width": 390
+    },
+    {
+      "clientWidth": 1425,
+      "contentHeight": 497.515625,
+      "extraPercent": 14.999528909267925,
+      "factLabels": [
+        "Программа",
+        "Версия Tekla",
+        "Дней на курс",
+        "Часов в день",
+        "Всего часов",
+        "Курсы",
+        "Формат",
+        "Начало",
+        "Участники"
+      ],
+      "height": 1000,
+      "heroHeight": 572.140625,
+      "natural": [
+        1853,
+        849
+      ],
+      "pageWidth": 1425,
+      "photoFit": "contain",
+      "photoLoaded": true,
+      "width": 1440
+    },
+    {
+      "clientWidth": 3825,
+      "contentHeight": 620.609375,
+      "extraPercent": 14.99534227951358,
+      "factLabels": [
+        "Программа",
+        "Версия Tekla",
+        "Дней на курс",
+        "Часов в день",
+        "Всего часов",
+        "Курсы",
+        "Формат",
+        "Начало",
+        "Участники"
+      ],
+      "height": 2160,
+      "heroHeight": 713.671875,
+      "natural": [
+        1853,
+        849
+      ],
+      "pageWidth": 3825,
+      "photoFit": "contain",
+      "photoLoaded": true,
+      "width": 3840
+    },
+    {
+      "clientWidth": 2545,
+      "contentHeight": 620.609375,
+      "extraPercent": 14.99534227951358,
+      "factLabels": [
+        "Программа",
+        "Версия Tekla",
+        "Дней на курс",
+        "Часов в день",
+        "Всего часов",
+        "Курсы",
+        "Формат",
+        "Начало",
+        "Участники"
+      ],
+      "height": 1440,
+      "heroHeight": 713.671875,
+      "natural": [
+        1853,
+        849
+      ],
+      "pageWidth": 2545,
+      "photoFit": "contain",
+      "photoLoaded": true,
+      "width": 2560
+    }
+  ],
+  "expanded": {
+    "clientWidth": 1425,
+    "contentHeight": 674.015625,
+    "extraPercent": 14.998724992465862,
+    "factLabels": [
+      "Программа",
+      "Версия Tekla",
+      "Дней на курс",
+      "Часов в день",
+      "Всего часов",
+      "Курсы",
+      "Формат",
+      "Начало",
+      "Участники"
+    ],
+    "height": 1000,
+    "heroHeight": 775.109375,
+    "natural": [
+      1853,
+      849
+    ],
+    "pageWidth": 1425,
+    "photoFit": "contain",
+    "photoLoaded": true,
+    "width": 1440
+  }
+}

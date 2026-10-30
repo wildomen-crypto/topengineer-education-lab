@@ -6,9 +6,9 @@
   grid-template-columns: minmax(0, 1fr) minmax(390px, clamp(390px, 31vw, 620px));
   gap: 40px clamp(64px, 8vw, 220px);
   align-items: center;
-  min-height: calc(100svh - 78px);
-  padding-block: clamp(24px, 1.35vw, 40px);
-  background: #16222d;
+  min-height: 0;
+  padding-block: calc(var(--ref-hero-content-height, 600px) * .075);
+  background: #0b1926;
   color: #fff;
 }
 .ref-photo-course .ref-photo-background {
@@ -29,8 +29,9 @@
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center top;
+  /* Keep the complete classroom in view, even in a short ultrawide hero. */
+  object-fit: contain;
+  object-position: center;
 }
 .ref-photo-course .ref-photo-background figcaption {
   position: absolute;
@@ -87,7 +88,6 @@
 .reference-course.ref-photo-course .ref-at-glance dl > div:last-child { border-bottom: 0; }
 @media (min-width: 1200px) {
   .reference-course.ref-photo-course { padding-top: 40px; }
-  .reference-course.ref-photo-course .ref-intro { min-height: calc(100svh - 176px); }
 }
 @media (max-width: 1199px) {
   .reference-course.ref-photo-course .ref-intro { grid-template-columns: minmax(0, 1fr) minmax(350px, .95fr); gap: 36px; }
@@ -95,15 +95,15 @@
   .reference-course.ref-photo-course .ref-at-glance { padding: 20px; }
 }
 @media (max-width: 850px) {
-  .reference-course.ref-photo-course .ref-intro { grid-template-columns: minmax(0, 1fr); padding-block: 40px; gap: 34px; }
+  .reference-course.ref-photo-course .ref-intro { grid-template-columns: minmax(0, 1fr); padding-block: 0 32px; gap: 24px; }
+  .ref-photo-course .ref-photo-background { position: relative; z-index: auto; margin-inline: calc(-1 * var(--ref-gutter)); }
+  .ref-photo-course .ref-photo-background img { height: auto; object-fit: contain; }
   .reference-course.ref-photo-course .ref-intro-copy { max-width: 640px; }
   .reference-course.ref-photo-course .ref-intro h1 { max-width: 18ch; font-size: clamp(36px, 6vw, 50px); }
   .reference-course.ref-photo-course .ref-at-glance { max-width: 640px; }
   .ref-photo-course .ref-photo-background::after { background: #07152299; }
-  .ref-photo-course .ref-photo-background img { object-position: 62% center; }
 }
 @media (max-width: 600px) {
-  .reference-course.ref-photo-course .ref-intro { padding-top: 32px; padding-bottom: 42px; }
   .reference-course.ref-photo-course .ref-intro h1 { font-size: clamp(32px, 8.2vw, 46px); line-height: 1.1; }
   .reference-course.ref-photo-course .ref-intro-copy .ref-intro-strong { font-size: 18px; }
   .reference-course.ref-photo-course .ref-hero-facts { font-size: 16px; margin-block: 22px; }

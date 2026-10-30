@@ -5,7 +5,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const version='te-tekla-20261029';
+const version='te-tekla-20261030';
 const prefix=`/test/${version}/`;
 const output=path.join(root,'dist/bitrix-test',version);
 const publicRoot=path.join(root,'public');

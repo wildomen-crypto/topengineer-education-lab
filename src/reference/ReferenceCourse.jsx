@@ -78,6 +78,22 @@ export default function ReferenceCourse({photoHero=false,embedded=false}){
     return()=>{if(!embedded)window.removeEventListener('tekla-intensive-enroll',order);};
   },[]);
   useEffect(()=>{
+    if(!photoHero)return;
+    const intro=contentRoot.current.querySelector('.ref-intro');
+    const copy=intro.querySelector('.ref-intro-copy');
+    const facts=intro.querySelector('.ref-at-glance');
+    // Base the breathing room on the actual content, including opened details and loaded fonts.
+    const measure=()=>{
+      const height=Math.max(copy.getBoundingClientRect().height,facts.getBoundingClientRect().height);
+      intro.style.setProperty('--ref-hero-content-height',height+'px');
+    };
+    const observer=new ResizeObserver(measure);
+    [copy,facts].forEach(element=>observer.observe(element));
+    window.addEventListener('resize',measure);
+    measure();
+    return()=>{observer.disconnect();window.removeEventListener('resize',measure);};
+  },[photoHero]);
+  useEffect(()=>{
     if(!panel)return;
     const element=dialog.current;const oldOverflow=document.body.style.overflow;const hadBodyStyle=document.body.hasAttribute('style');
     element.showModal();document.body.style.overflow='hidden';
@@ -117,10 +133,6 @@ export default function ReferenceCourse({photoHero=false,embedded=false}){
           ['Формат',<>Онлайн, в Москве или на вашей базе.<small>Онлайн: Zoom, Google Meet или аналог.</small></>],
           ['Начало','Любая удобная дата — по согласованию'],
           ['Участники','1–20 человек'],
-          ['Подготовка','Курс 1 — без опыта; курсы 2–4 — знания базового курса'],
-          ['Языки','Русский, английский и испанский'],
-          ['Оплата','Банковский перевод по счёту (по согласованию)'],
-          ['Стоимость',<a href="#training-calculator">Рассчитать для группы <Icon name="angle-right"/></a>],
         ].map(([name,value])=><div key={name}><dt>{name}</dt><dd>{value}</dd></div>)}</dl></aside>
       </section>
 
